@@ -1,0 +1,33 @@
+attribute "fs_serializer";
+
+table Version {
+    major: ushort;
+    minor: ushort;
+}
+
+table PokemonModel {
+    model_info: ModelInfo (required);
+    model_path: string (required);
+    config_path: string (required);
+    archive_path: string (required);
+    animations: [Animation] (required);
+}
+
+table ModelInfo {
+    species: ushort;
+    forme: ushort;
+    gender: ubyte;
+    shiny: ubyte;
+}
+
+table Animation {
+    name: string (required);
+    path: string (required);
+}
+
+table GFBpmcatalog (fs_serializer) {
+    catalog_version: Version (required);
+    models: [PokemonModel] (required);
+}
+
+root_type GFBpmcatalog;

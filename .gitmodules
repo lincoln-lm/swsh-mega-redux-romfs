@@ -1,0 +1,6 @@
+[submodule "model_tools"]
+	path = model_tools
+	url = https://github.com/lincoln-lm/gfbmdl_tools.git
+[submodule "bseq_tool"]
+	path = bseq_tool
+	url = https://github.com/Namadu7/pbseqtool.git

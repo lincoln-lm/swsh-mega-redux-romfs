@@ -1,0 +1,33 @@
+table ARC {
+    path: string;
+    arc_hash: ulong;
+}
+
+table BFLYT {
+    arc_hash: ulong;
+    bflyt: string;
+    bflyt_hash: ulong;
+}
+
+table BFLAN {
+    bflyt_hash: ulong;
+    pane_parts: [string];
+    bflan: string;
+    bflan_hash: ulong;
+}
+
+table PanePart {
+    bflyt_hash: ulong;
+    name: string;
+    pane_name: [string];
+    pane_part_hash: ulong;
+}
+
+table Layout {
+    arcs: [ARC];
+    bflyts: [BFLYT];
+    bflans: [BFLAN];
+    pane_parts: [PanePart];
+    unk_bool: bool;
+}
+root_type Layout;

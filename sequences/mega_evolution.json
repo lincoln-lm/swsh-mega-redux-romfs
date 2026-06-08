@@ -1,0 +1,581 @@
+{
+  "Metadata": {
+    "Game": "SwSh",
+    "Name": "ee008",
+    "Description": ""
+  },
+  "Data": [
+    {
+      "GrpNo": 0,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "DummyLabel",
+          "StartFrame": 0,
+          "EndFrame": 49,
+          "Parameters": {}
+        },
+        {
+          "Name": "DummyLabel",
+          "StartFrame": 0,
+          "EndFrame": 49,
+          "Parameters": {}
+        },
+        {
+          "Name": "PokemonVisibleAll",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "visible": 1
+          }
+        },
+        {
+          "Name": "PokemonVisible",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "trg": 0,
+            "visible": 1
+          }
+        },
+        {
+          "Name": "PokemonMovePosition",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "trg": 0,
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "relative": 0,
+            "isRotPos": 0,
+            "isFlip": 0,
+            "move": 0,
+            "enableElem": [
+              1,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "Name": "PokemonMotion",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "trg": 0,
+            "motion": 0
+          }
+        },
+        {
+          "Name": "PokemonVisibleOther",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "visible": 0
+          }
+        },
+        {
+          "Name": "TrainerDispAll",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "isDisp": 0
+          }
+        },
+        {
+          "Name": "GaugeDispAll",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "visible": 0
+          }
+        },
+        {
+          "Name": "OrionSoundLoadBank",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "event": "eg_land"
+          }
+        },
+        {
+          "Name": "ParticleCreate",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "file": "data:/mega_charge_aura/mega_charge_aura.ptcl",
+            "index": 0,
+            "isMulti": 0,
+            "drawType": 0,
+            "rotOrder": 6,
+            "forceCalc": 0,
+            "subCamera": 0
+          }
+        },
+        {
+          "Name": "ParticleMoveRelativePoke",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "trg": 0,
+            "node": 0,
+            "pos": [
+              0.0,
+              40.0,
+              0.0
+            ],
+            "rate": 100,
+            "isFlip": 0,
+            "isScale": 1,
+            "isRot": 1,
+            "isRotPos": 1,
+            "forceUpdate": 0,
+            "move": 0,
+            "enableElem": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Name": "ParticleScale",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "scale": [
+              200.0,
+              200.0,
+              200.0
+            ],
+            "relative": 1,
+            "move": 0
+          }
+        },
+        {
+          "Name": "PokemonMotionState",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "trg": 0,
+            "state": "to_ba21_tokusyu01",
+            "reset": 0
+          }
+        },
+        {
+          "Name": "OrionSoundPostEvent",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "event": "Play_eg_land01"
+          }
+        },
+        {
+          "Name": "PokemonVisible",
+          "StartFrame": 60,
+          "EndFrame": 60,
+          "Parameters": {
+            "trg": 0,
+            "visible": 0
+          }
+        },
+        {
+          "Name": "DummyLabel",
+          "StartFrame": 177,
+          "EndFrame": 218,
+          "Parameters": {}
+        },
+        {
+          "Name": "SpecialChangePokemon",
+          "StartFrame": 154,
+          "EndFrame": 154,
+          "Parameters": {
+            "trg": 0,
+            "noLoad": 0
+          }
+        },
+        {
+          "Name": "DummyLabel",
+          "StartFrame": 154,
+          "EndFrame": 199,
+          "Parameters": {}
+        },
+        {
+          "Name": "SpecialWaitSequence",
+          "StartFrame": 154,
+          "EndFrame": 154,
+          "Parameters": {
+            "waitType": 3
+          }
+        },
+        {
+          "Name": "OrionSoundPostEvent",
+          "StartFrame": 258,
+          "EndFrame": 258,
+          "Parameters": {
+            "event": "Play_eg_land01"
+          }
+        },
+        {
+          "Name": "PokemonVisible",
+          "StartFrame": 258,
+          "EndFrame": 258,
+          "Parameters": {
+            "trg": 0,
+            "visible": 1
+          }
+        },
+        {
+          "Name": "PokemonMotionState",
+          "StartFrame": 259,
+          "EndFrame": 259,
+          "Parameters": {
+            "trg": 0,
+            "state": "to_ba21_tokusyu01",
+            "reset": 0
+          }
+        },
+        {
+          "Name": "PokemonVisibleOther",
+          "StartFrame": 258,
+          "EndFrame": 258,
+          "Parameters": {
+            "visible": 1
+          }
+        },
+        {
+          "Name": "TrainerMoveResetAll",
+          "StartFrame": 258,
+          "EndFrame": 258,
+          "Parameters": {
+            "origin": 0
+          }
+        },
+        {
+          "Name": "TrainerDispAll",
+          "StartFrame": 258,
+          "EndFrame": 258,
+          "Parameters": {
+            "isDisp": 1
+          }
+        },
+        {
+          "Name": "PokemonMotion",
+          "StartFrame": 400,
+          "EndFrame": 400,
+          "Parameters": {
+            "trg": 0,
+            "motion": 0
+          }
+        }
+      ]
+    },
+    {
+      "GrpNo": 1,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "PokemonMotion",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "trg": 1,
+            "motion": 0
+          }
+        },
+        {
+          "Name": "PokemonVisible",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "trg": 1,
+            "visible": 1
+          }
+        }
+      ]
+    },
+    {
+      "GrpNo": 2,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "ParticleCreate",
+          "StartFrame": 18,
+          "EndFrame": 18,
+          "Parameters": {
+            "file": "data:/mega_charge_center/mega_charge_center.ptcl",
+            "index": 0,
+            "isMulti": 0,
+            "drawType": 0,
+            "rotOrder": 6,
+            "forceCalc": 0,
+            "subCamera": 0
+          }
+        },
+        {
+          "Name": "ParticleMoveRelativePoke",
+          "StartFrame": 18,
+          "EndFrame": 18,
+          "Parameters": {
+            "trg": 0,
+            "node": 0,
+            "pos": [
+              0.0,
+              40.0,
+              0.0
+            ],
+            "rate": 100,
+            "isFlip": 0,
+            "isScale": 1,
+            "isRot": 1,
+            "isRotPos": 1,
+            "forceUpdate": 0,
+            "move": 0,
+            "enableElem": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Name": "ParticleScale",
+          "StartFrame": 18,
+          "EndFrame": 18,
+          "Parameters": {
+            "scale": [
+              220.0,
+              220.0,
+              220.0
+            ],
+            "relative": 1,
+            "move": 0
+          }
+        }
+      ]
+    },
+    {
+      "GrpNo": 3,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "ParticleCreate",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "file": "data:/mega_charge_ground/mega_charge_ground.ptcl",
+            "index": 0,
+            "isMulti": 0,
+            "drawType": 0,
+            "rotOrder": 6,
+            "forceCalc": 0,
+            "subCamera": 0
+          }
+        },
+        {
+          "Name": "ParticleMoveRelativePoke",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "trg": 0,
+            "node": 0,
+            "pos": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rate": 100,
+            "isFlip": 0,
+            "isScale": 1,
+            "isRot": 1,
+            "isRotPos": 1,
+            "forceUpdate": 0,
+            "move": 0,
+            "enableElem": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Name": "ParticleScale",
+          "StartFrame": 4,
+          "EndFrame": 4,
+          "Parameters": {
+            "scale": [
+              200.0,
+              200.0,
+              200.0
+            ],
+            "relative": 1,
+            "move": 0
+          }
+        }
+      ]
+    },
+    {
+      "GrpNo": 4,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "ParticleCreate",
+          "StartFrame": 128,
+          "EndFrame": 128,
+          "Parameters": {
+            "file": "data:/mega_charge_shell/mega_charge_shell.ptcl",
+            "index": 0,
+            "isMulti": 0,
+            "drawType": 0,
+            "rotOrder": 6,
+            "forceCalc": 0,
+            "subCamera": 0
+          }
+        },
+        {
+          "Name": "ParticleMoveRelativePoke",
+          "StartFrame": 128,
+          "EndFrame": 128,
+          "Parameters": {
+            "trg": 0,
+            "node": 0,
+            "pos": [
+              0.0,
+              40.0,
+              0.0
+            ],
+            "rate": 100,
+            "isFlip": 0,
+            "isScale": 1,
+            "isRot": 1,
+            "isRotPos": 1,
+            "forceUpdate": 0,
+            "move": 0,
+            "enableElem": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Name": "ParticleScale",
+          "StartFrame": 128,
+          "EndFrame": 128,
+          "Parameters": {
+            "scale": [
+              200.0,
+              200.0,
+              200.0
+            ],
+            "relative": 1,
+            "move": 0
+          }
+        }
+      ]
+    },
+    {
+      "GrpNo": 5,
+      "GroupOptions": {},
+      "Commands": [
+        
+      ]
+    },
+    {
+      "GrpNo": 6,
+      "GroupOptions": {},
+      "Commands": [
+
+      ]
+    },
+    {
+      "GrpNo": 10,
+      "GroupOptions": {},
+      "Commands": [
+        {
+          "Name": "CameraReset",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "move": 0
+          }
+        },
+        {
+          "Name": "CameraMoveRelativePoke",
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "Parameters": {
+            "poke": 0,
+            "node": 0,
+            "pos": [
+              100.0,
+              60.0,
+              420.0
+            ],
+            "trg": [
+              0.0,
+              50.0,
+              0.0
+            ],
+            "fov": 0.0,
+            "rate": 100,
+            "isFlip": 1,
+            "isScale": 1,
+            "isRot": 1,
+            "forceUpdate": 1,
+            "move": 0,
+            "enableElemPos": [
+              1,
+              1,
+              1
+            ],
+            "enableElemTrg": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Name": "CameraMoveRelativePoke",
+          "StartFrame": 56,
+          "EndFrame": 66,
+          "Parameters": {
+            "poke": 0,
+            "node": 0,
+            "pos": [
+              100.0,
+              120.0,
+              740.0
+            ],
+            "trg": [
+              0.0,
+              40.0,
+              0.0
+            ],
+            "fov": 0.0,
+            "rate": 100,
+            "isFlip": 1,
+            "isScale": 1,
+            "isRot": 1,
+            "forceUpdate": 0,
+            "move": 0,
+            "enableElemPos": [
+              1,
+              1,
+              1
+            ],
+            "enableElemTrg": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

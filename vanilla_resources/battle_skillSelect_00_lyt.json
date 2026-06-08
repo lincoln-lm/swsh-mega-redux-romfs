@@ -1,0 +1,2154 @@
+{
+  "arcs": [
+    {
+      "path": "bin/appli/battle/bin/battle_skillSelect_00.arc",
+      "arc_hash": 18085133474026049307
+    }
+  ],
+  "bflyts": [
+    {
+      "arc_hash": 18085133474026049307,
+      "bflyt": "battle_skillSelect_00.bflyt",
+      "bflyt_hash": 10181188554776039870
+    }
+  ],
+  "bflans": [
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_in.bflan",
+      "bflan_hash": 641928453287186063
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_out.bflan",
+      "bflan_hash": 13775299955255991828
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_f_in.bflan",
+      "bflan_hash": 15395070346702743564
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_f_out.bflan",
+      "bflan_hash": 3582041185518211385
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_keep.bflan",
+      "bflan_hash": 4291742513259546881
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "bflan": "battle_skillSelect_00_pattern.bflan",
+      "bflan_hash": 13579931525154814442
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_passive.bflan",
+      "bflan_hash": 8996882974637816773
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_active.bflan",
+      "bflan_hash": 1231610920103168954
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_unselect.bflan",
+      "bflan_hash": 18129012818729315955
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_select.bflan",
+      "bflan_hash": 9670391603196064952
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_key_select.bflan",
+      "bflan_hash": 7839524453054837240
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_keep.bflan",
+      "bflan_hash": 10184044496683249153
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_pattern_effect.bflan",
+      "bflan_hash": 1493819909989977642
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_pattern_type.bflan",
+      "bflan_hash": 7530643122420075511
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_00"
+      ],
+      "bflan": "battle_button_skill_00_pp.bflan",
+      "bflan_hash": 2606053467957409072
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_passive.bflan",
+      "bflan_hash": 8396405955453289482
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_active.bflan",
+      "bflan_hash": 1674123500207354139
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_unselect.bflan",
+      "bflan_hash": 11066703212789019078
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_select.bflan",
+      "bflan_hash": 12986790969083538273
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_key_select.bflan",
+      "bflan_hash": 10107447660772328277
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_keep.bflan",
+      "bflan_hash": 17321998755306887036
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_pattern_effect.bflan",
+      "bflan_hash": 8266244979416808067
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_pattern_type.bflan",
+      "bflan_hash": 2534543562281976686
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_01"
+      ],
+      "bflan": "battle_button_skill_00_pp.bflan",
+      "bflan_hash": 5576201562969696321
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_passive.bflan",
+      "bflan_hash": 11985602969358304907
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_active.bflan",
+      "bflan_hash": 7277012217186462360
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_unselect.bflan",
+      "bflan_hash": 904201095737349989
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_select.bflan",
+      "bflan_hash": 1062511414041215750
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_key_select.bflan",
+      "bflan_hash": 12455502925277947158
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_keep.bflan",
+      "bflan_hash": 13548615865482095587
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_pattern_effect.bflan",
+      "bflan_hash": 16799101047604876064
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_pattern_type.bflan",
+      "bflan_hash": 16343562537465340833
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_02"
+      ],
+      "bflan": "battle_button_skill_00_pp.bflan",
+      "bflan_hash": 18232932917104627406
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_passive.bflan",
+      "bflan_hash": 1562982861212933672
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_active.bflan",
+      "bflan_hash": 16377385773121887065
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_unselect.bflan",
+      "bflan_hash": 9495294090759450976
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_select.bflan",
+      "bflan_hash": 8348696973262495431
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_key_select.bflan",
+      "bflan_hash": 3507848971349266947
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_keep.bflan",
+      "bflan_hash": 10362320590361851030
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_pattern_effect.bflan",
+      "bflan_hash": 16605004920143088761
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_pattern_type.bflan",
+      "bflan_hash": 13619417750031364000
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_skillButton_03"
+      ],
+      "bflan": "battle_button_skill_00_pp.bflan",
+      "bflan_hash": 5901010567876992863
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_passive.bflan",
+      "bflan_hash": 12512532669409191723
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_active.bflan",
+      "bflan_hash": 2610656222709206456
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_unselect.bflan",
+      "bflan_hash": 16830660868949014917
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_select.bflan",
+      "bflan_hash": 2101615646207396390
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_key_select.bflan",
+      "bflan_hash": 12841096953959434102
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_keep.bflan",
+      "bflan_hash": 12387831805411817987
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_effect.bflan",
+      "bflan_hash": 13227157362853779200
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_type.bflan",
+      "bflan_hash": 14315750438145507457
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_03"
+      ],
+      "bflan": "battle_button_gskill_00_pp.bflan",
+      "bflan_hash": 1412939308385976302
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_passive.bflan",
+      "bflan_hash": 11125123547471990600
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_active.bflan",
+      "bflan_hash": 5075201673589606905
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_unselect.bflan",
+      "bflan_hash": 14469593453653360128
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_select.bflan",
+      "bflan_hash": 3275498224283733095
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_key_select.bflan",
+      "bflan_hash": 8899649695024406499
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_keep.bflan",
+      "bflan_hash": 3290163144676460854
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_effect.bflan",
+      "bflan_hash": 432291003330213081
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_type.bflan",
+      "bflan_hash": 18104553731509454336
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_02"
+      ],
+      "bflan": "battle_button_gskill_00_pp.bflan",
+      "bflan_hash": 13633938450676557311
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_passive.bflan",
+      "bflan_hash": 10949122188092515813
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_active.bflan",
+      "bflan_hash": 7986562829893337690
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_unselect.bflan",
+      "bflan_hash": 16868922943531001363
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_select.bflan",
+      "bflan_hash": 10964485041152687448
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_key_select.bflan",
+      "bflan_hash": 7618422744694498776
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_keep.bflan",
+      "bflan_hash": 2866722346234324641
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_effect.bflan",
+      "bflan_hash": 11143685155930712330
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_type.bflan",
+      "bflan_hash": 7912566399809531095
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_01"
+      ],
+      "bflan": "battle_button_gskill_00_pp.bflan",
+      "bflan_hash": 10339262825733795536
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_passive.bflan",
+      "bflan_hash": 5071376083427516714
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_active.bflan",
+      "bflan_hash": 7437485877156963515
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_unselect.bflan",
+      "bflan_hash": 7763885980789431910
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_select.bflan",
+      "bflan_hash": 12521730945433273857
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_key_select.bflan",
+      "bflan_hash": 15465323186832066101
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_keep.bflan",
+      "bflan_hash": 9865918607749922076
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_effect.bflan",
+      "bflan_hash": 11923965981597790051
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_pattern_type.bflan",
+      "bflan_hash": 12387250711191641422
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_gskillButton_00"
+      ],
+      "bflan": "battle_button_gskill_00_pp.bflan",
+      "bflan_hash": 13554012675555973089
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_active.bflan",
+      "bflan_hash": 11342093093856451042
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_gauge.bflan",
+      "bflan_hash": 990591555765341051
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_select.bflan",
+      "bflan_hash": 15109995407539225536
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_keep.bflan",
+      "bflan_hash": 8305268579335308073
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_key_select.bflan",
+      "bflan_hash": 7495132045158465008
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_passive.bflan",
+      "bflan_hash": 6110099976059270077
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "pane_parts": [
+        "L_GButton_00"
+      ],
+      "bflan": "battle_GButton_00_unselect.bflan",
+      "bflan_hash": 8720014368350257419
+    }
+  ],
+  "pane_parts": [
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_skillButton_00",
+      "pane_part_hash": 13277547326292517387
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 14539020044766564319
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 16852551295547165446
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 5635835956719583187
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 10304246266563752601
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 6777194882979319719
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 687000732850169364
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 9830821851514261636
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 10382347594838848323
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 13498718752485418537
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 12467170981617093128
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 4119842535312041976
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 1794440511007196045
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 16211595949438660135
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 1794439411495567834
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 16211594849927031924
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 687001832361797575
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 10419066011761333466
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 12434697980328426068
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_skillButton_00"
+      ],
+      "pane_part_hash": 12434699079840054279
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_skillButton_01",
+      "pane_part_hash": 13277546226780889176
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 2335079526828301900
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 10052134351206383321
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 5838985245357165328
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 8317648308564411512
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 12436963762504822628
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 8908648560702427861
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 13570792417376398079
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 13527197670372408522
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 13197478158673312226
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 471239167830337559
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 335620538536603715
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 10528806505978437852
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 6079479732529302752
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 10528807605490066063
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 6079480832040930963
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 8908647461190799650
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 10330354601981476879
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 14493908281774057521
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_skillButton_01"
+      ],
+      "pane_part_hash": 14493907182262429310
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_skillButton_02",
+      "pane_part_hash": 13277549525315773809
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 2234010426588854257
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 13681599013594237912
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 1819717136106392641
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 6615256019748287107
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 17862341121984442897
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 15494049413532522282
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 4550773179121336858
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 12496794649940587533
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 11365148580436562703
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 7789029687470917690
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 8210400392731237678
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 11214697312648828339
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 1782330611872073441
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 11214696213137200128
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 1782329512360445230
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 15494050513044150493
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 721027758251658444
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 12759113864421469458
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_skillButton_02"
+      ],
+      "pane_part_hash": 12759114963933097669
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_skillButton_03",
+      "pane_part_hash": 13277548425804145598
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 5380234453374578982
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 12622638149572285163
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 14600889679536477158
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 11508397257176198202
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 7874749295959701926
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 4314246792596072075
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 8480441263867295997
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 15934400816664225668
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 16309255487090469384
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 5690298118816474105
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 15457351088411664545
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 251612028295725066
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 871396450050318818
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 251613127807353277
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 871397549561947029
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 4314245693084443864
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 12182881693209864809
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 2166398980308826335
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_skillButton_03"
+      ],
+      "pane_part_hash": 2166397880797198124
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "inout",
+      "pane_part_hash": 7214615501010749797
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_part_hash": 579432184667497479
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_n_00",
+      "pane_part_hash": 3679131601331551712
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_g_00",
+      "pane_part_hash": 7336342825878347081
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_gskillButton_03",
+      "pane_part_hash": 16099231507614017729
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 4038474382896844865
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 191405015239858408
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 8244619266536792913
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 2253054327395207411
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 8635451636010166401
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 18008401880224065626
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 12056170597344981034
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 16111070578735062301
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 1761722319493154303
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 9289156502256541514
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 14195581331879401118
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 14009125581296488355
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 1276332677301375057
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 14009124481784860144
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 1276331577789746846
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 18008402979735693837
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 9952563485622280546
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 5072008876425947676
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_gskillButton_03"
+      ],
+      "pane_part_hash": 9952564585133908757
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_gskillButton_02",
+      "pane_part_hash": 16099230408102389518
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 9037327258080880374
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 14388934670768482811
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 15956509898210596662
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 13036849145662408938
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 7929426814103366486
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 7395851147510503035
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 1794386506137741261
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 5730309331139029204
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 3088905829962488824
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 11299891603052235721
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 37032999421869393
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 8419925749564080122
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 3602026276041539218
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 8419926849075708333
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 3602027375553167429
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 7395850047998874824
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 12365434706185869743
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 5814601014226866553
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_gskillButton_02"
+      ],
+      "pane_part_hash": 12365433606674241532
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_gskillButton_01",
+      "pane_part_hash": 16099229308590761307
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 2831575348964168175
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 15105566254350980438
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 6322574731774265251
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 7994304176268617673
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 707462603740405527
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 5638667403266460548
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 17746787190423058388
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 4358868883543367187
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 18209452980236085145
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 12852858840140425432
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 17340237084399745640
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 6303032170631054013
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 9529775476294593559
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 6303031071119425802
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 9529774376782965348
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 5638668502778088759
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 7657021187347233892
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 11528455555626146090
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_gskillButton_01"
+      ],
+      "pane_part_hash": 7657022286858862103
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_gskillButton_00",
+      "pane_part_hash": 16099228209079133096
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "W_shadow_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 2579989294652776796
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_pp_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 15185425077857988137
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "T_name_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 7342790784124341984
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 17438126974649856552
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 15291547831170353684
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_01",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 11101821624696399109
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_passive",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 8096879809077005775
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "button_set",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 773489258124943194
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_iconType_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 9453657272214785426
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "userData_pp_color",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 18264239950020788199
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "mstxt",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 18106514965072748851
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 6316733233569302860
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 5929860880211800528
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_kouka_01",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 6316734333080931071
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_kouka_01",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 5929861979723428739
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keyselect_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 11101820525184770898
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_00",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 4529229180311054913
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_keep",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 7031547944157562527
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_button_base_01",
+      "pane_name": [
+        "L_gskillButton_00"
+      ],
+      "pane_part_hash": 4529228080799426702
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_PG_tree",
+      "pane_part_hash": 12600357481918350907
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_PG_tree_g",
+      "pane_part_hash": 16024662326347484465
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "L_GButton_00",
+      "pane_part_hash": 7761874361386349019
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_bg_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15121779140505643239
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "all",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 11787250844387242903
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_cursor",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 9555201795552744777
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_select_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15257064955062737356
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_gauge_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 3621079714105458022
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_eff_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 12879384556176110573
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_eff_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 12879383456664482362
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_gauge_02",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 3621078614593829811
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_gauge_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 3621080813617086233
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_mark_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 8925462216877130857
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_mark_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 8925461117365502646
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_grptxt_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 12140860249219189597
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_gauge_eff_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 12418120521991444909
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_gauge_eff_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 12418119422479816698
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_eff_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 17864520843465756803
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_eff_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 17864519743954128592
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_bg_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15121778040994015028
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_select_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15257066054574365567
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_00",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 14916643112485705171
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "P_bg_02",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15121781339528899661
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_01",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 14916642012974076960
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_select_02",
+      "pane_name": [
+        "L_GButton_00"
+      ],
+      "pane_part_hash": 15257067154085993778
+    },
+    {
+      "bflyt_hash": 10181188554776039870,
+      "name": "N_vis_00",
+      "pane_part_hash": 7180145860608334476
+    }
+  ],
+  "unk_bool": true
+}

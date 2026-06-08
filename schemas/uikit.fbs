@@ -1,0 +1,54 @@
+table Element {
+    hash: ulong;
+}
+
+table Button {
+    hash: ulong;
+    pane_part_hash: ulong;
+    hash_0x14: ulong;
+    hash_0x1c: ulong;
+    hash_0x24: ulong;
+    hash_0x2c: ulong;
+    key_select_anim_hash: ulong;
+    active_anim_hash: ulong;
+    passive_anim_hash: ulong;
+    select_anim_hash: ulong;
+    unselect_anim_hash: ulong;
+    keep_anim_hash: ulong;
+}
+
+table Placement {
+    element_hash: ulong;
+    x: uint;
+    y: uint;
+    width: uint;
+    height: uint;
+}
+
+table Container {
+    hash: ulong;
+    columns: uint;
+    rows: uint;
+    entry_0xc: uint;
+    placements: [Placement];
+    cursor_hash: ulong;
+}
+
+table Cursor {
+    hash: ulong;
+    hash_0xc: ulong;
+    hash_0x14: ulong;
+    hash_0x1c: ulong;
+    hash_0x24: ulong;
+}
+
+table UIKit {
+    base_elements: [Element];
+    buttons: [Button];
+    unk_entry1: uint32;
+    containers: [Container];
+    unk_entry2: uint32;
+    cursors: [Cursor];
+}
+
+root_type UIKit;

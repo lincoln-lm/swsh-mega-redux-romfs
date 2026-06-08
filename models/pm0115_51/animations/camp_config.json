@@ -1,0 +1,46 @@
+{
+  "layerConfig": {
+    "layer": [
+      {
+        "index": 0,
+        "name": "Base",
+        "children": {
+          "joint_mask_set": {
+            "enabled": 0
+          },
+          "material_mask_set": {
+            "enabled": 0
+          },
+          "mesh_mask_set": {
+            "enabled": 0
+          }
+        }
+      }
+    ],
+    "blend_Mask": {
+      "joint_mask_set": {
+        "enabled": 0
+      },
+      "material_mask_set": {
+        "enabled": 0
+      },
+      "mesh_mask_set": {
+        "enabled": 0
+      }
+    }
+  },
+  "lookAtConfig": {
+    "entries": []
+  },
+  "stateConfig": {
+    "StateMachines": []
+  },
+  "parameterConfig": {
+    "IntParameters": [],
+    "FloatParameters": [],
+    "TriggerParameters": []
+  },
+  "resourceConfig": {
+    "entries": []
+  }
+}
