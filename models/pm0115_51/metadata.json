@@ -117,7 +117,7 @@
                     "absolute_hash": "animations/fi21_run01.gfbanm"
                 },
                 {
-                    "name": "placeholder.json",
+                    "name": "ba10_waitA01.gfbanm.json",
                     "hash": "kw01_wait01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/kw01_wait01.gfbanm"
@@ -159,13 +159,13 @@
                     "absolute_hash": "animations/mouth01.gfbanm"
                 },
                 {
-                    "name": "placeholder.json",
+                    "name": "ba02_roar01.gfbanm.json",
                     "hash": "cm10_bawait_kwwait01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/cm10_bawait_kwwait01.gfbanm"
                 },
                 {
-                    "name": "placeholder.json",
+                    "name": "ba02_roar01.gfbanm.json",
                     "hash": "cm10_kwwait_bawait01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/cm10_kwwait_bawait01.gfbanm"
