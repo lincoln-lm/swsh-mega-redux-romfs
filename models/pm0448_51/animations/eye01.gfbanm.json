@@ -1,0 +1,4073 @@
+{
+  "info": {
+    "doesLoop": 0,
+    "keyFrames": 21,
+    "frameRate": 60
+  },
+  "skeleton": {
+    "tracks": [
+      {
+        "name": "pm0448_51_00",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "origin",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "head",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 65502,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.8537000000000003,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_ear_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.1535,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_ear_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.1536,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_a_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.4185,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_a_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4034,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_a_04",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.6281,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_a_05",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4207,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_a_06",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4882,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_a_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.4186,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_a_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4034,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_a_04",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.6281,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_a_05",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4207,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_a_06",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4882,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.4361999999999995,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_b_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4797,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_feeler_b_04",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.5253,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.4361999999999995,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_b_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4797,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_feeler_b_04",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.5253,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_d_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 61312,
+              "y": 43145,
+              "z": 13447
+            },
+            {
+              "x": 60824,
+              "y": 43521,
+              "z": 13455
+            },
+            {
+              "x": 59664,
+              "y": 44417,
+              "z": 13475
+            },
+            {
+              "x": 58264,
+              "y": 45481,
+              "z": 13505
+            },
+            {
+              "x": 57072,
+              "y": 46381,
+              "z": 13535
+            },
+            {
+              "x": 56016,
+              "y": 47165,
+              "z": 13565
+            },
+            {
+              "x": 54880,
+              "y": 48001,
+              "z": 13603
+            },
+            {
+              "x": 53840,
+              "y": 48761,
+              "z": 13641
+            },
+            {
+              "x": 53088,
+              "y": 49309,
+              "z": 13671
+            },
+            {
+              "x": 52792,
+              "y": 49521,
+              "z": 13683
+            },
+            {
+              "x": 52792,
+              "y": 49521,
+              "z": 13683
+            },
+            {
+              "x": 53088,
+              "y": 49309,
+              "z": 13671
+            },
+            {
+              "x": 53840,
+              "y": 48761,
+              "z": 13641
+            },
+            {
+              "x": 54880,
+              "y": 48001,
+              "z": 13603
+            },
+            {
+              "x": 56016,
+              "y": 47165,
+              "z": 13565
+            },
+            {
+              "x": 57072,
+              "y": 46381,
+              "z": 13535
+            },
+            {
+              "x": 58264,
+              "y": 45481,
+              "z": 13505
+            },
+            {
+              "x": 59664,
+              "y": 44417,
+              "z": 13475
+            },
+            {
+              "x": 60824,
+              "y": 43521,
+              "z": 13455
+            },
+            {
+              "x": 61312,
+              "y": 43145,
+              "z": 13447
+            },
+            {
+              "x": 61312,
+              "y": 43145,
+              "z": 13447
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.87,
+            "y": -0.45999999999999996,
+            "z": 1.6199999999999999
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_d_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 64099,
+              "y": 41,
+              "z": 32569
+            },
+            {
+              "x": 62915,
+              "y": 85,
+              "z": 32405
+            },
+            {
+              "x": 63315,
+              "y": 69,
+              "z": 32459
+            },
+            {
+              "x": 64099,
+              "y": 41,
+              "z": 32569
+            },
+            {
+              "x": 65419,
+              "y": 1,
+              "z": 32751
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            1,
+            5,
+            7,
+            9,
+            11,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.514,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.3324,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.2247,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.17,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.1854,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.2247,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.3324,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.514,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_lower_eyelid_c_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 28317,
+              "y": 17381,
+              "z": 5371
+            },
+            {
+              "x": 28317,
+              "y": 17381,
+              "z": 5371
+            },
+            {
+              "x": 28317,
+              "y": 17381,
+              "z": 5371
+            },
+            {
+              "x": 28253,
+              "y": 17345,
+              "z": 5317
+            },
+            {
+              "x": 27909,
+              "y": 17157,
+              "z": 5031
+            },
+            {
+              "x": 27685,
+              "y": 17037,
+              "z": 4849
+            },
+            {
+              "x": 27757,
+              "y": 17073,
+              "z": 4903
+            },
+            {
+              "x": 28253,
+              "y": 17345,
+              "z": 5317
+            },
+            {
+              "x": 28317,
+              "y": 17381,
+              "z": 5371
+            },
+            {
+              "x": 28317,
+              "y": 17381,
+              "z": 5371
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.0,
+            "y": -1.79,
+            "z": 1.3599999999999999
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_c_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 163,
+              "y": 65522,
+              "z": 32820
+            },
+            {
+              "x": 1035,
+              "y": 65446,
+              "z": 33098
+            },
+            {
+              "x": 1603,
+              "y": 65402,
+              "z": 33278
+            },
+            {
+              "x": 1435,
+              "y": 65414,
+              "z": 33224
+            },
+            {
+              "x": 163,
+              "y": 65522,
+              "z": 32820
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.3421,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.36,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.3421,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_upper_eyelid_e_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 13072,
+              "y": 37129,
+              "z": 27685
+            },
+            {
+              "x": 13024,
+              "y": 37289,
+              "z": 27717
+            },
+            {
+              "x": 12912,
+              "y": 37681,
+              "z": 27791
+            },
+            {
+              "x": 12768,
+              "y": 38173,
+              "z": 27885
+            },
+            {
+              "x": 12640,
+              "y": 38629,
+              "z": 27973
+            },
+            {
+              "x": 12504,
+              "y": 39101,
+              "z": 28065
+            },
+            {
+              "x": 12360,
+              "y": 39649,
+              "z": 28171
+            },
+            {
+              "x": 12216,
+              "y": 40165,
+              "z": 28273
+            },
+            {
+              "x": 12120,
+              "y": 40549,
+              "z": 28349
+            },
+            {
+              "x": 12080,
+              "y": 40701,
+              "z": 28379
+            },
+            {
+              "x": 12080,
+              "y": 40701,
+              "z": 28379
+            },
+            {
+              "x": 12120,
+              "y": 40549,
+              "z": 28349
+            },
+            {
+              "x": 12216,
+              "y": 40165,
+              "z": 28273
+            },
+            {
+              "x": 12360,
+              "y": 39649,
+              "z": 28171
+            },
+            {
+              "x": 12504,
+              "y": 39101,
+              "z": 28065
+            },
+            {
+              "x": 12640,
+              "y": 38629,
+              "z": 27973
+            },
+            {
+              "x": 12768,
+              "y": 38173,
+              "z": 27885
+            },
+            {
+              "x": 12912,
+              "y": 37681,
+              "z": 27791
+            },
+            {
+              "x": 13024,
+              "y": 37289,
+              "z": 27717
+            },
+            {
+              "x": 13072,
+              "y": 37129,
+              "z": 27685
+            },
+            {
+              "x": 13072,
+              "y": 37129,
+              "z": 27685
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.140000000000001,
+            "y": -1.03,
+            "z": -2.27
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_e_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 12.6951,
+              "y": -0.054900000000000004,
+              "z": 0.0
+            },
+            {
+              "x": 12.65,
+              "y": -0.1,
+              "z": 0.0
+            },
+            {
+              "x": 12.665199999999999,
+              "y": -0.0848,
+              "z": 0.0
+            },
+            {
+              "x": 12.745600000000001,
+              "y": -0.0044,
+              "z": 0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_upper_eyelid_c_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 56240,
+              "y": 41369,
+              "z": 14507
+            },
+            {
+              "x": 56040,
+              "y": 41537,
+              "z": 14513
+            },
+            {
+              "x": 55560,
+              "y": 41945,
+              "z": 14529
+            },
+            {
+              "x": 54968,
+              "y": 42445,
+              "z": 14549
+            },
+            {
+              "x": 54456,
+              "y": 42881,
+              "z": 14569
+            },
+            {
+              "x": 53976,
+              "y": 43285,
+              "z": 14587
+            },
+            {
+              "x": 53432,
+              "y": 43737,
+              "z": 14609
+            },
+            {
+              "x": 52936,
+              "y": 44153,
+              "z": 14631
+            },
+            {
+              "x": 52568,
+              "y": 44457,
+              "z": 14647
+            },
+            {
+              "x": 52424,
+              "y": 44577,
+              "z": 14653
+            },
+            {
+              "x": 52424,
+              "y": 44577,
+              "z": 14653
+            },
+            {
+              "x": 52568,
+              "y": 44457,
+              "z": 14647
+            },
+            {
+              "x": 52936,
+              "y": 44153,
+              "z": 14631
+            },
+            {
+              "x": 53432,
+              "y": 43737,
+              "z": 14609
+            },
+            {
+              "x": 53976,
+              "y": 43285,
+              "z": 14587
+            },
+            {
+              "x": 54456,
+              "y": 42881,
+              "z": 14569
+            },
+            {
+              "x": 54968,
+              "y": 42445,
+              "z": 14549
+            },
+            {
+              "x": 55560,
+              "y": 41945,
+              "z": 14529
+            },
+            {
+              "x": 56040,
+              "y": 41537,
+              "z": 14513
+            },
+            {
+              "x": 56240,
+              "y": 41369,
+              "z": 14507
+            },
+            {
+              "x": 56240,
+              "y": 41369,
+              "z": 14507
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.5,
+            "y": 0.8999999999999999,
+            "z": 3.1
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_c_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            1,
+            4,
+            9,
+            12,
+            15,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.5886,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.440000000000001,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.36,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.3748,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.440000000000001,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.5886,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_upper_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 16836,
+              "y": 23341,
+              "z": 8617
+            },
+            {
+              "x": 16836,
+              "y": 23341,
+              "z": 8617
+            },
+            {
+              "x": 15908,
+              "y": 23905,
+              "z": 8735
+            },
+            {
+              "x": 15156,
+              "y": 24369,
+              "z": 8835
+            },
+            {
+              "x": 15412,
+              "y": 24213,
+              "z": 8801
+            },
+            {
+              "x": 15908,
+              "y": 23905,
+              "z": 8735
+            },
+            {
+              "x": 16756,
+              "y": 23385,
+              "z": 8627
+            },
+            {
+              "x": 16836,
+              "y": 23341,
+              "z": 8617
+            },
+            {
+              "x": 16836,
+              "y": 23341,
+              "z": 8617
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.66,
+            "y": 0.1,
+            "z": 11.0
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_a_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            },
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            },
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            },
+            {
+              "x": 23157,
+              "y": 15061,
+              "z": 5823
+            },
+            {
+              "x": 20973,
+              "y": 16141,
+              "z": 5937
+            },
+            {
+              "x": 19981,
+              "y": 16629,
+              "z": 5993
+            },
+            {
+              "x": 19565,
+              "y": 16833,
+              "z": 6017
+            },
+            {
+              "x": 19981,
+              "y": 16629,
+              "z": 5993
+            },
+            {
+              "x": 23157,
+              "y": 15061,
+              "z": 5823
+            },
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            },
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            },
+            {
+              "x": 23573,
+              "y": 14853,
+              "z": 5803
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.9,
+            "y": 0.7000000000000001,
+            "z": 3.1
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_a_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.2735,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.344199999999999,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.39,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.3765,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.2735,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_lower_eyelid_d_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 29395,
+              "y": 24890,
+              "z": 21344
+            },
+            {
+              "x": 29395,
+              "y": 24890,
+              "z": 21344
+            },
+            {
+              "x": 29395,
+              "y": 24890,
+              "z": 21344
+            },
+            {
+              "x": 29315,
+              "y": 24770,
+              "z": 21332
+            },
+            {
+              "x": 28875,
+              "y": 24130,
+              "z": 21262
+            },
+            {
+              "x": 28595,
+              "y": 23718,
+              "z": 21218
+            },
+            {
+              "x": 28675,
+              "y": 23838,
+              "z": 21230
+            },
+            {
+              "x": 29315,
+              "y": 24770,
+              "z": 21332
+            },
+            {
+              "x": 29395,
+              "y": 24890,
+              "z": 21344
+            },
+            {
+              "x": 29395,
+              "y": 24890,
+              "z": 21344
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.21,
+            "y": -0.96,
+            "z": -1.87
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_d_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 12.6,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 39520,
+              "y": 50857,
+              "z": 21241
+            },
+            {
+              "x": 39520,
+              "y": 50857,
+              "z": 21241
+            },
+            {
+              "x": 38648,
+              "y": 50957,
+              "z": 21121
+            },
+            {
+              "x": 37928,
+              "y": 51037,
+              "z": 21023
+            },
+            {
+              "x": 38168,
+              "y": 51009,
+              "z": 21057
+            },
+            {
+              "x": 39448,
+              "y": 50865,
+              "z": 21231
+            },
+            {
+              "x": 39520,
+              "y": 50857,
+              "z": 21241
+            },
+            {
+              "x": 39520,
+              "y": 50857,
+              "z": 21241
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.7299999999999995,
+            "y": 1.04,
+            "z": 3.46
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            9,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.33,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_lower_eyelid_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 27941,
+              "y": 17145,
+              "z": 5333
+            },
+            {
+              "x": 27941,
+              "y": 17145,
+              "z": 5333
+            },
+            {
+              "x": 27957,
+              "y": 17153,
+              "z": 5343
+            },
+            {
+              "x": 28061,
+              "y": 17213,
+              "z": 5433
+            },
+            {
+              "x": 27957,
+              "y": 17153,
+              "z": 5343
+            },
+            {
+              "x": 27941,
+              "y": 17145,
+              "z": 5333
+            },
+            {
+              "x": 27941,
+              "y": 17145,
+              "z": 5333
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.63,
+            "y": -0.15,
+            "z": 2.55
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.261,
+              "y": -0.0,
+              "z": -0.0333
+            },
+            {
+              "x": 9.2665,
+              "y": -0.0,
+              "z": -0.2074
+            },
+            {
+              "x": 9.269,
+              "y": -0.0,
+              "z": -0.2867
+            },
+            {
+              "x": 9.27,
+              "y": -0.0,
+              "z": -0.32
+            },
+            {
+              "x": 9.269,
+              "y": -0.0,
+              "z": -0.2867
+            },
+            {
+              "x": 9.261,
+              "y": -0.0,
+              "z": -0.0333
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_upper_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 48696,
+              "y": 23342,
+              "z": 56919
+            },
+            {
+              "x": 48696,
+              "y": 23342,
+              "z": 56919
+            },
+            {
+              "x": 49624,
+              "y": 23906,
+              "z": 56801
+            },
+            {
+              "x": 50376,
+              "y": 24370,
+              "z": 56701
+            },
+            {
+              "x": 50120,
+              "y": 24214,
+              "z": 56735
+            },
+            {
+              "x": 49624,
+              "y": 23906,
+              "z": 56801
+            },
+            {
+              "x": 48776,
+              "y": 23386,
+              "z": 56909
+            },
+            {
+              "x": 48696,
+              "y": 23342,
+              "z": 56919
+            },
+            {
+              "x": 48696,
+              "y": 23342,
+              "z": 56919
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.66,
+            "y": -0.1,
+            "z": 11.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 26008,
+              "y": 50858,
+              "z": 44295
+            },
+            {
+              "x": 26008,
+              "y": 50858,
+              "z": 44295
+            },
+            {
+              "x": 26880,
+              "y": 50958,
+              "z": 44415
+            },
+            {
+              "x": 27600,
+              "y": 51038,
+              "z": 44513
+            },
+            {
+              "x": 27360,
+              "y": 51010,
+              "z": 44479
+            },
+            {
+              "x": 26080,
+              "y": 50866,
+              "z": 44305
+            },
+            {
+              "x": 26008,
+              "y": 50858,
+              "z": 44295
+            },
+            {
+              "x": 26008,
+              "y": 50858,
+              "z": 44295
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.7299999999999995,
+            "y": -1.04,
+            "z": 3.46
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            9,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.33,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.379999999999999,
+              "y": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_lower_eyelid_a_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            },
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            },
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            },
+            {
+              "x": 42381,
+              "y": 50474,
+              "z": 5822
+            },
+            {
+              "x": 44565,
+              "y": 49394,
+              "z": 5936
+            },
+            {
+              "x": 45557,
+              "y": 48906,
+              "z": 5992
+            },
+            {
+              "x": 45973,
+              "y": 48702,
+              "z": 6016
+            },
+            {
+              "x": 45557,
+              "y": 48906,
+              "z": 5992
+            },
+            {
+              "x": 42381,
+              "y": 50474,
+              "z": 5822
+            },
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            },
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            },
+            {
+              "x": 41965,
+              "y": 50682,
+              "z": 5802
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.9,
+            "y": -0.7000000000000001,
+            "z": 3.1
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_a_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.2735,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.344199999999999,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.39,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.3765,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.2735,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_upper_eyelid_c_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 9288,
+              "y": 41370,
+              "z": 51029
+            },
+            {
+              "x": 9488,
+              "y": 41538,
+              "z": 51023
+            },
+            {
+              "x": 9968,
+              "y": 41946,
+              "z": 51007
+            },
+            {
+              "x": 10560,
+              "y": 42446,
+              "z": 50987
+            },
+            {
+              "x": 11072,
+              "y": 42882,
+              "z": 50967
+            },
+            {
+              "x": 11552,
+              "y": 43286,
+              "z": 50949
+            },
+            {
+              "x": 12096,
+              "y": 43738,
+              "z": 50927
+            },
+            {
+              "x": 12592,
+              "y": 44154,
+              "z": 50905
+            },
+            {
+              "x": 12960,
+              "y": 44458,
+              "z": 50889
+            },
+            {
+              "x": 13104,
+              "y": 44578,
+              "z": 50883
+            },
+            {
+              "x": 13104,
+              "y": 44578,
+              "z": 50883
+            },
+            {
+              "x": 12960,
+              "y": 44458,
+              "z": 50889
+            },
+            {
+              "x": 12592,
+              "y": 44154,
+              "z": 50905
+            },
+            {
+              "x": 12096,
+              "y": 43738,
+              "z": 50927
+            },
+            {
+              "x": 11552,
+              "y": 43286,
+              "z": 50949
+            },
+            {
+              "x": 11072,
+              "y": 42882,
+              "z": 50967
+            },
+            {
+              "x": 10560,
+              "y": 42446,
+              "z": 50987
+            },
+            {
+              "x": 9968,
+              "y": 41946,
+              "z": 51007
+            },
+            {
+              "x": 9488,
+              "y": 41538,
+              "z": 51023
+            },
+            {
+              "x": 9288,
+              "y": 41370,
+              "z": 51029
+            },
+            {
+              "x": 9288,
+              "y": 41370,
+              "z": 51029
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.5,
+            "y": -0.8999999999999999,
+            "z": 3.1
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_c_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            1,
+            4,
+            9,
+            12,
+            15,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.5886,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.440000000000001,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.36,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.3748,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.440000000000001,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.5886,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.61,
+              "y": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_lower_eyelid_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 37597,
+              "y": 48390,
+              "z": 5332
+            },
+            {
+              "x": 37597,
+              "y": 48390,
+              "z": 5332
+            },
+            {
+              "x": 37581,
+              "y": 48382,
+              "z": 5342
+            },
+            {
+              "x": 37477,
+              "y": 48322,
+              "z": 5432
+            },
+            {
+              "x": 37581,
+              "y": 48382,
+              "z": 5342
+            },
+            {
+              "x": 37597,
+              "y": 48390,
+              "z": 5332
+            },
+            {
+              "x": 37597,
+              "y": 48390,
+              "z": 5332
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.63,
+            "y": 0.15,
+            "z": 2.55
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.261,
+              "y": -0.0,
+              "z": -0.0333
+            },
+            {
+              "x": 9.2665,
+              "y": -0.0,
+              "z": -0.2074
+            },
+            {
+              "x": 9.269,
+              "y": -0.0,
+              "z": -0.2867
+            },
+            {
+              "x": 9.27,
+              "y": -0.0,
+              "z": -0.32
+            },
+            {
+              "x": 9.269,
+              "y": -0.0,
+              "z": -0.2867
+            },
+            {
+              "x": 9.261,
+              "y": -0.0,
+              "z": -0.0333
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.26,
+              "y": -0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_upper_eyelid_d_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 4216,
+              "y": 43146,
+              "z": 52089
+            },
+            {
+              "x": 4704,
+              "y": 43522,
+              "z": 52081
+            },
+            {
+              "x": 5864,
+              "y": 44418,
+              "z": 52061
+            },
+            {
+              "x": 7264,
+              "y": 45482,
+              "z": 52031
+            },
+            {
+              "x": 8456,
+              "y": 46382,
+              "z": 52001
+            },
+            {
+              "x": 9512,
+              "y": 47166,
+              "z": 51971
+            },
+            {
+              "x": 10648,
+              "y": 48002,
+              "z": 51933
+            },
+            {
+              "x": 11688,
+              "y": 48762,
+              "z": 51895
+            },
+            {
+              "x": 12440,
+              "y": 49310,
+              "z": 51865
+            },
+            {
+              "x": 12736,
+              "y": 49522,
+              "z": 51853
+            },
+            {
+              "x": 12736,
+              "y": 49522,
+              "z": 51853
+            },
+            {
+              "x": 12440,
+              "y": 49310,
+              "z": 51865
+            },
+            {
+              "x": 11688,
+              "y": 48762,
+              "z": 51895
+            },
+            {
+              "x": 10648,
+              "y": 48002,
+              "z": 51933
+            },
+            {
+              "x": 9512,
+              "y": 47166,
+              "z": 51971
+            },
+            {
+              "x": 8456,
+              "y": 46382,
+              "z": 52001
+            },
+            {
+              "x": 7264,
+              "y": 45482,
+              "z": 52031
+            },
+            {
+              "x": 5864,
+              "y": 44418,
+              "z": 52061
+            },
+            {
+              "x": 4704,
+              "y": 43522,
+              "z": 52081
+            },
+            {
+              "x": 4216,
+              "y": 43146,
+              "z": 52089
+            },
+            {
+              "x": 4216,
+              "y": 43146,
+              "z": 52089
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.87,
+            "y": 0.45999999999999996,
+            "z": 1.6199999999999999
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_d_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 1435,
+              "y": 42,
+              "z": 32967
+            },
+            {
+              "x": 2619,
+              "y": 86,
+              "z": 33131
+            },
+            {
+              "x": 2219,
+              "y": 70,
+              "z": 33077
+            },
+            {
+              "x": 1435,
+              "y": 42,
+              "z": 32967
+            },
+            {
+              "x": 115,
+              "y": 2,
+              "z": 32785
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            1,
+            5,
+            7,
+            9,
+            11,
+            12,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.514,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.3324,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.2247,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.17,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.1854,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.2247,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.3324,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.514,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": 0.0
+            },
+            {
+              "x": 10.530000000000001,
+              "y": 0.0,
+              "z": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_lower_eyelid_c_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 37221,
+              "y": 48154,
+              "z": 5370
+            },
+            {
+              "x": 37221,
+              "y": 48154,
+              "z": 5370
+            },
+            {
+              "x": 37221,
+              "y": 48154,
+              "z": 5370
+            },
+            {
+              "x": 37285,
+              "y": 48190,
+              "z": 5316
+            },
+            {
+              "x": 37629,
+              "y": 48378,
+              "z": 5030
+            },
+            {
+              "x": 37853,
+              "y": 48498,
+              "z": 4848
+            },
+            {
+              "x": 37781,
+              "y": 48462,
+              "z": 4902
+            },
+            {
+              "x": 37285,
+              "y": 48190,
+              "z": 5316
+            },
+            {
+              "x": 37221,
+              "y": 48154,
+              "z": 5370
+            },
+            {
+              "x": 37221,
+              "y": 48154,
+              "z": 5370
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.0,
+            "y": 1.79,
+            "z": 1.3599999999999999
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_c_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 65371,
+              "y": 65521,
+              "z": 32714
+            },
+            {
+              "x": 64499,
+              "y": 65445,
+              "z": 32436
+            },
+            {
+              "x": 63931,
+              "y": 65401,
+              "z": 32256
+            },
+            {
+              "x": 64099,
+              "y": 65413,
+              "z": 32310
+            },
+            {
+              "x": 65371,
+              "y": 65521,
+              "z": 32714
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.3421,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.36,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.3421,
+              "y": -0.0,
+              "z": 0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": -0.0
+            },
+            {
+              "x": 9.34,
+              "y": -0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "right_lower_eyelid_d_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            5,
+            7,
+            9,
+            11,
+            14,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 36139,
+              "y": 24889,
+              "z": 44190
+            },
+            {
+              "x": 36139,
+              "y": 24889,
+              "z": 44190
+            },
+            {
+              "x": 36139,
+              "y": 24889,
+              "z": 44190
+            },
+            {
+              "x": 36219,
+              "y": 24769,
+              "z": 44202
+            },
+            {
+              "x": 36659,
+              "y": 24129,
+              "z": 44272
+            },
+            {
+              "x": 36939,
+              "y": 23717,
+              "z": 44316
+            },
+            {
+              "x": 36859,
+              "y": 23837,
+              "z": 44304
+            },
+            {
+              "x": 36219,
+              "y": 24769,
+              "z": 44202
+            },
+            {
+              "x": 36139,
+              "y": 24889,
+              "z": 44190
+            },
+            {
+              "x": 36139,
+              "y": 24889,
+              "z": 44190
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 6.21,
+            "y": 0.96,
+            "z": -1.87
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_d_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 65531,
+            "y": 1,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 12.6,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_e_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 52456,
+              "y": 37130,
+              "z": 37851
+            },
+            {
+              "x": 52504,
+              "y": 37290,
+              "z": 37819
+            },
+            {
+              "x": 52616,
+              "y": 37682,
+              "z": 37745
+            },
+            {
+              "x": 52760,
+              "y": 38174,
+              "z": 37651
+            },
+            {
+              "x": 52888,
+              "y": 38630,
+              "z": 37563
+            },
+            {
+              "x": 53024,
+              "y": 39102,
+              "z": 37471
+            },
+            {
+              "x": 53168,
+              "y": 39650,
+              "z": 37365
+            },
+            {
+              "x": 53312,
+              "y": 40166,
+              "z": 37263
+            },
+            {
+              "x": 53408,
+              "y": 40550,
+              "z": 37187
+            },
+            {
+              "x": 53448,
+              "y": 40702,
+              "z": 37157
+            },
+            {
+              "x": 53448,
+              "y": 40702,
+              "z": 37157
+            },
+            {
+              "x": 53408,
+              "y": 40550,
+              "z": 37187
+            },
+            {
+              "x": 53312,
+              "y": 40166,
+              "z": 37263
+            },
+            {
+              "x": 53168,
+              "y": 39650,
+              "z": 37365
+            },
+            {
+              "x": 53024,
+              "y": 39102,
+              "z": 37471
+            },
+            {
+              "x": 52888,
+              "y": 38630,
+              "z": 37563
+            },
+            {
+              "x": 52760,
+              "y": 38174,
+              "z": 37651
+            },
+            {
+              "x": 52616,
+              "y": 37682,
+              "z": 37745
+            },
+            {
+              "x": 52504,
+              "y": 37290,
+              "z": 37819
+            },
+            {
+              "x": 52456,
+              "y": 37130,
+              "z": 37851
+            },
+            {
+              "x": 52456,
+              "y": 37130,
+              "z": 37851
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.140000000000001,
+            "y": 1.03,
+            "z": -2.27
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_e_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "Framed8VectorTrack",
+        "translate": {
+          "frames": [
+            0,
+            0,
+            5,
+            9,
+            12,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 12.6951,
+              "y": 0.054900000000000004,
+              "z": -0.0
+            },
+            {
+              "x": 12.65,
+              "y": 0.1,
+              "z": -0.0
+            },
+            {
+              "x": 12.665199999999999,
+              "y": 0.0848,
+              "z": -0.0
+            },
+            {
+              "x": 12.745600000000001,
+              "y": 0.0044,
+              "z": -0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": -0.0
+            },
+            {
+              "x": 12.75,
+              "y": 0.0,
+              "z": -0.0
+            }
+          ]
+        }
+      },
+      {
+        "name": "left_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 27699
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.72,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 37837
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.72,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "feeler_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 63488,
+            "y": 33790,
+            "z": 57634
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 2.4643,
+            "y": 0.0,
+            "z": -5.2035
+          }
+        }
+      },
+      {
+        "name": "left_feeler_c",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 28603,
+            "y": 12334,
+            "z": 12619
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 1.3578,
+            "y": -3.1060999999999996,
+            "z": -0.6568
+          }
+        }
+      },
+      {
+        "name": "left_leg_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 13994,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 20.9666,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_foot",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 11371
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 15.0689,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_toe",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.679,
+            "y": -0.0138,
+            "z": -15.838099999999999
+          }
+        }
+      },
+      {
+        "name": "left_foot_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.0571,
+            "y": 0.0,
+            "z": -3.5646999999999998
+          }
+        }
+      },
+      {
+        "name": "right_foot",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 65533,
+            "y": 65533,
+            "z": 11370
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 15.0688,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_toe",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.679,
+            "y": 0.0138,
+            "z": -15.838099999999999
+          }
+        }
+      },
+      {
+        "name": "right_foot_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.0571,
+            "y": 0.0,
+            "z": -3.5646999999999998
+          }
+        }
+      },
+      {
+        "name": "tail_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.4352,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "tail_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.6386,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "info": {
+    "doesLoop": 0,
+    "keyFrames": 21,
+    "frameRate": 60
+  },
+  "skeleton": {
+    "tracks": [
+      {
+        "name": "pm0860_51_00",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "origin",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_arm_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 60298,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 37.940000000000005,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_arm_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 60298,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 37.940000000000005,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_leg_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 29305,
+            "y": 15445,
+            "z": 28877
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": -15.1,
+            "y": -30.03,
+            "z": -15.85
+          }
+        }
+      },
+      {
+        "name": "left_leg_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 51262,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 48.74,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_foot_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 77.13,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_leg_b_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 36225,
+            "y": 50090,
+            "z": 28876
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": -15.1,
+            "y": 30.03,
+            "z": -15.85
+          }
+        }
+      },
+      {
+        "name": "right_leg_b_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 51262,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 48.74,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_foot_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 77.13,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    ]
+  }
+}

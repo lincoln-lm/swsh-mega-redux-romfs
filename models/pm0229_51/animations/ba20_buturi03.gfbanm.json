@@ -1,0 +1,5410 @@
+{
+  "info": {
+    "doesLoop": 1,
+    "keyFrames": 21,
+    "frameRate": 60
+  },
+  "skeleton": {
+    "tracks": [
+      {
+        "name": "pm0229_51_00",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "origin",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 2,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "waist",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            5,
+            10,
+            15,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 14363,
+              "y": 29027,
+              "z": 54870
+            },
+            {
+              "x": 14363,
+              "y": 29027,
+              "z": 54870
+            },
+            {
+              "x": 13723,
+              "y": 29359,
+              "z": 55014
+            },
+            {
+              "x": 14363,
+              "y": 29027,
+              "z": 54870
+            },
+            {
+              "x": 13723,
+              "y": 29359,
+              "z": 55014
+            },
+            {
+              "x": 14363,
+              "y": 29027,
+              "z": 54870
+            },
+            {
+              "x": 14363,
+              "y": 29027,
+              "z": 54870
+            }
+          ]
+        },
+        "translate_type": "DynamicVectorTrack",
+        "translate": {
+          "co": [
+            {
+              "x": -6.7909,
+              "y": 79.89450000000001,
+              "z": -10.1272
+            },
+            {
+              "x": -6.5424999999999995,
+              "y": 79.6185,
+              "z": -9.765
+            },
+            {
+              "x": -6.3081,
+              "y": 78.9606,
+              "z": -9.5938
+            },
+            {
+              "x": -6.2040999999999995,
+              "y": 78.1752,
+              "z": -9.7243
+            },
+            {
+              "x": -6.2961,
+              "y": 77.5173,
+              "z": -10.0356
+            },
+            {
+              "x": -6.5154000000000005,
+              "y": 77.2413,
+              "z": -10.407
+            },
+            {
+              "x": -6.7772,
+              "y": 77.5173,
+              "z": -10.7183
+            },
+            {
+              "x": -6.9965,
+              "y": 78.1752,
+              "z": -10.8488
+            },
+            {
+              "x": -7.088500000000001,
+              "y": 78.9606,
+              "z": -10.7183
+            },
+            {
+              "x": -6.9965,
+              "y": 79.6185,
+              "z": -10.407
+            },
+            {
+              "x": -6.7772,
+              "y": 79.89450000000001,
+              "z": -10.0356
+            },
+            {
+              "x": -6.5154000000000005,
+              "y": 79.6185,
+              "z": -9.7243
+            },
+            {
+              "x": -6.2961,
+              "y": 78.9606,
+              "z": -9.5938
+            },
+            {
+              "x": -6.2040999999999995,
+              "y": 78.1752,
+              "z": -9.7243
+            },
+            {
+              "x": -6.2961,
+              "y": 77.5173,
+              "z": -10.0356
+            },
+            {
+              "x": -6.5154000000000005,
+              "y": 77.2413,
+              "z": -10.407
+            },
+            {
+              "x": -6.7772,
+              "y": 77.5173,
+              "z": -10.7183
+            },
+            {
+              "x": -6.9965,
+              "y": 78.1752,
+              "z": -10.8488
+            },
+            {
+              "x": -7.088500000000001,
+              "y": 78.9606,
+              "z": -10.746799999999999
+            },
+            {
+              "x": -6.9939,
+              "y": 79.6185,
+              "z": -10.484499999999999
+            },
+            {
+              "x": -6.7909,
+              "y": 79.89450000000001,
+              "z": -10.1272
+            }
+          ]
+        }
+      },
+      {
+        "name": "spine_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            2,
+            6,
+            11,
+            16,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 3,
+              "y": 1206,
+              "z": 31661
+            },
+            {
+              "x": 3,
+              "y": 1206,
+              "z": 31661
+            },
+            {
+              "x": 65531,
+              "y": 1185,
+              "z": 31661
+            },
+            {
+              "x": 27,
+              "y": 1730,
+              "z": 31661
+            },
+            {
+              "x": 65531,
+              "y": 1125,
+              "z": 31661
+            },
+            {
+              "x": 27,
+              "y": 1730,
+              "z": 31661
+            },
+            {
+              "x": 3,
+              "y": 1206,
+              "z": 31661
+            },
+            {
+              "x": 3,
+              "y": 1206,
+              "z": 31661
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "spine_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            3,
+            8,
+            13,
+            17,
+            19,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 179,
+              "y": 47790,
+              "z": 32252
+            },
+            {
+              "x": 179,
+              "y": 47790,
+              "z": 32252
+            },
+            {
+              "x": 147,
+              "y": 47398,
+              "z": 32406
+            },
+            {
+              "x": 203,
+              "y": 47990,
+              "z": 32170
+            },
+            {
+              "x": 147,
+              "y": 47398,
+              "z": 32406
+            },
+            {
+              "x": 195,
+              "y": 47930,
+              "z": 32196
+            },
+            {
+              "x": 195,
+              "y": 47930,
+              "z": 32196
+            },
+            {
+              "x": 179,
+              "y": 47790,
+              "z": 32252
+            },
+            {
+              "x": 179,
+              "y": 47790,
+              "z": 32252
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 19.285800000000002,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "neck_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            4,
+            9,
+            14,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 2147,
+              "y": 24430,
+              "z": 32799
+            },
+            {
+              "x": 2147,
+              "y": 24430,
+              "z": 32799
+            },
+            {
+              "x": 2147,
+              "y": 23914,
+              "z": 32795
+            },
+            {
+              "x": 2147,
+              "y": 24498,
+              "z": 32799
+            },
+            {
+              "x": 2147,
+              "y": 23914,
+              "z": 32795
+            },
+            {
+              "x": 2147,
+              "y": 24434,
+              "z": 32799
+            },
+            {
+              "x": 2147,
+              "y": 24430,
+              "z": 32799
+            },
+            {
+              "x": 2147,
+              "y": 24430,
+              "z": 32799
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 20.9005,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "neck_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            2,
+            6,
+            11,
+            16,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 483,
+              "y": 3214,
+              "z": 32715
+            },
+            {
+              "x": 483,
+              "y": 3214,
+              "z": 32715
+            },
+            {
+              "x": 475,
+              "y": 3186,
+              "z": 32713
+            },
+            {
+              "x": 763,
+              "y": 2050,
+              "z": 32911
+            },
+            {
+              "x": 443,
+              "y": 3318,
+              "z": 32691
+            },
+            {
+              "x": 763,
+              "y": 2050,
+              "z": 32911
+            },
+            {
+              "x": 483,
+              "y": 3214,
+              "z": 32715
+            },
+            {
+              "x": 483,
+              "y": 3214,
+              "z": 32715
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 17.5111,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "neck_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            3,
+            8,
+            13,
+            17,
+            19,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 9867,
+              "y": 57438,
+              "z": 34006
+            },
+            {
+              "x": 9867,
+              "y": 57438,
+              "z": 34006
+            },
+            {
+              "x": 9819,
+              "y": 58242,
+              "z": 34030
+            },
+            {
+              "x": 9899,
+              "y": 56978,
+              "z": 33992
+            },
+            {
+              "x": 9819,
+              "y": 58242,
+              "z": 34030
+            },
+            {
+              "x": 9891,
+              "y": 57110,
+              "z": 33996
+            },
+            {
+              "x": 9883,
+              "y": 57150,
+              "z": 33998
+            },
+            {
+              "x": 9867,
+              "y": 57438,
+              "z": 34006
+            },
+            {
+              "x": 9867,
+              "y": 57438,
+              "z": 34006
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 18.5277,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "head",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            1,
+            2,
+            4,
+            6,
+            8,
+            9,
+            11,
+            13,
+            14,
+            16,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 61795,
+              "y": 64113,
+              "z": 31714
+            },
+            {
+              "x": 61795,
+              "y": 64113,
+              "z": 31714
+            },
+            {
+              "x": 61843,
+              "y": 63793,
+              "z": 31654
+            },
+            {
+              "x": 61915,
+              "y": 63957,
+              "z": 31586
+            },
+            {
+              "x": 62035,
+              "y": 64793,
+              "z": 31506
+            },
+            {
+              "x": 61987,
+              "y": 65329,
+              "z": 31580
+            },
+            {
+              "x": 61819,
+              "y": 64785,
+              "z": 31710
+            },
+            {
+              "x": 61771,
+              "y": 64329,
+              "z": 31738
+            },
+            {
+              "x": 61827,
+              "y": 63793,
+              "z": 31664
+            },
+            {
+              "x": 61987,
+              "y": 64341,
+              "z": 31534
+            },
+            {
+              "x": 62035,
+              "y": 64793,
+              "z": 31506
+            },
+            {
+              "x": 61987,
+              "y": 65329,
+              "z": 31580
+            },
+            {
+              "x": 61827,
+              "y": 64929,
+              "z": 31708
+            },
+            {
+              "x": 61795,
+              "y": 64113,
+              "z": 31714
+            },
+            {
+              "x": 61795,
+              "y": 64113,
+              "z": 31714
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.5723,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 16979,
+            "y": 41665,
+            "z": 12104
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.05,
+            "y": 9.719999999999999,
+            "z": 3.37
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 14619,
+            "y": 38401,
+            "z": 12724
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.590000000000001,
+            "y": 7.66,
+            "z": 1.81
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_c",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 47720,
+            "y": 46373,
+            "z": 17685
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.66,
+            "y": 8.49,
+            "z": 1.54
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_c_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 24.974,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_d",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 49296,
+            "y": 47069,
+            "z": 15589
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.34,
+            "y": 8.93,
+            "z": 1.51
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_d_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 24.97,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_e",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 38072,
+            "y": 44865,
+            "z": 16077
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.53,
+            "y": 10.280000000000001,
+            "z": 1.21
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_e_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 26.230999999999998,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_f",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 30504,
+            "y": 44229,
+            "z": 14389
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.32,
+            "y": 11.87,
+            "z": 2.77
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_g",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 27296,
+            "y": 45205,
+            "z": 15049
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.72,
+            "y": 11.26,
+            "z": 0.62
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_h",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 18976,
+            "y": 43985,
+            "z": 16401
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.180000000000001,
+            "y": 9.45,
+            "z": 2.32
+          }
+        }
+      },
+      {
+        "name": "left_upper_eyelid_i",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 59944,
+            "y": 34212,
+            "z": 24853
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.9017,
+            "y": 4.8788,
+            "z": 4.7022
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 22635,
+            "y": 18254,
+            "z": 23046
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.43,
+            "y": 0.53,
+            "z": 10.91
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_a_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.521,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 29971,
+            "y": 20358,
+            "z": 21722
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.1064,
+            "y": 0.6762,
+            "z": 11.2548
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_c",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 36763,
+            "y": 19890,
+            "z": 18248
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.2059,
+            "y": 1.371,
+            "z": 11.4008
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_c_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.2783,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_d",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 44139,
+            "y": 21970,
+            "z": 17940
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.2929,
+            "y": 1.4332,
+            "z": 10.636800000000001
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_e",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 60163,
+            "y": 19354,
+            "z": 19284
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.3172,
+            "y": 0.5535,
+            "z": 10.7003
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_f",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 37669,
+            "y": 5888,
+            "z": 10943
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.13,
+            "y": -1.29,
+            "z": 9.87
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_g",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 32544,
+            "y": 61272,
+            "z": 53108
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.7085,
+            "y": -1.5537,
+            "z": 9.6502
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_h",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 31768,
+            "y": 58980,
+            "z": 53004
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.590399999999999,
+            "y": -1.2338,
+            "z": 9.2143
+          }
+        }
+      },
+      {
+        "name": "left_lower_eyelid_h_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.5528,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 48555,
+            "y": 41666,
+            "z": 53430
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.0496,
+            "y": -9.719999999999999,
+            "z": 3.3703
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 50915,
+            "y": 38402,
+            "z": 52810
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.5899,
+            "y": -7.66,
+            "z": 1.8100999999999998
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_c",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 17808,
+            "y": 46374,
+            "z": 47851
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.6603999999999997,
+            "y": -8.49,
+            "z": 1.5396999999999998
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_c_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 24.974,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_d",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 16232,
+            "y": 47070,
+            "z": 49947
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.3397,
+            "y": -8.93,
+            "z": 1.5102
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_d_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 24.97,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_e",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 27456,
+            "y": 44866,
+            "z": 49459
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.5297,
+            "y": -10.280000000000001,
+            "z": 1.2103
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_e_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 26.230999999999998,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_f",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 35024,
+            "y": 44230,
+            "z": 51147
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 4.3203,
+            "y": -11.87,
+            "z": 2.7697
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_g",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 38232,
+            "y": 45206,
+            "z": 50487
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 5.7202,
+            "y": -11.26,
+            "z": 0.6198
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_h",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 46552,
+            "y": 43986,
+            "z": 49135
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.1797,
+            "y": -9.45,
+            "z": 2.3202
+          }
+        }
+      },
+      {
+        "name": "right_upper_eyelid_i",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5584,
+            "y": 34215,
+            "z": 40683
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 8.902000000000001,
+            "y": -4.8788,
+            "z": 4.7021
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_a",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 42899,
+            "y": 18253,
+            "z": 42488
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.43,
+            "y": -0.53,
+            "z": 10.91
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_a_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.521,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_b",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 35563,
+            "y": 20357,
+            "z": 43812
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.106200000000001,
+            "y": -0.6762,
+            "z": 11.2549
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_c",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 28771,
+            "y": 19889,
+            "z": 47286
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.2061,
+            "y": -1.371,
+            "z": 11.400599999999999
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_c_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.2783,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_d",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 21395,
+            "y": 21969,
+            "z": 47594
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.2929,
+            "y": -1.4332,
+            "z": 10.636800000000001
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_e",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5371,
+            "y": 19353,
+            "z": 46250
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.317400000000001,
+            "y": -0.5535,
+            "z": 10.7
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_f",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 27869,
+            "y": 59647,
+            "z": 10942
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.1297,
+            "y": 1.29,
+            "z": 9.870099999999999
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_g",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 32984,
+            "y": 61275,
+            "z": 12426
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.7083,
+            "y": 1.5537,
+            "z": 9.650300000000001
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_h",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 33760,
+            "y": 58983,
+            "z": 12530
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.5901,
+            "y": 1.2338,
+            "z": 9.214400000000001
+          }
+        }
+      },
+      {
+        "name": "right_lower_eyelid_h_sub",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 5,
+            "y": 2,
+            "z": 3267
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.5528,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "jaw",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 7030,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.9718,
+            "y": 0.0,
+            "z": 6.5206
+          }
+        }
+      },
+      {
+        "name": "tongue_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 22394,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 9.6424,
+            "y": 0.0,
+            "z": 4.4843
+          }
+        }
+      },
+      {
+        "name": "tongue_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 55366,
+            "z": 32768
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.2761,
+            "y": 0.0,
+            "z": -0.9057000000000001
+          }
+        }
+      },
+      {
+        "name": "tongue_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 3,
+            "y": 278,
+            "z": 32769
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 3.6505,
+            "y": 0.0,
+            "z": 0.026400000000000003
+          }
+        }
+      },
+      {
+        "name": "left_shoulder",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 60080,
+            "y": 57717,
+            "z": 31865
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.228299999999997,
+            "y": -15.47,
+            "z": -10.7588
+          }
+        }
+      },
+      {
+        "name": "left_arm_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 61259,
+              "y": 17965,
+              "z": 39361
+            },
+            {
+              "x": 60603,
+              "y": 18141,
+              "z": 39395
+            },
+            {
+              "x": 60563,
+              "y": 18237,
+              "z": 39313
+            },
+            {
+              "x": 61035,
+              "y": 18153,
+              "z": 39179
+            },
+            {
+              "x": 61659,
+              "y": 18165,
+              "z": 39099
+            },
+            {
+              "x": 62107,
+              "y": 18329,
+              "z": 39121
+            },
+            {
+              "x": 62299,
+              "y": 18453,
+              "z": 39213
+            },
+            {
+              "x": 62315,
+              "y": 18361,
+              "z": 39303
+            },
+            {
+              "x": 62115,
+              "y": 18169,
+              "z": 39365
+            },
+            {
+              "x": 61675,
+              "y": 18037,
+              "z": 39385
+            },
+            {
+              "x": 61107,
+              "y": 18025,
+              "z": 39385
+            },
+            {
+              "x": 60611,
+              "y": 18145,
+              "z": 39383
+            },
+            {
+              "x": 60571,
+              "y": 18225,
+              "z": 39307
+            },
+            {
+              "x": 61035,
+              "y": 18153,
+              "z": 39179
+            },
+            {
+              "x": 61659,
+              "y": 18165,
+              "z": 39099
+            },
+            {
+              "x": 62107,
+              "y": 18329,
+              "z": 39121
+            },
+            {
+              "x": 62323,
+              "y": 18437,
+              "z": 39205
+            },
+            {
+              "x": 62403,
+              "y": 18325,
+              "z": 39277
+            },
+            {
+              "x": 62275,
+              "y": 18113,
+              "z": 39321
+            },
+            {
+              "x": 61867,
+              "y": 17973,
+              "z": 39335
+            },
+            {
+              "x": 61259,
+              "y": 17965,
+              "z": 39361
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 14.6539,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_arm_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9983
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10453
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10479
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10117
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9639
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9331
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9241
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9265
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9421
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9719
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10097
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10461
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10481
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 10117
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9639
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9331
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9215
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9183
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9281
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9555
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "z": 9983
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 36.335699999999996,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_hand",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 57715,
+              "y": 21493,
+              "z": 36703
+            },
+            {
+              "x": 57515,
+              "y": 22685,
+              "z": 36655
+            },
+            {
+              "x": 57747,
+              "y": 22941,
+              "z": 36697
+            },
+            {
+              "x": 58291,
+              "y": 22101,
+              "z": 36789
+            },
+            {
+              "x": 58731,
+              "y": 20561,
+              "z": 36861
+            },
+            {
+              "x": 58819,
+              "y": 19209,
+              "z": 36875
+            },
+            {
+              "x": 58603,
+              "y": 18657,
+              "z": 36835
+            },
+            {
+              "x": 58283,
+              "y": 18893,
+              "z": 36783
+            },
+            {
+              "x": 57987,
+              "y": 19617,
+              "z": 36735
+            },
+            {
+              "x": 57779,
+              "y": 20625,
+              "z": 36701
+            },
+            {
+              "x": 57635,
+              "y": 21745,
+              "z": 36677
+            },
+            {
+              "x": 57547,
+              "y": 22737,
+              "z": 36661
+            },
+            {
+              "x": 57771,
+              "y": 22953,
+              "z": 36699
+            },
+            {
+              "x": 58291,
+              "y": 22101,
+              "z": 36789
+            },
+            {
+              "x": 58731,
+              "y": 20561,
+              "z": 36861
+            },
+            {
+              "x": 58819,
+              "y": 19209,
+              "z": 36875
+            },
+            {
+              "x": 58627,
+              "y": 18613,
+              "z": 36841
+            },
+            {
+              "x": 58355,
+              "y": 18737,
+              "z": 36799
+            },
+            {
+              "x": 58115,
+              "y": 19337,
+              "z": 36763
+            },
+            {
+              "x": 57939,
+              "y": 20293,
+              "z": 36737
+            },
+            {
+              "x": 57715,
+              "y": 21493,
+              "z": 36703
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 37.648700000000005,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 371,
+              "y": 20026,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 20422,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 21370,
+              "z": 32793
+            },
+            {
+              "x": 371,
+              "y": 22494,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23430,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23822,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23430,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 22494,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 21370,
+              "z": 32793
+            },
+            {
+              "x": 371,
+              "y": 20422,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 20026,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 20422,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 21370,
+              "z": 32793
+            },
+            {
+              "x": 371,
+              "y": 22494,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23430,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23822,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 23430,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 22494,
+              "z": 32795
+            },
+            {
+              "x": 371,
+              "y": 21370,
+              "z": 32793
+            },
+            {
+              "x": 371,
+              "y": 20422,
+              "z": 32791
+            },
+            {
+              "x": 371,
+              "y": 20026,
+              "z": 32791
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.9094,
+            "y": 0.0,
+            "z": -3.7345
+          }
+        }
+      },
+      {
+        "name": "right_shoulder",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "FixedRotationTrack",
+        "rotate": {
+          "co": {
+            "x": 42722,
+            "y": 2895,
+            "z": 33531
+          }
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.228199999999998,
+            "y": 15.47,
+            "z": -10.7589
+          }
+        }
+      },
+      {
+        "name": "right_arm_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 7491,
+              "y": 12722,
+              "z": 31301
+            },
+            {
+              "x": 7459,
+              "y": 13174,
+              "z": 31155
+            },
+            {
+              "x": 7395,
+              "y": 13546,
+              "z": 30981
+            },
+            {
+              "x": 7283,
+              "y": 13410,
+              "z": 30855
+            },
+            {
+              "x": 7179,
+              "y": 12970,
+              "z": 30843
+            },
+            {
+              "x": 7139,
+              "y": 12574,
+              "z": 30935
+            },
+            {
+              "x": 7211,
+              "y": 12410,
+              "z": 31091
+            },
+            {
+              "x": 7355,
+              "y": 12506,
+              "z": 31255
+            },
+            {
+              "x": 7483,
+              "y": 12650,
+              "z": 31363
+            },
+            {
+              "x": 7531,
+              "y": 12750,
+              "z": 31369
+            },
+            {
+              "x": 7523,
+              "y": 12950,
+              "z": 31287
+            },
+            {
+              "x": 7475,
+              "y": 13274,
+              "z": 31139
+            },
+            {
+              "x": 7403,
+              "y": 13538,
+              "z": 30975
+            },
+            {
+              "x": 7283,
+              "y": 13406,
+              "z": 30855
+            },
+            {
+              "x": 7179,
+              "y": 12970,
+              "z": 30843
+            },
+            {
+              "x": 7139,
+              "y": 12574,
+              "z": 30935
+            },
+            {
+              "x": 7211,
+              "y": 12410,
+              "z": 31091
+            },
+            {
+              "x": 7347,
+              "y": 12490,
+              "z": 31259
+            },
+            {
+              "x": 7467,
+              "y": 12562,
+              "z": 31371
+            },
+            {
+              "x": 7507,
+              "y": 12566,
+              "z": 31377
+            },
+            {
+              "x": 7491,
+              "y": 12722,
+              "z": 31301
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 14.654,
+            "y": 0.0,
+            "z": 9.999999999999999e-05
+          }
+        }
+      },
+      {
+        "name": "right_arm_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6466
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7114
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7594
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7498
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6936
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6240
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5754
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5654
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5798
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6136
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6632
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7192
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7592
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 7498
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6936
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6240
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5754
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5628
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5708
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 5988
+            },
+            {
+              "x": 65533,
+              "y": 65533,
+              "z": 6466
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 36.3356,
+            "y": -0.0,
+            "z": -9.999999999999999e-05
+          }
+        }
+      },
+      {
+        "name": "right_hand",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 24915,
+              "y": 13818,
+              "z": 29051
+            },
+            {
+              "x": 25259,
+              "y": 15714,
+              "z": 29109
+            },
+            {
+              "x": 25707,
+              "y": 17014,
+              "z": 29135
+            },
+            {
+              "x": 26059,
+              "y": 16830,
+              "z": 29117
+            },
+            {
+              "x": 26147,
+              "y": 15394,
+              "z": 29071
+            },
+            {
+              "x": 25979,
+              "y": 13350,
+              "z": 29015
+            },
+            {
+              "x": 25603,
+              "y": 11554,
+              "z": 28953
+            },
+            {
+              "x": 25163,
+              "y": 10746,
+              "z": 28907
+            },
+            {
+              "x": 24843,
+              "y": 11058,
+              "z": 28919
+            },
+            {
+              "x": 24779,
+              "y": 12318,
+              "z": 28977
+            },
+            {
+              "x": 24955,
+              "y": 14070,
+              "z": 29051
+            },
+            {
+              "x": 25315,
+              "y": 15854,
+              "z": 29115
+            },
+            {
+              "x": 25723,
+              "y": 17018,
+              "z": 29137
+            },
+            {
+              "x": 26059,
+              "y": 16830,
+              "z": 29117
+            },
+            {
+              "x": 26147,
+              "y": 15394,
+              "z": 29071
+            },
+            {
+              "x": 25979,
+              "y": 13350,
+              "z": 29015
+            },
+            {
+              "x": 25603,
+              "y": 11554,
+              "z": 28953
+            },
+            {
+              "x": 25155,
+              "y": 10702,
+              "z": 28911
+            },
+            {
+              "x": 24819,
+              "y": 10942,
+              "z": 28927
+            },
+            {
+              "x": 24755,
+              "y": 12134,
+              "z": 28985
+            },
+            {
+              "x": 24915,
+              "y": 13818,
+              "z": 29051
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 37.648700000000005,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "right_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 2931,
+              "y": 20886,
+              "z": 32743
+            },
+            {
+              "x": 2931,
+              "y": 20438,
+              "z": 32739
+            },
+            {
+              "x": 2931,
+              "y": 20842,
+              "z": 32743
+            },
+            {
+              "x": 2931,
+              "y": 21806,
+              "z": 32751
+            },
+            {
+              "x": 2931,
+              "y": 22954,
+              "z": 32761
+            },
+            {
+              "x": 2931,
+              "y": 23910,
+              "z": 32771
+            },
+            {
+              "x": 2931,
+              "y": 24310,
+              "z": 32775
+            },
+            {
+              "x": 2931,
+              "y": 23910,
+              "z": 32771
+            },
+            {
+              "x": 2931,
+              "y": 22954,
+              "z": 32761
+            },
+            {
+              "x": 2931,
+              "y": 21806,
+              "z": 32751
+            },
+            {
+              "x": 2931,
+              "y": 20842,
+              "z": 32743
+            },
+            {
+              "x": 2931,
+              "y": 20438,
+              "z": 32739
+            },
+            {
+              "x": 2931,
+              "y": 20842,
+              "z": 32743
+            },
+            {
+              "x": 2931,
+              "y": 21806,
+              "z": 32751
+            },
+            {
+              "x": 2931,
+              "y": 22954,
+              "z": 32761
+            },
+            {
+              "x": 2931,
+              "y": 23910,
+              "z": 32771
+            },
+            {
+              "x": 2931,
+              "y": 24310,
+              "z": 32775
+            },
+            {
+              "x": 2931,
+              "y": 23914,
+              "z": 32771
+            },
+            {
+              "x": 2931,
+              "y": 22974,
+              "z": 32763
+            },
+            {
+              "x": 2931,
+              "y": 21842,
+              "z": 32751
+            },
+            {
+              "x": 2931,
+              "y": 20886,
+              "z": 32743
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.9094,
+            "y": 0.0,
+            "z": -3.7345
+          }
+        }
+      },
+      {
+        "name": "hips",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            2,
+            5,
+            7,
+            10,
+            12,
+            15,
+            17,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 60114,
+              "y": 64225,
+              "z": 31406
+            },
+            {
+              "x": 60114,
+              "y": 64225,
+              "z": 31406
+            },
+            {
+              "x": 60106,
+              "y": 64225,
+              "z": 31536
+            },
+            {
+              "x": 59146,
+              "y": 64213,
+              "z": 31600
+            },
+            {
+              "x": 59154,
+              "y": 64209,
+              "z": 31472
+            },
+            {
+              "x": 60122,
+              "y": 64225,
+              "z": 31408
+            },
+            {
+              "x": 60106,
+              "y": 64225,
+              "z": 31536
+            },
+            {
+              "x": 59146,
+              "y": 64213,
+              "z": 31600
+            },
+            {
+              "x": 59162,
+              "y": 64209,
+              "z": 31472
+            },
+            {
+              "x": 60114,
+              "y": 64225,
+              "z": 31406
+            },
+            {
+              "x": 60114,
+              "y": 64225,
+              "z": 31406
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "left_leg_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 48635,
+              "y": 34077,
+              "z": 35098
+            },
+            {
+              "x": 48747,
+              "y": 34069,
+              "z": 35200
+            },
+            {
+              "x": 48987,
+              "y": 34045,
+              "z": 35378
+            },
+            {
+              "x": 49259,
+              "y": 33949,
+              "z": 35580
+            },
+            {
+              "x": 49483,
+              "y": 33781,
+              "z": 35744
+            },
+            {
+              "x": 49547,
+              "y": 33577,
+              "z": 35794
+            },
+            {
+              "x": 49419,
+              "y": 33433,
+              "z": 35712
+            },
+            {
+              "x": 49163,
+              "y": 33505,
+              "z": 35530
+            },
+            {
+              "x": 48867,
+              "y": 33825,
+              "z": 35312
+            },
+            {
+              "x": 48651,
+              "y": 34125,
+              "z": 35140
+            },
+            {
+              "x": 48611,
+              "y": 34213,
+              "z": 35092
+            },
+            {
+              "x": 48763,
+              "y": 34141,
+              "z": 35184
+            },
+            {
+              "x": 49019,
+              "y": 34045,
+              "z": 35366
+            },
+            {
+              "x": 49283,
+              "y": 33949,
+              "z": 35574
+            },
+            {
+              "x": 49491,
+              "y": 33781,
+              "z": 35742
+            },
+            {
+              "x": 49547,
+              "y": 33577,
+              "z": 35794
+            },
+            {
+              "x": 49427,
+              "y": 33429,
+              "z": 35712
+            },
+            {
+              "x": 49171,
+              "y": 33505,
+              "z": 35528
+            },
+            {
+              "x": 48883,
+              "y": 33805,
+              "z": 35310
+            },
+            {
+              "x": 48667,
+              "y": 34053,
+              "z": 35140
+            },
+            {
+              "x": 48635,
+              "y": 34077,
+              "z": 35098
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 20.0767,
+            "y": 16.6388,
+            "z": 6.1708
+          }
+        }
+      },
+      {
+        "name": "left_leg_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 3,
+              "y": 36774,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 37894,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 39802,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 41774,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 43050,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 43270,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42486,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 40846,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 38650,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36934,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36546,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 37814,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 39866,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 41798,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 43054,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 43266,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42466,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 40806,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 38662,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 37062,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36774,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 27.642400000000002,
+            "y": -0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_foot",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 64065,
+              "y": 63913,
+              "z": 12480
+            },
+            {
+              "x": 64097,
+              "y": 63897,
+              "z": 12918
+            },
+            {
+              "x": 64185,
+              "y": 63861,
+              "z": 13620
+            },
+            {
+              "x": 64281,
+              "y": 63825,
+              "z": 14334
+            },
+            {
+              "x": 64337,
+              "y": 63805,
+              "z": 14758
+            },
+            {
+              "x": 64345,
+              "y": 63801,
+              "z": 14780
+            },
+            {
+              "x": 64297,
+              "y": 63817,
+              "z": 14478
+            },
+            {
+              "x": 64225,
+              "y": 63849,
+              "z": 13882
+            },
+            {
+              "x": 64145,
+              "y": 63885,
+              "z": 13074
+            },
+            {
+              "x": 64081,
+              "y": 63909,
+              "z": 12472
+            },
+            {
+              "x": 64057,
+              "y": 63917,
+              "z": 12376
+            },
+            {
+              "x": 64105,
+              "y": 63897,
+              "z": 12880
+            },
+            {
+              "x": 64185,
+              "y": 63861,
+              "z": 13652
+            },
+            {
+              "x": 64281,
+              "y": 63825,
+              "z": 14346
+            },
+            {
+              "x": 64337,
+              "y": 63805,
+              "z": 14760
+            },
+            {
+              "x": 64345,
+              "y": 63801,
+              "z": 14778
+            },
+            {
+              "x": 64297,
+              "y": 63817,
+              "z": 14468
+            },
+            {
+              "x": 64217,
+              "y": 63849,
+              "z": 13862
+            },
+            {
+              "x": 64137,
+              "y": 63885,
+              "z": 13078
+            },
+            {
+              "x": 64081,
+              "y": 63909,
+              "z": 12530
+            },
+            {
+              "x": 64065,
+              "y": 63913,
+              "z": 12480
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.8745,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "left_toe",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 64091,
+              "y": 43277,
+              "z": 34687
+            },
+            {
+              "x": 63899,
+              "y": 43461,
+              "z": 34657
+            },
+            {
+              "x": 63451,
+              "y": 42997,
+              "z": 34623
+            },
+            {
+              "x": 62859,
+              "y": 42341,
+              "z": 34585
+            },
+            {
+              "x": 62339,
+              "y": 41737,
+              "z": 34555
+            },
+            {
+              "x": 62107,
+              "y": 41397,
+              "z": 34547
+            },
+            {
+              "x": 62283,
+              "y": 41397,
+              "z": 34569
+            },
+            {
+              "x": 62771,
+              "y": 41625,
+              "z": 34609
+            },
+            {
+              "x": 63355,
+              "y": 42049,
+              "z": 34649
+            },
+            {
+              "x": 63843,
+              "y": 42669,
+              "z": 34675
+            },
+            {
+              "x": 64075,
+              "y": 43253,
+              "z": 34683
+            },
+            {
+              "x": 63923,
+              "y": 43393,
+              "z": 34667
+            },
+            {
+              "x": 63475,
+              "y": 42993,
+              "z": 34635
+            },
+            {
+              "x": 62875,
+              "y": 42337,
+              "z": 34593
+            },
+            {
+              "x": 62339,
+              "y": 41737,
+              "z": 34557
+            },
+            {
+              "x": 62107,
+              "y": 41397,
+              "z": 34549
+            },
+            {
+              "x": 62283,
+              "y": 41401,
+              "z": 34571
+            },
+            {
+              "x": 62779,
+              "y": 41629,
+              "z": 34613
+            },
+            {
+              "x": 63371,
+              "y": 42033,
+              "z": 34655
+            },
+            {
+              "x": 63883,
+              "y": 42641,
+              "z": 34683
+            },
+            {
+              "x": 64091,
+              "y": 43277,
+              "z": 34687
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 1.1703,
+            "y": 0.0,
+            "z": -28.018700000000003
+          }
+        }
+      },
+      {
+        "name": "left_foot_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 60411,
+              "y": 63173,
+              "z": 32872
+            },
+            {
+              "x": 60411,
+              "y": 64541,
+              "z": 32852
+            },
+            {
+              "x": 60403,
+              "y": 189,
+              "z": 32835
+            },
+            {
+              "x": 60403,
+              "y": 697,
+              "z": 32827
+            },
+            {
+              "x": 60403,
+              "y": 405,
+              "z": 32831
+            },
+            {
+              "x": 60403,
+              "y": 65221,
+              "z": 32840
+            },
+            {
+              "x": 60411,
+              "y": 64281,
+              "z": 32856
+            },
+            {
+              "x": 60411,
+              "y": 63341,
+              "z": 32870
+            },
+            {
+              "x": 60419,
+              "y": 62617,
+              "z": 32880
+            },
+            {
+              "x": 60419,
+              "y": 62329,
+              "z": 32886
+            },
+            {
+              "x": 60419,
+              "y": 62937,
+              "z": 32876
+            },
+            {
+              "x": 60411,
+              "y": 64281,
+              "z": 32856
+            },
+            {
+              "x": 60403,
+              "y": 85,
+              "z": 32835
+            },
+            {
+              "x": 60403,
+              "y": 697,
+              "z": 32827
+            },
+            {
+              "x": 60403,
+              "y": 405,
+              "z": 32831
+            },
+            {
+              "x": 60403,
+              "y": 65221,
+              "z": 32840
+            },
+            {
+              "x": 60411,
+              "y": 64281,
+              "z": 32856
+            },
+            {
+              "x": 60411,
+              "y": 63341,
+              "z": 32870
+            },
+            {
+              "x": 60419,
+              "y": 62617,
+              "z": 32880
+            },
+            {
+              "x": 60419,
+              "y": 62329,
+              "z": 32886
+            },
+            {
+              "x": 60411,
+              "y": 63173,
+              "z": 32872
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.180499999999999,
+            "y": 0.0,
+            "z": -3.6132999999999997
+          }
+        }
+      },
+      {
+        "name": "right_leg_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            3,
+            5,
+            7,
+            9,
+            13,
+            15,
+            16,
+            17,
+            19,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 12875,
+              "y": 24662,
+              "z": 30548
+            },
+            {
+              "x": 12875,
+              "y": 24662,
+              "z": 30548
+            },
+            {
+              "x": 13323,
+              "y": 24958,
+              "z": 30580
+            },
+            {
+              "x": 13203,
+              "y": 24698,
+              "z": 30648
+            },
+            {
+              "x": 12907,
+              "y": 24454,
+              "z": 30604
+            },
+            {
+              "x": 12739,
+              "y": 24646,
+              "z": 30564
+            },
+            {
+              "x": 13315,
+              "y": 24958,
+              "z": 30580
+            },
+            {
+              "x": 13203,
+              "y": 24698,
+              "z": 30646
+            },
+            {
+              "x": 13051,
+              "y": 24498,
+              "z": 30630
+            },
+            {
+              "x": 12907,
+              "y": 24454,
+              "z": 30602
+            },
+            {
+              "x": 12771,
+              "y": 24658,
+              "z": 30560
+            },
+            {
+              "x": 12875,
+              "y": 24662,
+              "z": 30548
+            },
+            {
+              "x": 12875,
+              "y": 24662,
+              "z": 30548
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 20.0767,
+            "y": -16.6388,
+            "z": 6.1708
+          }
+        }
+      },
+      {
+        "name": "right_leg_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 3,
+              "y": 36626,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 38602,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 40466,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42058,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42898,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42850,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 41698,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 39698,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 37522,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36002,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36214,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 38082,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 40302,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42058,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42906,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 42882,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 41762,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 39806,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 37650,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36134,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 36626,
+              "z": 32769
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 27.6423,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      },
+      {
+        "name": "right_foot",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 33,
+              "y": 2694,
+              "z": 13793
+            },
+            {
+              "x": 65433,
+              "y": 2733,
+              "z": 14751
+            },
+            {
+              "x": 65273,
+              "y": 2785,
+              "z": 15681
+            },
+            {
+              "x": 65137,
+              "y": 2825,
+              "z": 16495
+            },
+            {
+              "x": 65073,
+              "y": 2845,
+              "z": 16931
+            },
+            {
+              "x": 65089,
+              "y": 2841,
+              "z": 16907
+            },
+            {
+              "x": 65193,
+              "y": 2809,
+              "z": 16309
+            },
+            {
+              "x": 65353,
+              "y": 2761,
+              "z": 15297
+            },
+            {
+              "x": 65505,
+              "y": 2713,
+              "z": 14225
+            },
+            {
+              "x": 73,
+              "y": 2682,
+              "z": 13495
+            },
+            {
+              "x": 57,
+              "y": 2686,
+              "z": 13597
+            },
+            {
+              "x": 65465,
+              "y": 2725,
+              "z": 14499
+            },
+            {
+              "x": 65281,
+              "y": 2781,
+              "z": 15601
+            },
+            {
+              "x": 65137,
+              "y": 2825,
+              "z": 16495
+            },
+            {
+              "x": 65073,
+              "y": 2845,
+              "z": 16935
+            },
+            {
+              "x": 65089,
+              "y": 2841,
+              "z": 16923
+            },
+            {
+              "x": 65193,
+              "y": 2809,
+              "z": 16343
+            },
+            {
+              "x": 65345,
+              "y": 2761,
+              "z": 15349
+            },
+            {
+              "x": 65497,
+              "y": 2713,
+              "z": 14287
+            },
+            {
+              "x": 65,
+              "y": 2682,
+              "z": 13559
+            },
+            {
+              "x": 33,
+              "y": 2694,
+              "z": 13793
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.8745,
+            "y": 0.0,
+            "z": -9.999999999999999e-05
+          }
+        }
+      },
+      {
+        "name": "right_toe",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "Framed8RotationTrack",
+        "rotate": {
+          "frames": [
+            0,
+            0,
+            1,
+            2,
+            4,
+            6,
+            8,
+            9,
+            11,
+            13,
+            15,
+            18,
+            20,
+            20
+          ],
+          "co": [
+            {
+              "x": 13147,
+              "y": 20418,
+              "z": 30973
+            },
+            {
+              "x": 13147,
+              "y": 20418,
+              "z": 30973
+            },
+            {
+              "x": 13435,
+              "y": 20642,
+              "z": 31009
+            },
+            {
+              "x": 13731,
+              "y": 20334,
+              "z": 31037
+            },
+            {
+              "x": 13739,
+              "y": 19526,
+              "z": 31003
+            },
+            {
+              "x": 13315,
+              "y": 19250,
+              "z": 30933
+            },
+            {
+              "x": 13003,
+              "y": 19698,
+              "z": 30915
+            },
+            {
+              "x": 12987,
+              "y": 20066,
+              "z": 30927
+            },
+            {
+              "x": 13443,
+              "y": 20574,
+              "z": 30995
+            },
+            {
+              "x": 13859,
+              "y": 19918,
+              "z": 31031
+            },
+            {
+              "x": 13539,
+              "y": 19282,
+              "z": 30967
+            },
+            {
+              "x": 13011,
+              "y": 19658,
+              "z": 30915
+            },
+            {
+              "x": 13147,
+              "y": 20418,
+              "z": 30973
+            },
+            {
+              "x": 13147,
+              "y": 20418,
+              "z": 30973
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 1.1703,
+            "y": 0.0,
+            "z": -28.018700000000003
+          }
+        }
+      },
+      {
+        "name": "right_foot_index",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 3,
+              "y": 64902,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 734,
+              "z": 32769
+            },
+            {
+              "x": 65531,
+              "y": 1797,
+              "z": 32767
+            },
+            {
+              "x": 65531,
+              "y": 2225,
+              "z": 32767
+            },
+            {
+              "x": 3,
+              "y": 1762,
+              "z": 32769
+            },
+            {
+              "x": 65531,
+              "y": 657,
+              "z": 32767
+            },
+            {
+              "x": 3,
+              "y": 64878,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63774,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63314,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63774,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 64878,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 658,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 1762,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 2226,
+              "z": 32767
+            },
+            {
+              "x": 3,
+              "y": 1762,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 658,
+              "z": 32769
+            },
+            {
+              "x": 3,
+              "y": 64878,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63774,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63314,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 63758,
+              "z": 32768
+            },
+            {
+              "x": 3,
+              "y": 64902,
+              "z": 32768
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 7.180499999999999,
+            "y": -0.0,
+            "z": -3.6132999999999997
+          }
+        }
+      },
+      {
+        "name": "tail_01",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 60915,
+              "y": 6465,
+              "z": 30143
+            },
+            {
+              "x": 61707,
+              "y": 6889,
+              "z": 30225
+            },
+            {
+              "x": 62123,
+              "y": 7421,
+              "z": 30147
+            },
+            {
+              "x": 61931,
+              "y": 7885,
+              "z": 29945
+            },
+            {
+              "x": 61283,
+              "y": 8109,
+              "z": 29697
+            },
+            {
+              "x": 60419,
+              "y": 7965,
+              "z": 29489
+            },
+            {
+              "x": 59619,
+              "y": 7549,
+              "z": 29401
+            },
+            {
+              "x": 59187,
+              "y": 7021,
+              "z": 29483
+            },
+            {
+              "x": 59371,
+              "y": 6545,
+              "z": 29689
+            },
+            {
+              "x": 60035,
+              "y": 6317,
+              "z": 29933
+            },
+            {
+              "x": 60915,
+              "y": 6465,
+              "z": 30137
+            },
+            {
+              "x": 61707,
+              "y": 6889,
+              "z": 30225
+            },
+            {
+              "x": 62123,
+              "y": 7421,
+              "z": 30147
+            },
+            {
+              "x": 61931,
+              "y": 7885,
+              "z": 29945
+            },
+            {
+              "x": 61283,
+              "y": 8109,
+              "z": 29697
+            },
+            {
+              "x": 60419,
+              "y": 7969,
+              "z": 29489
+            },
+            {
+              "x": 59619,
+              "y": 7561,
+              "z": 29401
+            },
+            {
+              "x": 59179,
+              "y": 7037,
+              "z": 29511
+            },
+            {
+              "x": 59371,
+              "y": 6585,
+              "z": 29715
+            },
+            {
+              "x": 60035,
+              "y": 6357,
+              "z": 29949
+            },
+            {
+              "x": 60915,
+              "y": 6465,
+              "z": 30143
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 31.003700000000002,
+            "y": 0.0,
+            "z": -2.9518
+          }
+        }
+      },
+      {
+        "name": "tail_02",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 43,
+              "y": 630,
+              "z": 33625
+            },
+            {
+              "x": 787,
+              "y": 1090,
+              "z": 33707
+            },
+            {
+              "x": 1091,
+              "y": 1634,
+              "z": 33629
+            },
+            {
+              "x": 771,
+              "y": 2078,
+              "z": 33437
+            },
+            {
+              "x": 19,
+              "y": 2262,
+              "z": 33203
+            },
+            {
+              "x": 64667,
+              "y": 2069,
+              "z": 33007
+            },
+            {
+              "x": 63915,
+              "y": 1617,
+              "z": 32923
+            },
+            {
+              "x": 63587,
+              "y": 1077,
+              "z": 33005
+            },
+            {
+              "x": 63915,
+              "y": 621,
+              "z": 33201
+            },
+            {
+              "x": 64675,
+              "y": 433,
+              "z": 33431
+            },
+            {
+              "x": 43,
+              "y": 630,
+              "z": 33623
+            },
+            {
+              "x": 787,
+              "y": 1090,
+              "z": 33707
+            },
+            {
+              "x": 1091,
+              "y": 1634,
+              "z": 33629
+            },
+            {
+              "x": 771,
+              "y": 2078,
+              "z": 33437
+            },
+            {
+              "x": 27,
+              "y": 2262,
+              "z": 33203
+            },
+            {
+              "x": 64667,
+              "y": 2053,
+              "z": 33007
+            },
+            {
+              "x": 63915,
+              "y": 1585,
+              "z": 32923
+            },
+            {
+              "x": 63587,
+              "y": 1081,
+              "z": 33007
+            },
+            {
+              "x": 63907,
+              "y": 685,
+              "z": 33205
+            },
+            {
+              "x": 64675,
+              "y": 485,
+              "z": 33435
+            },
+            {
+              "x": 43,
+              "y": 630,
+              "z": 33625
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 11.708,
+            "y": -0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "tail_03",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 99,
+              "y": 362,
+              "z": 33231
+            },
+            {
+              "x": 859,
+              "y": 818,
+              "z": 33317
+            },
+            {
+              "x": 1171,
+              "y": 1358,
+              "z": 33239
+            },
+            {
+              "x": 859,
+              "y": 1806,
+              "z": 33047
+            },
+            {
+              "x": 115,
+              "y": 1994,
+              "z": 32815
+            },
+            {
+              "x": 64747,
+              "y": 1805,
+              "z": 32617
+            },
+            {
+              "x": 63987,
+              "y": 1353,
+              "z": 32535
+            },
+            {
+              "x": 63651,
+              "y": 813,
+              "z": 32617
+            },
+            {
+              "x": 63971,
+              "y": 357,
+              "z": 32813
+            },
+            {
+              "x": 64731,
+              "y": 169,
+              "z": 33043
+            },
+            {
+              "x": 107,
+              "y": 362,
+              "z": 33235
+            },
+            {
+              "x": 859,
+              "y": 818,
+              "z": 33317
+            },
+            {
+              "x": 1171,
+              "y": 1358,
+              "z": 33239
+            },
+            {
+              "x": 859,
+              "y": 1806,
+              "z": 33047
+            },
+            {
+              "x": 115,
+              "y": 1994,
+              "z": 32815
+            },
+            {
+              "x": 64755,
+              "y": 1801,
+              "z": 32617
+            },
+            {
+              "x": 63995,
+              "y": 1393,
+              "z": 32535
+            },
+            {
+              "x": 63659,
+              "y": 1009,
+              "z": 32619
+            },
+            {
+              "x": 63963,
+              "y": 633,
+              "z": 32803
+            },
+            {
+              "x": 64723,
+              "y": 305,
+              "z": 33035
+            },
+            {
+              "x": 99,
+              "y": 362,
+              "z": 33231
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 10.9501,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "tail_04",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 843,
+              "y": 59234,
+              "z": 32978
+            },
+            {
+              "x": 3491,
+              "y": 58406,
+              "z": 33640
+            },
+            {
+              "x": 6499,
+              "y": 59310,
+              "z": 34192
+            },
+            {
+              "x": 8811,
+              "y": 61346,
+              "z": 34448
+            },
+            {
+              "x": 9603,
+              "y": 63682,
+              "z": 34252
+            },
+            {
+              "x": 8451,
+              "y": 34,
+              "z": 33709
+            },
+            {
+              "x": 6043,
+              "y": 778,
+              "z": 33009
+            },
+            {
+              "x": 3179,
+              "y": 65458,
+              "z": 32392
+            },
+            {
+              "x": 715,
+              "y": 63498,
+              "z": 32136
+            },
+            {
+              "x": 65227,
+              "y": 61157,
+              "z": 32396
+            },
+            {
+              "x": 843,
+              "y": 59194,
+              "z": 32978
+            },
+            {
+              "x": 3491,
+              "y": 58406,
+              "z": 33640
+            },
+            {
+              "x": 6499,
+              "y": 59310,
+              "z": 34192
+            },
+            {
+              "x": 8811,
+              "y": 61346,
+              "z": 34448
+            },
+            {
+              "x": 9603,
+              "y": 63682,
+              "z": 34248
+            },
+            {
+              "x": 8315,
+              "y": 30,
+              "z": 33699
+            },
+            {
+              "x": 5755,
+              "y": 778,
+              "z": 33001
+            },
+            {
+              "x": 3163,
+              "y": 65390,
+              "z": 32410
+            },
+            {
+              "x": 1115,
+              "y": 63594,
+              "z": 32212
+            },
+            {
+              "x": 19,
+              "y": 61258,
+              "z": 32436
+            },
+            {
+              "x": 843,
+              "y": 59234,
+              "z": 32978
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 12.601299999999998,
+            "y": 0.0,
+            "z": -0.0
+          }
+        }
+      },
+      {
+        "name": "tail_05",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 64427,
+              "y": 60277,
+              "z": 33740
+            },
+            {
+              "x": 315,
+              "y": 57842,
+              "z": 34548
+            },
+            {
+              "x": 3251,
+              "y": 56910,
+              "z": 35578
+            },
+            {
+              "x": 6307,
+              "y": 58106,
+              "z": 36480
+            },
+            {
+              "x": 8355,
+              "y": 60698,
+              "z": 36896
+            },
+            {
+              "x": 8739,
+              "y": 63626,
+              "z": 36586
+            },
+            {
+              "x": 7299,
+              "y": 406,
+              "z": 35759
+            },
+            {
+              "x": 4819,
+              "y": 1290,
+              "z": 34711
+            },
+            {
+              "x": 2059,
+              "y": 170,
+              "z": 33801
+            },
+            {
+              "x": 65267,
+              "y": 63221,
+              "z": 33426
+            },
+            {
+              "x": 64451,
+              "y": 60277,
+              "z": 33818
+            },
+            {
+              "x": 371,
+              "y": 57842,
+              "z": 34692
+            },
+            {
+              "x": 3299,
+              "y": 56914,
+              "z": 35688
+            },
+            {
+              "x": 6323,
+              "y": 58106,
+              "z": 36518
+            },
+            {
+              "x": 8355,
+              "y": 60698,
+              "z": 36896
+            },
+            {
+              "x": 8731,
+              "y": 63618,
+              "z": 36522
+            },
+            {
+              "x": 7051,
+              "y": 390,
+              "z": 35643
+            },
+            {
+              "x": 4835,
+              "y": 1290,
+              "z": 34747
+            },
+            {
+              "x": 2531,
+              "y": 182,
+              "z": 34033
+            },
+            {
+              "x": 65523,
+              "y": 63221,
+              "z": 33582
+            },
+            {
+              "x": 64427,
+              "y": 60277,
+              "z": 33740
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 18.9128,
+            "y": 0.0,
+            "z": 0.00019999999999999998
+          }
+        }
+      },
+      {
+        "name": "tail_06",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 507,
+              "y": 62534,
+              "z": 31952
+            },
+            {
+              "x": 64595,
+              "y": 58485,
+              "z": 32652
+            },
+            {
+              "x": 1331,
+              "y": 55374,
+              "z": 34216
+            },
+            {
+              "x": 6035,
+              "y": 54322,
+              "z": 35990
+            },
+            {
+              "x": 10875,
+              "y": 55802,
+              "z": 37466
+            },
+            {
+              "x": 14019,
+              "y": 58870,
+              "z": 38132
+            },
+            {
+              "x": 14475,
+              "y": 62410,
+              "z": 37588
+            },
+            {
+              "x": 12147,
+              "y": 110,
+              "z": 36147
+            },
+            {
+              "x": 8347,
+              "y": 2530,
+              "z": 34305
+            },
+            {
+              "x": 4243,
+              "y": 3482,
+              "z": 32679
+            },
+            {
+              "x": 691,
+              "y": 1930,
+              "z": 31961
+            },
+            {
+              "x": 64627,
+              "y": 63761,
+              "z": 32638
+            },
+            {
+              "x": 1051,
+              "y": 59358,
+              "z": 34230
+            },
+            {
+              "x": 5787,
+              "y": 55858,
+              "z": 36018
+            },
+            {
+              "x": 11123,
+              "y": 54714,
+              "z": 37430
+            },
+            {
+              "x": 14539,
+              "y": 56870,
+              "z": 38046
+            },
+            {
+              "x": 14587,
+              "y": 60594,
+              "z": 36396
+            },
+            {
+              "x": 12283,
+              "y": 63998,
+              "z": 34256
+            },
+            {
+              "x": 8571,
+              "y": 234,
+              "z": 33257
+            },
+            {
+              "x": 4251,
+              "y": 65374,
+              "z": 32340
+            },
+            {
+              "x": 507,
+              "y": 62534,
+              "z": 31952
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 23.3037,
+            "y": 0.0,
+            "z": -0.00019999999999999998
+          }
+        }
+      },
+      {
+        "name": "tail_07",
+        "scale_type": "FixedVectorTrack",
+        "scale": {
+          "co": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "rotate_type": "DynamicRotationTrack",
+        "rotate": {
+          "co": [
+            {
+              "x": 50779,
+              "y": 7813,
+              "z": 31879
+            },
+            {
+              "x": 47243,
+              "y": 6181,
+              "z": 31535
+            },
+            {
+              "x": 45483,
+              "y": 1993,
+              "z": 32131
+            },
+            {
+              "x": 46995,
+              "y": 62409,
+              "z": 33310
+            },
+            {
+              "x": 51083,
+              "y": 58109,
+              "z": 34530
+            },
+            {
+              "x": 55899,
+              "y": 56341,
+              "z": 35388
+            },
+            {
+              "x": 59395,
+              "y": 58129,
+              "z": 35638
+            },
+            {
+              "x": 60283,
+              "y": 62321,
+              "z": 35168
+            },
+            {
+              "x": 58291,
+              "y": 1753,
+              "z": 34177
+            },
+            {
+              "x": 54731,
+              "y": 5957,
+              "z": 32947
+            },
+            {
+              "x": 50779,
+              "y": 7809,
+              "z": 31897
+            },
+            {
+              "x": 47243,
+              "y": 6181,
+              "z": 31535
+            },
+            {
+              "x": 45483,
+              "y": 1993,
+              "z": 32131
+            },
+            {
+              "x": 46995,
+              "y": 62409,
+              "z": 33310
+            },
+            {
+              "x": 51075,
+              "y": 58109,
+              "z": 34530
+            },
+            {
+              "x": 55883,
+              "y": 56341,
+              "z": 35388
+            },
+            {
+              "x": 59219,
+              "y": 59317,
+              "z": 35616
+            },
+            {
+              "x": 59979,
+              "y": 64865,
+              "z": 35084
+            },
+            {
+              "x": 58155,
+              "y": 3777,
+              "z": 34069
+            },
+            {
+              "x": 54731,
+              "y": 6689,
+              "z": 32877
+            },
+            {
+              "x": 50779,
+              "y": 7813,
+              "z": 31879
+            }
+          ]
+        },
+        "translate_type": "FixedVectorTrack",
+        "translate": {
+          "co": {
+            "x": 22.758300000000002,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    ]
+  }
+}

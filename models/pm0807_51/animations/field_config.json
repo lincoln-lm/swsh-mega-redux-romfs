@@ -1,0 +1,2111 @@
+{
+  "layerConfig": {
+    "layer": [
+      {
+        "index": 0,
+        "name": "Base",
+        "children": {
+          "joint_mask_set": {
+            "enabled": 0
+          },
+          "material_mask_set": {
+            "enabled": 0
+          },
+          "mesh_mask_set": {
+            "enabled": 0
+          }
+        }
+      },
+      {
+        "index": 1,
+        "name": "eye01",
+        "children": {
+          "joint_mask_set": {
+            "enabled": 1
+          },
+          "material_mask_set": {
+            "enabled": 0
+          },
+          "mesh_mask_set": {
+            "enabled": 1
+          }
+        }
+      },
+      {
+        "index": 2,
+        "name": "eye02",
+        "children": {
+          "joint_mask_set": {
+            "enabled": 1
+          },
+          "material_mask_set": {
+            "enabled": 0
+          },
+          "mesh_mask_set": {
+            "enabled": 1
+          }
+        }
+      },
+      {
+        "index": 3,
+        "name": "mouth01",
+        "children": {
+          "joint_mask_set": {
+            "enabled": 1,
+            "maskUnit": [
+              {
+                "string": "LowerJaw"
+              }
+            ]
+          },
+          "material_mask_set": {
+            "enabled": 0
+          },
+          "mesh_mask_set": {
+            "enabled": 1
+          }
+        }
+      }
+    ],
+    "blend_Mask": {
+      "joint_mask_set": {
+        "enabled": 0
+      },
+      "material_mask_set": {
+        "enabled": 0,
+        "masks": []
+      },
+      "mesh_mask_set": {
+        "enabled": 0
+      }
+    }
+  },
+  "lookAtConfig": {
+    "entries": [
+      {
+        "name": "Spine",
+        "rot_type": "x",
+        "limit1": {
+          "r0": -20.0,
+          "r1": 20.0
+        },
+        "limit2": {
+          "r0": 0.0,
+          "r1": 0.0
+        },
+        "speed": 1.0
+      },
+      {
+        "name": "Head",
+        "rot_type": "xy",
+        "limit1": {
+          "r0": -30.0,
+          "r1": 30.0
+        },
+        "limit2": {
+          "r0": -5.0,
+          "r1": 20.0
+        },
+        "speed": 1.0
+      }
+    ]
+  },
+  "stateConfig": {
+    "StateMachines": [
+      {
+        "state_name": "Base",
+        "root_node": {
+          "path": "Top",
+          "statetype": "Top",
+          "tag": "Default",
+          "transitions": [],
+          "substates": [
+            {
+              "path": "Top/Entry",
+              "statetype": "Entry",
+              "tag": "Default",
+              "transitions": [
+                {
+                  "path": "Top/field_default",
+                  "has_exit_time": false,
+                  "exit_time": 1.0,
+                  "duration": 0.0,
+                  "offset": 0.0,
+                  "can_interrupt": false,
+                  "undef_7": 0,
+                  "undef_8": 0,
+                  "undef_9": 0,
+                  "undef_10": 0
+                }
+              ],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/Any",
+              "statetype": "Any",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/field_default",
+              "statetype": "Normal",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [
+                {
+                  "path": "Top/field_default/Entry",
+                  "statetype": "Entry",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/field_default/fi01_wait01",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                },
+                {
+                  "path": "Top/field_default/Any",
+                  "statetype": "Any",
+                  "tag": "Default",
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/field_default/fi01_wait01",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "kw01_wait01",
+                      "resource_type": "file"
+                    },
+                    "speed": 1.0
+                  },
+                  "transitions": [
+                    {
+                      "path": "Top/field_default/fi20_walk01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Greater",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 0.0
+                          },
+                          "unk": 0
+                        },
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Less",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 1.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/field_default/fi21_run01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Gequal",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 1.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                },
+                {
+                  "path": "Top/field_default/fi20_walk01",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "fi20_walk01",
+                      "resource_type": "file"
+                    },
+                    "speed": 1.0
+                  },
+                  "transitions": [
+                    {
+                      "path": "Top/field_default/fi01_wait01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 0.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/field_default/fi21_run01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Gequal",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 1.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                },
+                {
+                  "path": "Top/field_default/fi21_run01",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "fi21_run01",
+                      "resource_type": "file"
+                    },
+                    "speed": 1.0
+                  },
+                  "transitions": [
+                    {
+                      "path": "Top/field_default/fi01_wait01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 0.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/field_default/fi20_walk01",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.1,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Less",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 1.0
+                          },
+                          "unk": 0
+                        },
+                        {
+                          "name": "fi_move_speed",
+                          "func": "Greater",
+                          "value_type": "ConditionValue_Float",
+                          "value": {
+                            "value": 0.0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                }
+              ]
+            }
+          ],
+          "unk_1": {
+            "undef_0": false,
+            "unk_1": 1.0
+          }
+        }
+      },
+      {
+        "state_name": "eye01",
+        "root_node": {
+          "path": "Top",
+          "statetype": "Top",
+          "tag": "Default",
+          "transitions": [],
+          "substates": [
+            {
+              "path": "Top/Entry",
+              "statetype": "Entry",
+              "tag": "Default",
+              "transitions": [
+                {
+                  "path": "Top/eye01_default",
+                  "has_exit_time": false,
+                  "exit_time": 1.0,
+                  "duration": 0.0,
+                  "offset": 0.0,
+                  "can_interrupt": false,
+                  "undef_7": 0,
+                  "undef_8": 0,
+                  "undef_9": 0,
+                  "undef_10": 0
+                }
+              ],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/Any",
+              "statetype": "Any",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/eye01_default",
+              "statetype": "Normal",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [
+                {
+                  "path": "Top/eye01_default/Entry",
+                  "statetype": "Entry",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye01_default/eye_base",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye01_default/Any",
+                  "statetype": "Any",
+                  "tag": "Default",
+                  "transitions": [],
+                  "substates": [],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye01_default/eye_base",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye01_default/eye_blink",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "to_eye_blink01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Trigger",
+                          "value": {
+                            "value": 1
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [
+                    {
+                      "path": "Top/eye01_default/eye_base/Entry",
+                      "statetype": "Entry",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_default",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/Any",
+                      "statetype": "Any",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_default",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 0
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_01",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 1
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_02",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.125,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 2
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_03",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.25,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 3
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_04",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.375,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 4
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_05",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.5,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 5
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_06",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.625,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 6
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye01_default/eye_base/eye01_07",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.75,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 7
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_01",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_02",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_03",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_04",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_06",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_07",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_05",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_base/eye01_default",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    }
+                  ],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye01_default/eye_blink",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye01_default/eye_base",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [
+                    {
+                      "path": "Top/eye01_default/eye_blink/Entry",
+                      "statetype": "Entry",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye01_default/eye_blink/eye01_03",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.25,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_blink/Any",
+                      "statetype": "Any",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_blink/Exit",
+                      "statetype": "Exit",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_blink/eye01_03",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 1.0
+                      },
+                      "transitions": [
+                        {
+                          "path": "Top/eye01_default/eye_blink/eye01_02",
+                          "has_exit_time": true,
+                          "exit_time": 0.275,
+                          "duration": 0.0,
+                          "offset": 0.125,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye01_default/eye_blink/eye01_02",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 1.0
+                      },
+                      "transitions": [
+                        {
+                          "path": "Top/eye01_default/eye_blink/Exit",
+                          "has_exit_time": true,
+                          "exit_time": 0.1,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    }
+                  ],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                }
+              ],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            }
+          ],
+          "unk_1": {
+            "undef_0": false,
+            "unk_1": 1.0
+          }
+        }
+      },
+      {
+        "state_name": "eye02",
+        "root_node": {
+          "path": "Top",
+          "statetype": "Top",
+          "tag": "Default",
+          "transitions": [],
+          "substates": [
+            {
+              "path": "Top/Entry",
+              "statetype": "Entry",
+              "tag": "Default",
+              "transitions": [
+                {
+                  "path": "Top/eye02_default",
+                  "has_exit_time": false,
+                  "exit_time": 1.0,
+                  "duration": 1.0,
+                  "offset": 0.0,
+                  "can_interrupt": false,
+                  "undef_7": 2,
+                  "undef_8": 0,
+                  "undef_9": 0,
+                  "undef_10": 0
+                }
+              ],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/Any",
+              "statetype": "Any",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/eye02_default",
+              "statetype": "Normal",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [
+                {
+                  "path": "Top/eye02_default/Entry",
+                  "statetype": "Entry",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye02_default/eye_base",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye02_default/Any",
+                  "statetype": "Any",
+                  "tag": "Default",
+                  "transitions": [],
+                  "substates": [],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye02_default/eye_base",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye02_default/eye_blink",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "to_eye_blink02",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Trigger",
+                          "value": {
+                            "value": 1
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [
+                    {
+                      "path": "Top/eye02_default/eye_base/Entry",
+                      "statetype": "Entry",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_default",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/Any",
+                      "statetype": "Any",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_default",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 0
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_01",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 1
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_02",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.125,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 2
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_03",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.25,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 3
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_04",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.375,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 4
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_05",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.5,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 5
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_06",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.625,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 6
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        },
+                        {
+                          "path": "Top/eye02_default/eye_base/eye01_07",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.75,
+                          "can_interrupt": false,
+                          "conditions": [
+                            {
+                              "name": "eye01",
+                              "func": "Equal",
+                              "value_type": "ConditionValue_Int",
+                              "value": {
+                                "value": 7
+                              },
+                              "unk": 0
+                            }
+                          ],
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_01",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_02",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_03",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_04",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_06",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_07",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_05",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 0.0
+                      },
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_base/eye01_default",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    }
+                  ],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                },
+                {
+                  "path": "Top/eye02_default/eye_blink",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/eye02_default/eye_base",
+                      "has_exit_time": true,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": [
+                    {
+                      "path": "Top/eye02_default/eye_blink/Entry",
+                      "statetype": "Entry",
+                      "tag": "Default",
+                      "transitions": [
+                        {
+                          "path": "Top/eye02_default/eye_blink/eye01_03",
+                          "has_exit_time": false,
+                          "exit_time": 1.0,
+                          "duration": 0.0,
+                          "offset": 0.25,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_blink/Any",
+                      "statetype": "Any",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_blink/Exit",
+                      "statetype": "Exit",
+                      "tag": "Default",
+                      "transitions": [],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_blink/eye01_03",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 1.0
+                      },
+                      "transitions": [
+                        {
+                          "path": "Top/eye02_default/eye_blink/eye01_02",
+                          "has_exit_time": true,
+                          "exit_time": 0.275,
+                          "duration": 0.0,
+                          "offset": 0.125,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    },
+                    {
+                      "path": "Top/eye02_default/eye_blink/eye01_02",
+                      "statetype": "Normal",
+                      "tag": "Default",
+                      "source": {
+                        "state": {
+                          "resource_name": "eye01",
+                          "resource_type": "file"
+                        },
+                        "speed": 1.0
+                      },
+                      "transitions": [
+                        {
+                          "path": "Top/eye02_default/eye_blink/Exit",
+                          "has_exit_time": true,
+                          "exit_time": 0.1,
+                          "duration": 0.0,
+                          "offset": 0.0,
+                          "can_interrupt": false,
+                          "undef_7": 0,
+                          "undef_8": 0,
+                          "undef_9": 0,
+                          "undef_10": 0
+                        }
+                      ],
+                      "substates": [],
+                      "unk_1": {
+                        "undef_0": false,
+                        "unk_1": 1.0
+                      }
+                    }
+                  ],
+                  "unk_1": {
+                    "undef_0": false,
+                    "unk_1": 1.0
+                  }
+                }
+              ],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            }
+          ],
+          "unk_1": {
+            "undef_0": false,
+            "unk_1": 1.0
+          }
+        }
+      },
+      {
+        "state_name": "mouth01",
+        "root_node": {
+          "path": "Top",
+          "statetype": "Top",
+          "tag": "Default",
+          "transitions": [],
+          "substates": [
+            {
+              "path": "Top/Entry",
+              "statetype": "Entry",
+              "tag": "Default",
+              "transitions": [
+                {
+                  "path": "Top/mouth01_default",
+                  "has_exit_time": false,
+                  "exit_time": 1.0,
+                  "duration": 0.0,
+                  "offset": 0.0,
+                  "can_interrupt": false,
+                  "undef_7": 0,
+                  "undef_8": 0,
+                  "undef_9": 0,
+                  "undef_10": 0
+                }
+              ],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/Any",
+              "statetype": "Any",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [],
+              "unk_1": {
+                "undef_0": false,
+                "unk_1": 1.0
+              }
+            },
+            {
+              "path": "Top/mouth01_default",
+              "statetype": "Normal",
+              "tag": "Default",
+              "transitions": [],
+              "substates": [
+                {
+                  "path": "Top/mouth01_default/Entry",
+                  "statetype": "Entry",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/mouth01_default/mouth01_default",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/Any",
+                  "statetype": "Any",
+                  "tag": "Default",
+                  "transitions": [
+                    {
+                      "path": "Top/mouth01_default/mouth01_01",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 1
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_default",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.0,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 0
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_02",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.125,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 2
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_03",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.25,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 3
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_04",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.375,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 4
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_05",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.5,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 5
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    },
+                    {
+                      "path": "Top/mouth01_default/mouth01_06",
+                      "has_exit_time": false,
+                      "exit_time": 1.0,
+                      "duration": 0.0,
+                      "offset": 0.625,
+                      "can_interrupt": false,
+                      "conditions": [
+                        {
+                          "name": "mouth01",
+                          "func": "Equal",
+                          "value_type": "ConditionValue_Int",
+                          "value": {
+                            "value": 6
+                          },
+                          "unk": 0
+                        }
+                      ],
+                      "undef_7": 0,
+                      "undef_8": 0,
+                      "undef_9": 0,
+                      "undef_10": 0
+                    }
+                  ],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_default",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_01",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_02",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_03",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_04",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_05",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                },
+                {
+                  "path": "Top/mouth01_default/mouth01_06",
+                  "statetype": "Normal",
+                  "tag": "Default",
+                  "source": {
+                    "state": {
+                      "resource_name": "mouth01",
+                      "resource_type": "file"
+                    },
+                    "speed": 0.0
+                  },
+                  "transitions": [],
+                  "substates": []
+                }
+              ]
+            }
+          ],
+          "unk_1": {
+            "undef_0": false,
+            "unk_1": 1.0
+          }
+        }
+      }
+    ]
+  },
+  "parameterConfig": {
+    "IntParameters": [
+      {
+        "name": "eye01",
+        "min": 0,
+        "max": 8
+      },
+      {
+        "name": "mouth01",
+        "min": 0,
+        "max": 8
+      }
+    ],
+    "FloatParameters": [
+      {
+        "name": "fi_move_speed",
+        "min": 0.0,
+        "max": 1.0
+      }
+    ],
+    "TriggerParameters": [
+      {
+        "string": "to_fi01_wait02"
+      },
+      {
+        "string": "to_eye_blink01"
+      },
+      {
+        "string": "to_eye_blink02"
+      }
+    ]
+  },
+  "resourceConfig": {
+    "entries": [
+      {
+        "name": "ba01_landA01",
+        "fileName": "ba01_landA01.gfbanm"
+      },
+      {
+        "name": "ba01_landB01",
+        "fileName": "ba01_landB01.gfbanm"
+      },
+      {
+        "name": "ba01_landC01",
+        "fileName": "ba01_landC01.gfbanm"
+      },
+      {
+        "name": "ba02_roar01",
+        "fileName": "ba02_roar01.gfbanm"
+      },
+      {
+        "name": "ba10_waitA01",
+        "fileName": "ba10_waitA01.gfbanm"
+      },
+      {
+        "name": "ba10_waitB01",
+        "fileName": "ba10_waitB01.gfbanm"
+      },
+      {
+        "name": "ba20_buturi01",
+        "fileName": "ba20_buturi01.gfbanm"
+      },
+      {
+        "name": "ba21_tokusyu01",
+        "fileName": "ba21_tokusyu01.gfbanm"
+      },
+      {
+        "name": "ba30_damageS01",
+        "fileName": "ba30_damageS01.gfbanm"
+      },
+      {
+        "name": "ba41_down01",
+        "fileName": "ba41_down01.gfbanm"
+      },
+      {
+        "name": "eye01",
+        "fileName": "eye01.gfbanm"
+      },
+      {
+        "name": "fi20_walk01",
+        "fileName": "fi20_walk01.gfbanm"
+      },
+      {
+        "name": "fi21_run01",
+        "fileName": "fi21_run01.gfbanm"
+      },
+      {
+        "name": "kw01_wait01",
+        "fileName": "kw01_wait01.gfbanm"
+      },
+      {
+        "name": "kw30_hate01",
+        "fileName": "kw30_hate01.gfbanm"
+      },
+      {
+        "name": "kw32_happyB01",
+        "fileName": "kw32_happyB01.gfbanm"
+      },
+      {
+        "name": "kw50_eatA01",
+        "fileName": "kw50_eatA01.gfbanm"
+      },
+      {
+        "name": "kw50_eatB01",
+        "fileName": "kw50_eatB01.gfbanm"
+      },
+      {
+        "name": "kw50_eatC01",
+        "fileName": "kw50_eatC01.gfbanm"
+      },
+      {
+        "name": "mouth01",
+        "fileName": "mouth01.gfbanm"
+      },
+      {
+        "name": "cm10_bawait_kwwait01",
+        "fileName": "cm10_bawait_kwwait01.gfbanm"
+      },
+      {
+        "name": "cm10_kwwait_bawait01",
+        "fileName": "cm10_kwwait_bawait01.gfbanm"
+      }
+    ]
+  }
+}
