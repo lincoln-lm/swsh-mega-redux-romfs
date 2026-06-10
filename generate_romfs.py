@@ -1,6 +1,7 @@
 """Generates the romfs files for the mod"""
 
 import sys
+import os
 import json
 import shutil
 import pathlib
@@ -120,9 +121,7 @@ MEGAS = [
 ]
 
 
-if build.exists():
-    shutil.rmtree(build)
-build.mkdir(parents=True)
+build.mkdir(parents=True, exist_ok=True)
 
 
 def fnv1a(str):
@@ -284,7 +283,7 @@ for mega in MEGAS:
 
 
 parent = build / "bin/appli/battle/bin/"
-parent.mkdir(parents=True)
+parent.mkdir(parents=True, exist_ok=True)
 (parent / "battle_skillSelect_00_lyt.bin").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(LAYOUT), (schemas / "layout.fbs").read_text("utf-8")
@@ -298,7 +297,7 @@ parent.mkdir(parents=True)
 )
 
 parent = build / "bin/pokemon/table/"
-parent.mkdir(parents=True)
+parent.mkdir(parents=True, exist_ok=True)
 (parent / "poke_resource_table.gfbpmcatalog").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(POKE_RESOURCE_TABLE),
@@ -307,7 +306,7 @@ parent.mkdir(parents=True)
 )
 
 parent = build / "bin/field/param/symbol_encount_mons_param/"
-parent.mkdir(parents=True)
+parent.mkdir(parents=True, exist_ok=True)
 (parent / "symbol_encount_mons_param.bin").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(SYMBOL_BEHAVIOR_TABLE),
@@ -316,7 +315,7 @@ parent.mkdir(parents=True)
 )
 
 parent = build / "bin/battle/waza/sequence"
-parent.mkdir(parents=True)
+parent.mkdir(parents=True, exist_ok=True)
 input_ref = CmdReference(json.loads(bseq_command_dict.read_text("utf-8")))
 for sequence in sequences.glob("*.json"):
     (parent / sequence.with_suffix(".bseq").name).write_bytes(
@@ -326,11 +325,18 @@ for sequence in sequences.glob("*.json"):
     )
 
 parent = build / "bin/archive/pokemon"
-parent.mkdir(parents=True)
+parent.mkdir(parents=True, exist_ok=True)
 
 for folder in models.glob("*"):
+    output = parent / f"{folder.name}.gfpak"
+    if output.exists():
+        output_mtime = os.path.getmtime(output)
+        if not any(
+            os.path.getmtime(file) > output_mtime for file in folder.glob("**/*")
+        ):
+            continue
     gfpak = GFPak()
     gfpak.from_files(folder)
-    gfpak.serialize_gfpak(str(parent / f"{folder.name}.gfpak"))
+    gfpak.serialize_gfpak(str(output))
 
 shutil.copytree(static, build, dirs_exist_ok=True)
