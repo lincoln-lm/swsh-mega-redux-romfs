@@ -1,0 +1,58 @@
+// https://github.com/kwsch/pkNX/blob/master/FlatBuffers/SWSH/Schemas/SymbolBehavior.fbs
+attribute "fs_serializer";
+
+table SymbolBehave {
+    field_0:float;
+    field_1:float;
+    attach_bone:string (required);
+    field_3:float;
+    hash_1:ulong;
+    hash_2:ulong;
+    hitbox_radius:float;
+    field_7:float;
+    field_8:float; // unused default, assumed float
+    field_9:float;
+    form:int;
+    field_11:ubyte;
+    field_12:ubyte; // unused default, assumed byte
+    species:int;
+    field_14:ubyte; // unused default, assumed byte
+    field_15:ubyte; // unused default, assumed byte
+    field_16:float;
+    field_17:float;
+    field_18:int;
+    field_19:float;
+    field_20:float;
+    field_21:float;
+    internal_name:string (required); // internal name
+    field_23:float;
+    field_24:float;
+    field_25:float;
+    field_26:float;
+    grass_shake_radius:float;
+    field_28:float; // unused default, assumed float
+    field_29:int;
+    field_30:int; // unused default, assumed int
+    behavior:string (required);
+    field_32:int;
+    field_33:int; // unused default, assumed int
+    field_34:int; // unused default, assumed int
+    field_35:int; // unused default, assumed int
+    field_36:int; // unused default, assumed int
+    field_37:float;
+    field_38:float;
+    field_39:float;
+    field_40:float;
+    field_41:float;
+    field_42:float; // unused default, assumed float
+    field_43:float; // unused default, assumed float
+    field_44:float;
+    field_45:float;
+}
+
+// symbol_encount_mons_param.bin
+table SymbolBehaveRoot (fs_serializer) {
+    behaviors:[SymbolBehave] (required);
+}
+
+root_type SymbolBehaveRoot;

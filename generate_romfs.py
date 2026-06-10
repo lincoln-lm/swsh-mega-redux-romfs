@@ -24,6 +24,23 @@ bseq_command_dict = (
     directory / "bseq_tool/commandDictionaries/SwShCommandReference.json"
 )
 
+MEGAS = [
+    (3, 1),
+    (6, 1),
+    (6, 2, 52),
+    (9, 1),
+    (15, 1),
+    (18, 1),
+    (26, 2),
+    (26, 3, 52),
+    (36, 1),
+    (65, 1),
+    (71, 1),
+    (80, 1),
+    (94, 1),
+    (115, 1),
+]
+
 
 if build.exists():
     shutil.rmtree(build)
@@ -51,6 +68,8 @@ with open(resources / "uikit_battle_skillSelect.json", "r", encoding="utf-8") as
     UIKIT = json.load(f)
 with open(resources / "poke_resource_table.json", "r", encoding="utf-8") as f:
     POKE_RESOURCE_TABLE = json.load(f)
+with open(resources / "symbol_encount_mons_param.json", "r", encoding="utf-8") as f:
+    SYMBOL_BEHAVIOR_TABLE = json.load(f)
 
 for button in UIKIT["buttons"]:
     if button["hash"] == DMAX_BUTTON:
@@ -127,46 +146,64 @@ LAYOUT["pane_parts"].append(
     }
 )
 
+for mega in MEGAS:
+    species = mega[0]
+    form = mega[1]
+    model = mega[2] if len(mega) > 2 else 51
 
-def new_mega(species, forme=1, model_id=51):
-    return {
-        "model_info": {"species": species, "forme": forme, "gender": 0, "shiny": 0},
-        "model_path": "model/model.gfbmdl",
-        "config_path": "/poke_config.gfbpokecfg",
-        "archive_path": f"bin/archive/pokemon/pm{species:04d}_{model_id:02d}.gfpak",
-        "animations": [
-            {
-                "name": "battle",
-                "path": "animations/battle_config.gfbanmcfg",
-            },
-            {
-                "name": "camp",
-                "path": "animations/camp_config.gfbanmcfg",
-            },
-            {
-                "name": "field",
-                "path": "animations/field_config.gfbanmcfg",
-            },
-        ],
-    }
-
-
-POKE_RESOURCE_TABLE["models"].extend(
-    (
-        new_mega(3, 1),
-        new_mega(6, 1),
-        new_mega(6, 2, 52),
-        new_mega(9, 1),
-        new_mega(65, 1),
-        new_mega(94, 1),
-        new_mega(115, 1),
-        new_mega(127, 1),
-        new_mega(130, 1),
-        new_mega(142, 1),
-        new_mega(150, 1),
-        new_mega(150, 2, 52),
+    POKE_RESOURCE_TABLE["models"].append(
+        {
+            "model_info": {"species": species, "forme": form, "gender": 0, "shiny": 0},
+            "model_path": "model/model.gfbmdl",
+            "config_path": "/poke_config.gfbpokecfg",
+            "archive_path": f"bin/archive/pokemon/pm{species:04d}_{model:02d}.gfpak",
+            "animations": [
+                {
+                    "name": "battle",
+                    "path": "animations/battle_config.gfbanmcfg",
+                },
+                {
+                    "name": "camp",
+                    "path": "animations/camp_config.gfbanmcfg",
+                },
+                {
+                    "name": "field",
+                    "path": "animations/field_config.gfbanmcfg",
+                },
+            ],
+        }
     )
-)
+
+    SYMBOL_BEHAVIOR_TABLE["behaviors"].append(
+        {
+            "field_0": 1.0,
+            "field_1": 1.0,
+            "attach_bone": "waist",
+            "field_3": 2.1,
+            "hash_1": 0xEB4799E8B29693BB,
+            "hash_2": 0xCBF29CE484222645,
+            "hitbox_radius": 100.0,
+            "field_9": 8.0,
+            "form": form,
+            "species": species,
+            "field_16": 1.0,
+            "field_17": 1.0,
+            "field_18": 112,
+            "internal_name": "",
+            "field_23": 8.0,
+            "field_24": 5.0,
+            "behavior": "Common",
+            "field_32": 52,
+            "field_37": 15.0,
+            "field_38": 25.0,
+            "field_39": 60.0,
+            "field_40": 45.0,
+            "field_41": 45.0,
+            "field_44": 800.0,
+            "field_45": 7.5,
+        }
+    )
+
 
 parent = build / "bin/appli/battle/bin/"
 parent.mkdir(parents=True)
@@ -188,6 +225,15 @@ parent.mkdir(parents=True)
     json_to_flatbuffer_binary(
         json.dumps(POKE_RESOURCE_TABLE),
         (schemas / "gfbpmcatalog.fbs").read_text("utf-8"),
+    )
+)
+
+parent = build / "bin/field/param/symbol_encount_mons_param/"
+parent.mkdir(parents=True)
+(parent / "symbol_encount_mons_param.bin").write_bytes(
+    json_to_flatbuffer_binary(
+        json.dumps(SYMBOL_BEHAVIOR_TABLE),
+        (schemas / "symbolbehave.fbs").read_text("utf-8"),
     )
 )
 
