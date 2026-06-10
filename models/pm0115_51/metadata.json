@@ -105,13 +105,13 @@
                     "absolute_hash": "animations/eye01.gfbanm"
                 },
                 {
-                    "name": "placeholder.json",
+                    "name": "fi20_walk01.gfbanm.json",
                     "hash": "fi20_walk01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/fi20_walk01.gfbanm"
                 },
                 {
-                    "name": "placeholder.json",
+                    "name": "fi21_run01.gfbanm.json",
                     "hash": "fi21_run01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/fi21_run01.gfbanm"
@@ -159,13 +159,13 @@
                     "absolute_hash": "animations/mouth01.gfbanm"
                 },
                 {
-                    "name": "ba02_roar01.gfbanm.json",
+                    "name": "placeholder.json",
                     "hash": "cm10_bawait_kwwait01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/cm10_bawait_kwwait01.gfbanm"
                 },
                 {
-                    "name": "ba02_roar01.gfbanm.json",
+                    "name": "placeholder.json",
                     "hash": "cm10_kwwait_bawait01.gfbanm",
                     "type": "animation",
                     "absolute_hash": "animations/cm10_kwwait_bawait01.gfbanm"
