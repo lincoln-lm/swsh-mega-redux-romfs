@@ -10,6 +10,7 @@ sys.path.extend(("model_tools", "bseq_tool"))
 
 # pylint: disable=wrong-import-position
 from model_tools.file_formats.util import json_to_flatbuffer_binary
+from model_tools.file_formats.ptcl import replace_shaders_raw
 from model_tools.gfpacker import GFPak
 from bseq_tool.cmdReference import CmdReference
 from bseq_tool.sesd import SESD
@@ -19,6 +20,7 @@ resources = directory / "vanilla_resources"
 schemas = directory / "schemas"
 static = directory / "static"
 sequences = directory / "sequences"
+effects = directory / "effects"
 models = directory / "models"
 build = directory / "build"
 bseq_command_dict = (
@@ -323,6 +325,27 @@ for sequence in sequences.glob("*.json"):
             json.loads(sequence.read_text("utf-8")), "SwSh", input_ref
         ).get_bseq()
     )
+
+parent = build / "bin/archive/battle/effect"
+parent.mkdir(parents=True, exist_ok=True)
+for effect in effects.glob("*"):
+    name = effect.name
+    folder_hash = fnv1a(name)
+    absolute_hash = fnv1a(f"{name}/{name}.ptcl")
+    file_hash = fnv1a(f"{name}.ptcl")
+    data = replace_shaders_raw(effect)
+
+    pak = GFPak()
+    pak.absolute_hashes = [absolute_hash]
+    pak.table = [pak.File(9, 2, -1, -1, 0xFF, -1, 0)]
+    pak.folders = [
+        GFPak.Folder(folder_hash, 1, 0xCC, [GFPak.FileMeta(file_hash, 0, 0xCC)])
+    ]
+    pak.decompressed_files = [data]
+    pak.file_count = 1
+    pak.folder_count = 1
+
+    pak.serialize_gfpak(str(parent / f"{name}.gfpak"))
 
 parent = build / "bin/archive/pokemon"
 parent.mkdir(parents=True, exist_ok=True)
