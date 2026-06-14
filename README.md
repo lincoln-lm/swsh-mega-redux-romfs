@@ -4,6 +4,6 @@
 
 - [BntxFixer](https://github.com/lincoln-lm/BntxFixer/releases/tag/release)
 - [ultimate_tex](https://github.com/lincoln-lm/ultimate_tex/releases/tag/release)
-- [uam-nvn](https://github.com/nvnprogram/uam-nvn)
+- [uam-nvn](https://github.com/KillzXGaming/uam/tree/nvn)
 - [SWSH ShaderLibrary.CompileTool](https://github.com/lincoln-lm/ShaderLibrary/releases/tag/release)
 - [EffectShaderReplacer](https://github.com/lincoln-lm/EffectLibrary/releases/tag/release)
