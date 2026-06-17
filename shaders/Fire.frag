@@ -119,8 +119,8 @@ void main() { do
     temp_8 = in_attr4.x;
     temp_9 = in_attr4.y;
     temp_10 = inversesqrt(fma(temp_3, temp_3, fma(temp_9, temp_9, temp_8 * temp_8)));
-    temp_11 = in_attr9.x;
-    temp_12 = in_attr9.y;
+    temp_11 = in_attr9.y;
+    temp_12 = in_attr9.x;
     // temp_13 = texture(LerpTex, vec2(temp_11, 0.0 - temp_12 + 1.0)).xw;
     temp_13 = vec2(1.0 - temp_12, temp_12);
     temp_14 = min(exp2(log2(abs(0.0 - max(0.0, fma(temp_6 * temp_7, temp_3 * temp_10, fma(temp_4 * temp_7, temp_9 * temp_10, temp_2 * temp_7 * temp_8 * temp_10))) + 1.0)) * _floatConstant.data[0].z) * _floatConstant.data[0].w, 1.0);
