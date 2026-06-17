@@ -27,6 +27,21 @@ bseq_command_dict = (
     directory / "bseq_tool/commandDictionaries/SwShCommandReference.json"
 )
 
+
+def needs_to_build(output: pathlib.Path, dependencies: list[pathlib.Path]):
+    if not output.exists():
+        return True
+    for dependency in dependencies:
+        if dependency.stat().st_mtime > output.stat().st_mtime:
+            return True
+    return False
+
+
+def log_build_file(file_path: pathlib.Path) -> pathlib.Path:
+    print(f"Built {file_path.relative_to(build)}")
+    return file_path
+
+
 MEGAS = [
     (3, 1),
     (6, 1),
@@ -286,13 +301,13 @@ for mega in MEGAS:
 
 parent = build / "bin/appli/battle/bin/"
 parent.mkdir(parents=True, exist_ok=True)
-(parent / "battle_skillSelect_00_lyt.bin").write_bytes(
+log_build_file(parent / "battle_skillSelect_00_lyt.bin").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(LAYOUT), (schemas / "layout.fbs").read_text("utf-8")
     )
 )
 
-(parent / "uikit_battle_skillSelect.bin").write_bytes(
+log_build_file(parent / "uikit_battle_skillSelect.bin").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(UIKIT), (schemas / "uikit.fbs").read_text("utf-8")
     )
@@ -300,7 +315,7 @@ parent.mkdir(parents=True, exist_ok=True)
 
 parent = build / "bin/pokemon/table/"
 parent.mkdir(parents=True, exist_ok=True)
-(parent / "poke_resource_table.gfbpmcatalog").write_bytes(
+log_build_file(parent / "poke_resource_table.gfbpmcatalog").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(POKE_RESOURCE_TABLE),
         (schemas / "gfbpmcatalog.fbs").read_text("utf-8"),
@@ -309,7 +324,7 @@ parent.mkdir(parents=True, exist_ok=True)
 
 parent = build / "bin/field/param/symbol_encount_mons_param/"
 parent.mkdir(parents=True, exist_ok=True)
-(parent / "symbol_encount_mons_param.bin").write_bytes(
+log_build_file(parent / "symbol_encount_mons_param.bin").write_bytes(
     json_to_flatbuffer_binary(
         json.dumps(SYMBOL_BEHAVIOR_TABLE),
         (schemas / "symbolbehave.fbs").read_text("utf-8"),
@@ -320,7 +335,10 @@ parent = build / "bin/battle/waza/sequence"
 parent.mkdir(parents=True, exist_ok=True)
 input_ref = CmdReference(json.loads(bseq_command_dict.read_text("utf-8")))
 for sequence in sequences.glob("*.json"):
-    (parent / sequence.with_suffix(".bseq").name).write_bytes(
+    bseq_file = parent / sequence.with_suffix(".bseq").name
+    if not needs_to_build(bseq_file, [sequence]):
+        continue
+    log_build_file(bseq_file).write_bytes(
         SESD.from_dict(
             json.loads(sequence.read_text("utf-8")), "SwSh", input_ref
         ).get_bseq()
@@ -333,6 +351,9 @@ for effect in effects.glob("*"):
     folder_hash = fnv1a(name)
     absolute_hash = fnv1a(f"{name}/{name}.ptcl")
     file_hash = fnv1a(f"{name}.ptcl")
+    output = parent / f"{name}.gfpak"
+    if not needs_to_build(output, [effect]):
+        continue
     data = replace_shaders_raw(effect)
 
     pak = GFPak()
@@ -345,21 +366,27 @@ for effect in effects.glob("*"):
     pak.file_count = 1
     pak.folder_count = 1
 
-    pak.serialize_gfpak(str(parent / f"{name}.gfpak"))
+    pak.serialize_gfpak(str(log_build_file(output)))
 
 parent = build / "bin/archive/pokemon"
 parent.mkdir(parents=True, exist_ok=True)
 
 for folder in models.glob("*"):
+    metadata_path = folder / "metadata.json"
+    metadata = json.loads(metadata_path.read_text("utf-8"))
     output = parent / f"{folder.name}.gfpak"
-    if output.exists():
-        output_mtime = os.path.getmtime(output)
-        if not any(
-            os.path.getmtime(file) > output_mtime for file in folder.glob("**/*")
-        ):
-            continue
+    if not needs_to_build(
+        output,
+        [metadata_path]
+        + list(
+            folder / meta_folder["name"] / file["name"]
+            for meta_folder in metadata["folders"]
+            for file in meta_folder["files"]
+        ),
+    ):
+        continue
     gfpak = GFPak()
     gfpak.from_files(folder)
-    gfpak.serialize_gfpak(str(output))
+    gfpak.serialize_gfpak(str(log_build_file(output)))
 
 shutil.copytree(static, build, dirs_exist_ok=True)
