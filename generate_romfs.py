@@ -32,6 +32,10 @@ def needs_to_build(output: pathlib.Path, dependencies: list[pathlib.Path]):
     if not output.exists():
         return True
     for dependency in dependencies:
+        if dependency.is_dir():
+            for file in dependency.glob("**/*"):
+                if file.stat().st_mtime > output.stat().st_mtime:
+                    return True
         if dependency.stat().st_mtime > output.stat().st_mtime:
             return True
     return False
