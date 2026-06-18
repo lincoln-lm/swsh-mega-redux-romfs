@@ -239,14 +239,6 @@
           }
         },
         {
-          "Name": "PokemonVisibleOther",
-          "StartFrame": 150,
-          "EndFrame": 150,
-          "Parameters": {
-            "visible": 1
-          }
-        },
-        {
           "Name": "TrainerMoveResetAll",
           "StartFrame": 150,
           "EndFrame": 150,
@@ -269,12 +261,28 @@
           "Parameters": {}
         },
         {
+          "Name": "PokemonVisibleOther",
+          "StartFrame": 400,
+          "EndFrame": 400,
+          "Parameters": {
+            "visible": 1
+          }
+        },
+        {
           "Name": "PokemonMotion",
           "StartFrame": 400,
           "EndFrame": 400,
           "Parameters": {
             "trg": 0,
             "motion": 0
+          }
+        },
+        {
+          "Name": "CameraReset",
+          "StartFrame": 400,
+          "EndFrame": 400,
+          "Parameters": {
+            "move": 0
           }
         }
       ]
