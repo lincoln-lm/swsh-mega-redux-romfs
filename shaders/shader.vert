@@ -39,6 +39,10 @@ layout (location = 7) out vec4 OUT_colorSet1;
 layout (location = 8) out vec4 OUT_colorSet2;
 layout (location = 9) out vec4 OUT_map1;
 
+// TODO: find a better way than replacing constants
+const float cYOffset = 0.0;
+const float cScale = 1.0;
+
 void main()
 {
     gl_PointSize = 1.0;
@@ -72,7 +76,8 @@ void main()
     skinned_pos += cBoneMatrices[IN_BoneIndices.y] * pos * IN_BoneWeights.y;
     skinned_pos += cBoneMatrices[IN_BoneIndices.z] * pos * IN_BoneWeights.z;
     skinned_pos += cBoneMatrices[IN_BoneIndices.w] * pos * IN_BoneWeights.w;
-
+    skinned_pos.xyz *= cScale;
+    skinned_pos.y += cYOffset;
     OUT_ClipPosition = world_view_projection_mat * skinned_pos;
     OUT_WorldPosition = world_mat * skinned_pos;
     gl_Position = OUT_ClipPosition;
