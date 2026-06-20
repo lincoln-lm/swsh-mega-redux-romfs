@@ -98,7 +98,8 @@ void main() { do
     temp_0 = in_attr0.w;
     temp_1 = clamp(in_attr3.w * temp_0, 0.0, 1.0);
     temp_2 = temp_1 * in_attr2.x;
-    temp_3 = temp_2 <= sysEmitterStaticUniformBlock.data[94].z;
+    // temp_3 = temp_2 <= sysEmitterStaticUniformBlock.data[94].z;
+    temp_3 = false;
     temp_4 = floatBitsToInt(temp_1);
     temp_5 = floatBitsToInt(temp_0);
     if (temp_3)
