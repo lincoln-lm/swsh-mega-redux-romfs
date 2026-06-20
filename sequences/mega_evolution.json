@@ -221,8 +221,8 @@
         },
         {
           "Name": "PokemonVisible",
-          "StartFrame": 258,
-          "EndFrame": 258,
+          "StartFrame": 200,
+          "EndFrame": 200,
           "Parameters": {
             "trg": 0,
             "visible": 1
