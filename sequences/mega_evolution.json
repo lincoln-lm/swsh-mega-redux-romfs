@@ -220,12 +220,42 @@
           }
         },
         {
+          "Name": "PokemonScale",
+          "StartFrame": 200,
+          "EndFrame": 200,
+          "Parameters": {
+            "trg": 0,
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "relative": 0,
+            "move": 0
+          }
+        },
+        {
           "Name": "PokemonVisible",
           "StartFrame": 200,
           "EndFrame": 200,
           "Parameters": {
             "trg": 0,
             "visible": 1
+          }
+        },
+        {
+          "Name": "PokemonScale",
+          "StartFrame": 200,
+          "EndFrame": 250,
+          "Parameters": {
+            "trg": 0,
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "relative": 0,
+            "move": 0
           }
         },
         {
