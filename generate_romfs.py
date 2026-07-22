@@ -249,27 +249,59 @@ for mega in MEGAS:
     form = mega[1]
     model = mega[2] if len(mega) > 2 else 51
 
-    POKE_RESOURCE_TABLE["models"].append(
-        {
-            "model_info": {"species": species, "forme": form, "gender": 0, "shiny": 0},
-            "model_path": "model/model.gfbmdl",
-            "config_path": "/poke_config.gfbpokecfg",
-            "archive_path": f"bin/archive/pokemon/pm{species:04d}_{model:02d}.gfpak",
-            "animations": [
-                {
-                    "name": "battle",
-                    "path": "animations/battle_config.gfbanmcfg",
+    POKE_RESOURCE_TABLE["models"].extend(
+        (
+            {
+                "model_info": {
+                    "species": species,
+                    "forme": form,
+                    "gender": 0,
+                    "shiny": 0,
                 },
-                {
-                    "name": "camp",
-                    "path": "animations/camp_config.gfbanmcfg",
+                "model_path": "model/model.gfbmdl",
+                "config_path": "/poke_config.gfbpokecfg",
+                "archive_path": f"bin/archive/pokemon/pm{species:04d}_{model:02d}.gfpak",
+                "animations": [
+                    {
+                        "name": "battle",
+                        "path": "animations/battle_config.gfbanmcfg",
+                    },
+                    {
+                        "name": "camp",
+                        "path": "animations/camp_config.gfbanmcfg",
+                    },
+                    {
+                        "name": "field",
+                        "path": "animations/field_config.gfbanmcfg",
+                    },
+                ],
+            },
+            {
+                "model_info": {
+                    "species": species,
+                    "forme": form,
+                    "gender": 0,
+                    "shiny": 1,
                 },
-                {
-                    "name": "field",
-                    "path": "animations/field_config.gfbanmcfg",
-                },
-            ],
-        }
+                "model_path": "model/shiny_model.gfbmdl",
+                "config_path": "/poke_config.gfbpokecfg",
+                "archive_path": f"bin/archive/pokemon/pm{species:04d}_{model:02d}.gfpak",
+                "animations": [
+                    {
+                        "name": "battle",
+                        "path": "animations/battle_config.gfbanmcfg",
+                    },
+                    {
+                        "name": "camp",
+                        "path": "animations/camp_config.gfbanmcfg",
+                    },
+                    {
+                        "name": "field",
+                        "path": "animations/field_config.gfbanmcfg",
+                    },
+                ],
+            },
+        )
     )
 
     SYMBOL_BEHAVIOR_TABLE["behaviors"].append(
