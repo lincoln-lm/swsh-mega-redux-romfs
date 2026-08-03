@@ -426,3 +426,10 @@ for folder in models.glob("*"):
     gfpak.serialize_gfpak(str(log_build_file(output)))
 
 shutil.copytree(static, build, dirs_exist_ok=True)
+
+skill_select_dir = build / "bin/appli/battle/bin"
+base_skill_select = skill_select_dir / "battle_skillSelect_01_eng.arc"
+for lang in ("fre", "ger", "ita", "kor", "sch", "spa", "tch"):
+    shutil.copy(
+        base_skill_select, skill_select_dir / f"battle_skillSelect_01_{lang}.arc"
+    )
