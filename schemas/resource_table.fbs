@@ -1,0 +1,9 @@
+table Resource {
+    path: string;
+    flag: bool;
+}
+
+table ResourceTable {
+    resources: [Resource];
+}
+root_type ResourceTable;

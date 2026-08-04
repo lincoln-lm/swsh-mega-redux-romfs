@@ -1,0 +1,955 @@
+{
+  "resources": [
+    {
+      "path": "bin/field/effect/particle/ef_chara_walk_smoke/ef_chara_walk_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_stop_smoke/ef_chara_stop_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_cave/ef_chara_stop_cave_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_cave/ef_chara_walk_cave_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_grass/ef_chara_grass_run_dast.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_sand/ef_chara_stop_sand_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_sand/ef_chara_walk_sand_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_snow/ef_chara_stop_snow_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_snow/ef_chara_walk_snow_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_soil/ef_chara_stop_soil_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/chara_walk_soil/ef_chara_walk_soil_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_fish_symbol/ef_fish_symbol.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_fish_get/ef_fish_get.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_fish_hit_loop/ef_fish_hit_loop.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_fish_landing_loop/ef_fish_landing_loop.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_exclamation.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_question.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_symbol/ef_icon_symbol_exclamation.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_symbol/ef_icon_symbol_sweat.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_npc_poke/ef_icon_npc_poke_pleasure.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_npc_poke/ef_icon_npc_poke_sweat.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_action/ef_icon_action.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0401/ef_env_d0401_dast.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/03/ef_03_water_splash.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/03/ef_03_water_down.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/02/ef_02_break_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/02/ef_02_run_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_get_onoff/ef_cyc_get_onoff.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_splashdown/ef_cyc_splashdown.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_turbo/ef_cyc_charge_max.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_turbo/ef_cyc_turbo.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_turbo/ef_cyc_charge_loop.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0101/ef_env_wr0101_nesuto_nml.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0101/ef_env_wr0101_nesuto_rare.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_exclamation2.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_silence.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_06_snowstorm/ef_weather_06_snowstorm_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_07_heatsun/ef_weather_07_heatsun_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_08_fog_near/ef_weather_08_fog_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_09_sandstorm/ef_weather_09_sandstorm_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_03_rain/ef_weather_03_rain_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_04_rainstorm/ef_weather_04_rainstorm_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_05_snow/ef_weather_05_snow_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_06_snowstorm/ef_weather_06_snowstorm_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_07_heatsun/ef_weather_07_heatsun_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_08_fog_near/ef_weather_08_fog_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_09_sandstorm/ef_weather_09_sandstorm_wide_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_03_rain/ef_weather_03_rain_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_04_rainstorm/ef_weather_04_rainstorm_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_05_snow/ef_weather_05_snow_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_06_snowstorm/ef_weather_06_snowstorm_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_07_heatsun/ef_weather_07_heatsun_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_08_fog_near/ef_weather_08_fog_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_09_sandstorm/ef_weather_09_sandstorm_near_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_03_rain/ef_weather_03_rain_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_04_rainstorm/ef_weather_04_rainstorm_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_05_snow/ef_weather_05_snow_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_06_snowstorm/ef_weather_06_snowstorm_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_07_heatsun/ef_weather_07_heatsun_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_08_fog_near/ef_weather_08_fog_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_09_sandstorm/ef_weather_09_sandstorm_cam_filter.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_03_rain/ef_weather_03_rain_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_04_rainstorm/ef_weather_04_rainstorm_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_05_snow/ef_weather_05_snow_under.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_item_hide/ef_item_hide01.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_danger.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_fall.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_poke01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_poke02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_poke03.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_kinomi_shake.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_birthday/ef_tape1.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_item_hide/ef_item_hide02.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0101/ef_env_wr0101_noroshi.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_k/ef_04_k_gimmick_hit.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_k/ef_04_k_player_follow.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_k/ef_04_k_wall_hit.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0401/ef_env_d0401_mush_grn.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0401/ef_env_d0401_mush_red.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_t/ef_04_t_gimmick_hit.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_t/ef_04_t_player_follow.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/04_t/ef_04_t_wall_hit.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_encount/ef_icon_encount_trainer.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon_encount/ef_icon_encount_wild.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_move_pm0050.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_silence_z.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_exclamation_z.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_exclamation2_z.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_icon/ef_icon_question_z.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_leaf.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_grain.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0201/ef_env_t0201_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0201/ef_env_t0201_grain.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0101/ef_env_d0101_leaf.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0102/ef_env_d0102_grain.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0102/ef_env_d0102_leaf.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0102/ef_env_d0102_godray.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_t/ef_06_t_notice.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_t/ef_06_t_150_150_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_k/ef_06_k_150_150_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_k/ef_06_k_notice.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_flower.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_leaf.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_sand.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_soil.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_splash.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0201/ef_env_r0201_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0201/ef_env_r0201_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0201/ef_env_r0201_leaf.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0101/ef_env_r0101_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0201/ef_env_t0201_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/cmn/ef_cmn_goal_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_aura.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/06_t/ef_06_t_150_300_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_k/ef_06_k_150_300_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_0101_birds.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0101/ef_env_wr0101_tent_appear.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_yuge.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0101/ef_env_r0101_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0201/ef_env_r0201_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0201/ef_env_t0201_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101_g0210/ef_env_c0101_g0210_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101_g0210/ef_env_c0101_g0210_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0301/ef_env_c0301_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0101/ef_env_d0101_grain.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0101/ef_env_d0101_fog.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0102/ef_env_d0102_fog.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0102/ef_env_d0102_grain02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0301/ef_env_r0301_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0401/ef_env_r0401_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0501/ef_env_r0501_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0501/ef_env_r0501_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0501/ef_env_r0501_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0301/ef_env_t0301_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0301/ef_env_t0301_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0401/ef_env_t0401_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501/ef_env_t0501_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501/ef_env_t0501_wind02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501/ef_env_t0501_sand.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501/ef_env_t0501_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501_g0110/ef_env_t0501_g0110_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501_g0110/ef_env_t0501_g0110_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501_g0210/ef_env_t0501_g0210_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0501_g0210/ef_env_t0501_g0210_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0601/ef_env_t0601_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0601/ef_env_t0601_grain.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0601_g0110/ef_env_t0601_g0110_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0601_g0110/ef_env_t0601_g0110_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_yuge02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_fire.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_splash.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701_g0110/ef_env_t0701_g0110_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701_g0110/ef_env_t0701_g0110_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701_g0210/ef_env_t0701_g0210_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701_g0210/ef_env_t0701_g0210_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jump_smoke/ef_chara_jump_smoke.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jumping/ef_chara_jump_grass.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jumping/ef_chara_jump_rain.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jumping/ef_chara_jump_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jumping/ef_chara_jump_cmn_ground.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_jumping/ef_chara_jump_drygrass.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_leaf_normal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_leaf_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_rain.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_sand.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_shoal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_beach.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_cmn_ground.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_grass_dry.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_grass_normal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_leaf_dry.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_rain.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_sand.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_sea.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_shoal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_water.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_beach.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_cmn_ground.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_grass_dry.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_grass_normal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_leaf_dry.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_leaf_normal.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_leaf_snow.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/balloon/ef_circuit_balloon.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_bacillus.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_smoke_single.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_smoke_triple.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_smoke_triple2.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_smoke_triple3.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_smoke_triple4.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam1.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_yuge_left.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0701/ef_env_t0701_yuge_right.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_orb.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_torch.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_flash01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_flash02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam2.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam3.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0501/ef_env_r0501_orb03.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_r0501/ef_env_r0501_orb02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_pl0110/ef_env_pl0110_flash.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam4.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam2_far.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam1_far.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/check/ef_circuit_check.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/balloon/ef_circuit_balloon_get.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0201/ef_env_c0201_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_t0101/ef_env_t0101_bbq_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_c0101/ef_env_c0101_steam2_shadow.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_breath/ef_chara_breath.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/02/ef_02_break_smoke_big.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_aura/ef_aura01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_shooting_star/ef_shooting_star.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0101/ef_env_wr0101_wind.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl001_rain01_cam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl001_rain01_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl002_hail01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl002_hail01_cam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl002_hail01_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl003_sandstorm01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl003_sandstorm01_cam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl003_sandstorm01_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl004_sunny01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl004_sunny01_cam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl004_sunny01_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl001_rain01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_t/ef_06_t_300_150_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/06_k/ef_06_k_300_150_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/check/ef_circuit_watch_icon.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl005_snow01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl005_snow01_cam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_weather_00_battle/ef_weather_00_btl005_snow01_range.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_shooting_star/ef_shooting_star_landing.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_shooting_star/ef_shooting_star_loop.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_running/ef_cyc_run_sandstorm.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_chara_running/ef_chara_run_sandstorm.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_symbol_danger.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0201/ef_env_wr0201_dust.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_candle.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_steam.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_light_ball.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_light_ballout.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_aura/ef_cyc_aura_rare_bk.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_aura/ef_cyc_aura_rare_wh.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_aura/ef_cyc_ring_rare_bk.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0130_bsa/ef_event_0130_bsa.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_cyc_aura/ef_cyc_ring_rare_wh.ptcl",
+      "flag": true
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0130_pot_smoke/ef_event_0130_pot_smoke01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0055_rydn/ef_event_0055_rydn_shadow_screen.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0055_rydn/ef_event_0055_rydn_run_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0309/ef_env_wr0309_dust.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0309/ef_env_wr0309_smokeabove.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0309/ef_env_wr0309_smokeUnder.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_d0701/ef_env_d0701_smokeUnder.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_gim_redi_de/ef_gim_redi_densi.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_gim_redi_dr/ef_gim_redi_drago.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_gim_redi_ice/ef_gim_redi_ice.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_gim_redi_rock/ef_gim_redi_rock.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_gim_redi_steel/ef_gim_redi_steel.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301_s0101/ef_env_wr0301_s0101_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_dust01.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_cmn/ef_env_cmn_dust02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0140_light/ef_event_0140_light.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_env_wr0302_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0150_doku/ef_event_0150_dokubishi.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0150_psy/ef_event_0150_psyfield.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/particle/ef_poke_light_ballout_rare.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0210_light/ef_event_0210_light.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0110_aura/ef_event_0110_aura.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_gst/ef_event_gst_fell_confetti.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_gst/ef_event_gst_flash.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_gst/ef_event_gst_confetti.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0055_rydn/ef_event_0055_rydn_run_smoke_room.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion03.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion04.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion05.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion06.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_env_wr0301/ef_env_wr0301_distortion07.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_smhd/ef_event_smhd_run.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0140_light/ef_event_0140_light02.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_aura/ef_tree_aura.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0200_aura/ef_event_0200_aura_wh.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0200_aura/ef_event_0200_aura_bk.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_rthnd/ef_event_rthnd_run.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_rfrz/ef_event_rfrz_smoke.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0149_light/ef_event_0149_light_petal.ptcl"
+    },
+    {
+      "path": "bin/field/effect/particle/ef_event_0145_aura02/ef_event_0145_aura02.ptcl"
+    }
+  ]
+}

@@ -168,6 +168,8 @@ with open(resources / "poke_resource_table.json", "r", encoding="utf-8") as f:
     POKE_RESOURCE_TABLE = json.load(f)
 with open(resources / "symbol_encount_mons_param.json", "r", encoding="utf-8") as f:
     SYMBOL_BEHAVIOR_TABLE = json.load(f)
+with open(resources / "effect_resource_table.json", "r", encoding="utf-8") as f:
+    EFFECT_RESOURCE_TABLE = json.load(f)
 
 for button in UIKIT["buttons"]:
     if button["hash"] == DMAX_BUTTON:
@@ -382,15 +384,22 @@ for sequence in sequences.glob("*.json"):
 
 parent = build / "bin/archive/battle/effect"
 parent.mkdir(parents=True, exist_ok=True)
+parent2 = build / "bin/field/effect/particle/particle/"
+parent2.mkdir(parents=True, exist_ok=True)
 for effect in effects.glob("*"):
     name = effect.name
     folder_hash = fnv1a(name)
     absolute_hash = fnv1a(f"{name}/{name}.ptcl")
     file_hash = fnv1a(f"{name}.ptcl")
     output = parent / f"{name}.gfpak"
-    if not needs_to_build(output, [effect]):
+    raw_output = parent2 / f"{name}.ptcl"
+    EFFECT_RESOURCE_TABLE["resources"].append(
+        {"path": f"bin/field/effect/particle/particle/{name}.ptcl"}
+    )
+    if not (needs_to_build(output, [effect]) or needs_to_build(raw_output, [effect])):
         continue
     data = replace_shaders_raw(effect)
+    raw_output.write_bytes(data)
 
     pak = GFPak()
     pak.absolute_hashes = [absolute_hash]
@@ -403,6 +412,15 @@ for effect in effects.glob("*"):
     pak.folder_count = 1
 
     pak.serialize_gfpak(str(log_build_file(output)))
+
+parent = build / "bin/field/param/effect/"
+parent.mkdir(parents=True, exist_ok=True)
+log_build_file(parent / "effect_resource_table.bin").write_bytes(
+    json_to_flatbuffer_binary(
+        json.dumps(EFFECT_RESOURCE_TABLE),
+        (schemas / "resource_table.fbs").read_text("utf-8"),
+    )
+)
 
 parent = build / "bin/archive/pokemon"
 parent.mkdir(parents=True, exist_ok=True)
