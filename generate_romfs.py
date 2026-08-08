@@ -153,7 +153,7 @@ NEW_ABILITIES = [
     (
         315,
         "Mega Sol",
-        "Even when the sunlight has not turned harsh, the\nPokémon can use its moves as if the weathernwere harsh sunlight.",
+        "Even when the sunlight has not turned harsh, the\nPokémon can use its moves as if the weather\nwere harsh sunlight.",
     ),
 ]
 
