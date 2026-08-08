@@ -1,0 +1,1347 @@
+[
+    [
+        "TOKUSEI_000",
+        0,
+        "\u2014"
+    ],
+    [
+        "TOKUSEI_001",
+        0,
+        "Stench"
+    ],
+    [
+        "TOKUSEI_002",
+        0,
+        "Drizzle"
+    ],
+    [
+        "TOKUSEI_003",
+        0,
+        "Speed Boost"
+    ],
+    [
+        "TOKUSEI_004",
+        0,
+        "Battle Armor"
+    ],
+    [
+        "TOKUSEI_005",
+        0,
+        "Sturdy"
+    ],
+    [
+        "TOKUSEI_006",
+        0,
+        "Damp"
+    ],
+    [
+        "TOKUSEI_007",
+        0,
+        "Limber"
+    ],
+    [
+        "TOKUSEI_008",
+        0,
+        "Sand Veil"
+    ],
+    [
+        "TOKUSEI_009",
+        0,
+        "Static"
+    ],
+    [
+        "TOKUSEI_010",
+        0,
+        "Volt Absorb"
+    ],
+    [
+        "TOKUSEI_011",
+        0,
+        "Water Absorb"
+    ],
+    [
+        "TOKUSEI_012",
+        4,
+        "Oblivious"
+    ],
+    [
+        "TOKUSEI_013",
+        0,
+        "Cloud Nine"
+    ],
+    [
+        "TOKUSEI_014",
+        0,
+        "Compound Eyes"
+    ],
+    [
+        "TOKUSEI_015",
+        4,
+        "Insomnia"
+    ],
+    [
+        "TOKUSEI_016",
+        0,
+        "Color Change"
+    ],
+    [
+        "TOKUSEI_017",
+        4,
+        "Immunity"
+    ],
+    [
+        "TOKUSEI_018",
+        0,
+        "Flash Fire"
+    ],
+    [
+        "TOKUSEI_019",
+        0,
+        "Shield Dust"
+    ],
+    [
+        "TOKUSEI_020",
+        4,
+        "Own Tempo"
+    ],
+    [
+        "TOKUSEI_021",
+        0,
+        "Suction Cups"
+    ],
+    [
+        "TOKUSEI_022",
+        4,
+        "Intimidate"
+    ],
+    [
+        "TOKUSEI_023",
+        0,
+        "Shadow Tag"
+    ],
+    [
+        "TOKUSEI_024",
+        0,
+        "Rough Skin"
+    ],
+    [
+        "TOKUSEI_025",
+        0,
+        "Wonder Guard"
+    ],
+    [
+        "TOKUSEI_026",
+        0,
+        "Levitate"
+    ],
+    [
+        "TOKUSEI_027",
+        4,
+        "Effect Spore"
+    ],
+    [
+        "TOKUSEI_028",
+        0,
+        "Synchronize"
+    ],
+    [
+        "TOKUSEI_029",
+        0,
+        "Clear Body"
+    ],
+    [
+        "TOKUSEI_030",
+        0,
+        "Natural Cure"
+    ],
+    [
+        "TOKUSEI_031",
+        0,
+        "Lightning Rod"
+    ],
+    [
+        "TOKUSEI_032",
+        0,
+        "Serene Grace"
+    ],
+    [
+        "TOKUSEI_033",
+        0,
+        "Swift Swim"
+    ],
+    [
+        "TOKUSEI_034",
+        0,
+        "Chlorophyll"
+    ],
+    [
+        "TOKUSEI_035",
+        4,
+        "Illuminate"
+    ],
+    [
+        "TOKUSEI_036",
+        0,
+        "Trace"
+    ],
+    [
+        "TOKUSEI_037",
+        0,
+        "Huge Power"
+    ],
+    [
+        "TOKUSEI_038",
+        0,
+        "Poison Point"
+    ],
+    [
+        "TOKUSEI_039",
+        4,
+        "Inner Focus"
+    ],
+    [
+        "TOKUSEI_040",
+        0,
+        "Magma Armor"
+    ],
+    [
+        "TOKUSEI_041",
+        0,
+        "Water Veil"
+    ],
+    [
+        "TOKUSEI_042",
+        0,
+        "Magnet Pull"
+    ],
+    [
+        "TOKUSEI_043",
+        0,
+        "Soundproof"
+    ],
+    [
+        "TOKUSEI_044",
+        0,
+        "Rain Dish"
+    ],
+    [
+        "TOKUSEI_045",
+        0,
+        "Sand Stream"
+    ],
+    [
+        "TOKUSEI_046",
+        0,
+        "Pressure"
+    ],
+    [
+        "TOKUSEI_047",
+        0,
+        "Thick Fat"
+    ],
+    [
+        "TOKUSEI_048",
+        4,
+        "Early Bird"
+    ],
+    [
+        "TOKUSEI_049",
+        0,
+        "Flame Body"
+    ],
+    [
+        "TOKUSEI_050",
+        0,
+        "Run Away"
+    ],
+    [
+        "TOKUSEI_051",
+        0,
+        "Keen Eye"
+    ],
+    [
+        "TOKUSEI_052",
+        0,
+        "Hyper Cutter"
+    ],
+    [
+        "TOKUSEI_053",
+        0,
+        "Pickup"
+    ],
+    [
+        "TOKUSEI_054",
+        0,
+        "Truant"
+    ],
+    [
+        "TOKUSEI_055",
+        0,
+        "Hustle"
+    ],
+    [
+        "TOKUSEI_056",
+        0,
+        "Cute Charm"
+    ],
+    [
+        "TOKUSEI_057",
+        0,
+        "Plus"
+    ],
+    [
+        "TOKUSEI_058",
+        0,
+        "Minus"
+    ],
+    [
+        "TOKUSEI_059",
+        0,
+        "Forecast"
+    ],
+    [
+        "TOKUSEI_060",
+        0,
+        "Sticky Hold"
+    ],
+    [
+        "TOKUSEI_061",
+        0,
+        "Shed Skin"
+    ],
+    [
+        "TOKUSEI_062",
+        0,
+        "Guts"
+    ],
+    [
+        "TOKUSEI_063",
+        0,
+        "Marvel Scale"
+    ],
+    [
+        "TOKUSEI_064",
+        0,
+        "Liquid Ooze"
+    ],
+    [
+        "TOKUSEI_065",
+        4,
+        "Overgrow"
+    ],
+    [
+        "TOKUSEI_066",
+        0,
+        "Blaze"
+    ],
+    [
+        "TOKUSEI_067",
+        0,
+        "Torrent"
+    ],
+    [
+        "TOKUSEI_068",
+        0,
+        "Swarm"
+    ],
+    [
+        "TOKUSEI_069",
+        0,
+        "Rock Head"
+    ],
+    [
+        "TOKUSEI_070",
+        0,
+        "Drought"
+    ],
+    [
+        "TOKUSEI_071",
+        4,
+        "Arena Trap"
+    ],
+    [
+        "TOKUSEI_072",
+        0,
+        "Vital Spirit"
+    ],
+    [
+        "TOKUSEI_073",
+        0,
+        "White Smoke"
+    ],
+    [
+        "TOKUSEI_074",
+        0,
+        "Pure Power"
+    ],
+    [
+        "TOKUSEI_075",
+        0,
+        "Shell Armor"
+    ],
+    [
+        "TOKUSEI_076",
+        4,
+        "Air Lock"
+    ],
+    [
+        "TOKUSEI_077",
+        0,
+        "Tangled Feet"
+    ],
+    [
+        "TOKUSEI_078",
+        0,
+        "Motor Drive"
+    ],
+    [
+        "TOKUSEI_079",
+        0,
+        "Rivalry"
+    ],
+    [
+        "TOKUSEI_080",
+        0,
+        "Steadfast"
+    ],
+    [
+        "TOKUSEI_081",
+        0,
+        "Snow Cloak"
+    ],
+    [
+        "TOKUSEI_082",
+        0,
+        "Gluttony"
+    ],
+    [
+        "TOKUSEI_083",
+        4,
+        "Anger Point"
+    ],
+    [
+        "TOKUSEI_084",
+        4,
+        "Unburden"
+    ],
+    [
+        "TOKUSEI_085",
+        0,
+        "Heatproof"
+    ],
+    [
+        "TOKUSEI_086",
+        0,
+        "Simple"
+    ],
+    [
+        "TOKUSEI_087",
+        0,
+        "Dry Skin"
+    ],
+    [
+        "TOKUSEI_088",
+        0,
+        "Download"
+    ],
+    [
+        "TOKUSEI_089",
+        4,
+        "Iron Fist"
+    ],
+    [
+        "TOKUSEI_090",
+        0,
+        "Poison Heal"
+    ],
+    [
+        "TOKUSEI_091",
+        4,
+        "Adaptability"
+    ],
+    [
+        "TOKUSEI_092",
+        0,
+        "Skill Link"
+    ],
+    [
+        "TOKUSEI_093",
+        0,
+        "Hydration"
+    ],
+    [
+        "TOKUSEI_094",
+        0,
+        "Solar Power"
+    ],
+    [
+        "TOKUSEI_095",
+        0,
+        "Quick Feet"
+    ],
+    [
+        "TOKUSEI_096",
+        0,
+        "Normalize"
+    ],
+    [
+        "TOKUSEI_097",
+        0,
+        "Sniper"
+    ],
+    [
+        "TOKUSEI_098",
+        0,
+        "Magic Guard"
+    ],
+    [
+        "TOKUSEI_099",
+        0,
+        "No Guard"
+    ],
+    [
+        "TOKUSEI_100",
+        0,
+        "Stall"
+    ],
+    [
+        "TOKUSEI_101",
+        0,
+        "Technician"
+    ],
+    [
+        "TOKUSEI_102",
+        0,
+        "Leaf Guard"
+    ],
+    [
+        "TOKUSEI_103",
+        0,
+        "Klutz"
+    ],
+    [
+        "TOKUSEI_104",
+        0,
+        "Mold Breaker"
+    ],
+    [
+        "TOKUSEI_105",
+        0,
+        "Super Luck"
+    ],
+    [
+        "TOKUSEI_106",
+        4,
+        "Aftermath"
+    ],
+    [
+        "TOKUSEI_107",
+        4,
+        "Anticipation"
+    ],
+    [
+        "TOKUSEI_108",
+        0,
+        "Forewarn"
+    ],
+    [
+        "TOKUSEI_109",
+        4,
+        "Unaware"
+    ],
+    [
+        "TOKUSEI_110",
+        0,
+        "Tinted Lens"
+    ],
+    [
+        "TOKUSEI_111",
+        0,
+        "Filter"
+    ],
+    [
+        "TOKUSEI_112",
+        0,
+        "Slow Start"
+    ],
+    [
+        "TOKUSEI_113",
+        0,
+        "Scrappy"
+    ],
+    [
+        "TOKUSEI_114",
+        0,
+        "Storm Drain"
+    ],
+    [
+        "TOKUSEI_115",
+        4,
+        "Ice Body"
+    ],
+    [
+        "TOKUSEI_116",
+        0,
+        "Solid Rock"
+    ],
+    [
+        "TOKUSEI_117",
+        0,
+        "Snow Warning"
+    ],
+    [
+        "TOKUSEI_118",
+        0,
+        "Honey Gather"
+    ],
+    [
+        "TOKUSEI_119",
+        0,
+        "Frisk"
+    ],
+    [
+        "TOKUSEI_120",
+        0,
+        "Reckless"
+    ],
+    [
+        "TOKUSEI_121",
+        0,
+        "Multitype"
+    ],
+    [
+        "TOKUSEI_122",
+        0,
+        "Flower Gift"
+    ],
+    [
+        "TOKUSEI_123",
+        0,
+        "Bad Dreams"
+    ],
+    [
+        "TOKUSEI_124",
+        0,
+        "Pickpocket"
+    ],
+    [
+        "TOKUSEI_125",
+        0,
+        "Sheer Force"
+    ],
+    [
+        "TOKUSEI_126",
+        0,
+        "Contrary"
+    ],
+    [
+        "TOKUSEI_127",
+        4,
+        "Unnerve"
+    ],
+    [
+        "TOKUSEI_128",
+        0,
+        "Defiant"
+    ],
+    [
+        "TOKUSEI_129",
+        0,
+        "Defeatist"
+    ],
+    [
+        "TOKUSEI_130",
+        0,
+        "Cursed Body"
+    ],
+    [
+        "TOKUSEI_131",
+        0,
+        "Healer"
+    ],
+    [
+        "TOKUSEI_132",
+        0,
+        "Friend Guard"
+    ],
+    [
+        "TOKUSEI_133",
+        0,
+        "Weak Armor"
+    ],
+    [
+        "TOKUSEI_134",
+        0,
+        "Heavy Metal"
+    ],
+    [
+        "TOKUSEI_135",
+        0,
+        "Light Metal"
+    ],
+    [
+        "TOKUSEI_136",
+        0,
+        "Multiscale"
+    ],
+    [
+        "TOKUSEI_137",
+        0,
+        "Toxic Boost"
+    ],
+    [
+        "TOKUSEI_138",
+        0,
+        "Flare Boost"
+    ],
+    [
+        "TOKUSEI_139",
+        0,
+        "Harvest"
+    ],
+    [
+        "TOKUSEI_140",
+        0,
+        "Telepathy"
+    ],
+    [
+        "TOKUSEI_141",
+        0,
+        "Moody"
+    ],
+    [
+        "TOKUSEI_142",
+        4,
+        "Overcoat"
+    ],
+    [
+        "TOKUSEI_143",
+        0,
+        "Poison Touch"
+    ],
+    [
+        "TOKUSEI_144",
+        0,
+        "Regenerator"
+    ],
+    [
+        "TOKUSEI_145",
+        0,
+        "Big Pecks"
+    ],
+    [
+        "TOKUSEI_146",
+        0,
+        "Sand Rush"
+    ],
+    [
+        "TOKUSEI_147",
+        0,
+        "Wonder Skin"
+    ],
+    [
+        "TOKUSEI_148",
+        4,
+        "Analytic"
+    ],
+    [
+        "TOKUSEI_149",
+        4,
+        "Illusion"
+    ],
+    [
+        "TOKUSEI_150",
+        4,
+        "Imposter"
+    ],
+    [
+        "TOKUSEI_151",
+        4,
+        "Infiltrator"
+    ],
+    [
+        "TOKUSEI_152",
+        0,
+        "Mummy"
+    ],
+    [
+        "TOKUSEI_153",
+        0,
+        "Moxie"
+    ],
+    [
+        "TOKUSEI_154",
+        0,
+        "Justified"
+    ],
+    [
+        "TOKUSEI_155",
+        0,
+        "Rattled"
+    ],
+    [
+        "TOKUSEI_156",
+        0,
+        "Magic Bounce"
+    ],
+    [
+        "TOKUSEI_157",
+        0,
+        "Sap Sipper"
+    ],
+    [
+        "TOKUSEI_158",
+        0,
+        "Prankster"
+    ],
+    [
+        "TOKUSEI_159",
+        0,
+        "Sand Force"
+    ],
+    [
+        "TOKUSEI_160",
+        4,
+        "Iron Barbs"
+    ],
+    [
+        "TOKUSEI_161",
+        0,
+        "Zen Mode"
+    ],
+    [
+        "TOKUSEI_162",
+        0,
+        "Victory Star"
+    ],
+    [
+        "TOKUSEI_163",
+        0,
+        "Turboblaze"
+    ],
+    [
+        "TOKUSEI_164",
+        0,
+        "Teravolt"
+    ],
+    [
+        "TOKUSEI_165",
+        4,
+        "Aroma Veil"
+    ],
+    [
+        "TOKUSEI_166",
+        0,
+        "Flower Veil"
+    ],
+    [
+        "TOKUSEI_167",
+        0,
+        "Cheek Pouch"
+    ],
+    [
+        "TOKUSEI_168",
+        0,
+        "Protean"
+    ],
+    [
+        "TOKUSEI_169",
+        0,
+        "Fur Coat"
+    ],
+    [
+        "TOKUSEI_170",
+        0,
+        "Magician"
+    ],
+    [
+        "TOKUSEI_171",
+        0,
+        "Bulletproof"
+    ],
+    [
+        "TOKUSEI_172",
+        0,
+        "Competitive"
+    ],
+    [
+        "TOKUSEI_173",
+        0,
+        "Strong Jaw"
+    ],
+    [
+        "TOKUSEI_174",
+        0,
+        "Refrigerate"
+    ],
+    [
+        "TOKUSEI_175",
+        0,
+        "Sweet Veil"
+    ],
+    [
+        "TOKUSEI_176",
+        0,
+        "Stance Change"
+    ],
+    [
+        "TOKUSEI_177",
+        0,
+        "Gale Wings"
+    ],
+    [
+        "TOKUSEI_178",
+        0,
+        "Mega Launcher"
+    ],
+    [
+        "TOKUSEI_179",
+        0,
+        "Grass Pelt"
+    ],
+    [
+        "TOKUSEI_180",
+        0,
+        "Symbiosis"
+    ],
+    [
+        "TOKUSEI_181",
+        0,
+        "Tough Claws"
+    ],
+    [
+        "TOKUSEI_182",
+        0,
+        "Pixilate"
+    ],
+    [
+        "TOKUSEI_183",
+        0,
+        "Gooey"
+    ],
+    [
+        "TOKUSEI_184",
+        4,
+        "Aerilate"
+    ],
+    [
+        "TOKUSEI_185",
+        0,
+        "Parental Bond"
+    ],
+    [
+        "TOKUSEI_186",
+        0,
+        "Dark Aura"
+    ],
+    [
+        "TOKUSEI_187",
+        0,
+        "Fairy Aura"
+    ],
+    [
+        "TOKUSEI_188",
+        4,
+        "Aura Break"
+    ],
+    [
+        "TOKUSEI_189",
+        0,
+        "Primordial Sea"
+    ],
+    [
+        "TOKUSEI_190",
+        0,
+        "Desolate Land"
+    ],
+    [
+        "TOKUSEI_191",
+        0,
+        "Delta Stream"
+    ],
+    [
+        "TOKUSEI_192",
+        0,
+        "Stamina"
+    ],
+    [
+        "TOKUSEI_193",
+        0,
+        "Wimp Out"
+    ],
+    [
+        "TOKUSEI_194",
+        4,
+        "Emergency Exit"
+    ],
+    [
+        "TOKUSEI_195",
+        0,
+        "Water Compaction"
+    ],
+    [
+        "TOKUSEI_196",
+        0,
+        "Merciless"
+    ],
+    [
+        "TOKUSEI_197",
+        0,
+        "Shields Down"
+    ],
+    [
+        "TOKUSEI_198",
+        0,
+        "Stakeout"
+    ],
+    [
+        "TOKUSEI_199",
+        0,
+        "Water Bubble"
+    ],
+    [
+        "TOKUSEI_200",
+        0,
+        "Steelworker"
+    ],
+    [
+        "TOKUSEI_201",
+        0,
+        "Berserk"
+    ],
+    [
+        "TOKUSEI_202",
+        0,
+        "Slush Rush"
+    ],
+    [
+        "TOKUSEI_203",
+        0,
+        "Long Reach"
+    ],
+    [
+        "TOKUSEI_204",
+        0,
+        "Liquid Voice"
+    ],
+    [
+        "TOKUSEI_205",
+        0,
+        "Triage"
+    ],
+    [
+        "TOKUSEI_206",
+        0,
+        "Galvanize"
+    ],
+    [
+        "TOKUSEI_207",
+        0,
+        "Surge Surfer"
+    ],
+    [
+        "TOKUSEI_208",
+        0,
+        "Schooling"
+    ],
+    [
+        "TOKUSEI_209",
+        0,
+        "Disguise"
+    ],
+    [
+        "TOKUSEI_210",
+        0,
+        "Battle Bond"
+    ],
+    [
+        "TOKUSEI_211",
+        0,
+        "Power Construct"
+    ],
+    [
+        "TOKUSEI_212",
+        0,
+        "Corrosion"
+    ],
+    [
+        "TOKUSEI_213",
+        0,
+        "Comatose"
+    ],
+    [
+        "TOKUSEI_214",
+        0,
+        "Queenly Majesty"
+    ],
+    [
+        "TOKUSEI_215",
+        4,
+        "Innards Out"
+    ],
+    [
+        "TOKUSEI_216",
+        0,
+        "Dancer"
+    ],
+    [
+        "TOKUSEI_217",
+        0,
+        "Battery"
+    ],
+    [
+        "TOKUSEI_218",
+        0,
+        "Fluffy"
+    ],
+    [
+        "TOKUSEI_219",
+        0,
+        "Dazzling"
+    ],
+    [
+        "TOKUSEI_220",
+        0,
+        "Soul-Heart"
+    ],
+    [
+        "TOKUSEI_221",
+        0,
+        "Tangling Hair"
+    ],
+    [
+        "TOKUSEI_222",
+        0,
+        "Receiver"
+    ],
+    [
+        "TOKUSEI_223",
+        0,
+        "Power of Alchemy"
+    ],
+    [
+        "TOKUSEI_224",
+        0,
+        "Beast Boost"
+    ],
+    [
+        "TOKUSEI_225",
+        0,
+        "RKS System"
+    ],
+    [
+        "TOKUSEI_226",
+        4,
+        "Electric Surge"
+    ],
+    [
+        "TOKUSEI_227",
+        0,
+        "Psychic Surge"
+    ],
+    [
+        "TOKUSEI_228",
+        0,
+        "Misty Surge"
+    ],
+    [
+        "TOKUSEI_229",
+        0,
+        "Grassy Surge"
+    ],
+    [
+        "TOKUSEI_230",
+        0,
+        "Full Metal Body"
+    ],
+    [
+        "TOKUSEI_231",
+        0,
+        "Shadow Shield"
+    ],
+    [
+        "TOKUSEI_232",
+        0,
+        "Prism Armor"
+    ],
+    [
+        "TOKUSEI_233",
+        0,
+        "Neuroforce"
+    ],
+    [
+        "TOKUSEI_234",
+        4,
+        "Intrepid Sword"
+    ],
+    [
+        "TOKUSEI_235",
+        0,
+        "Dauntless Shield"
+    ],
+    [
+        "TOKUSEI_236",
+        0,
+        "Libero"
+    ],
+    [
+        "TOKUSEI_237",
+        0,
+        "Ball Fetch"
+    ],
+    [
+        "TOKUSEI_238",
+        0,
+        "Cotton Down"
+    ],
+    [
+        "TOKUSEI_239",
+        0,
+        "Propeller Tail"
+    ],
+    [
+        "TOKUSEI_240",
+        0,
+        "Mirror Armor"
+    ],
+    [
+        "TOKUSEI_241",
+        0,
+        "Gulp Missile"
+    ],
+    [
+        "TOKUSEI_242",
+        0,
+        "Stalwart"
+    ],
+    [
+        "TOKUSEI_243",
+        0,
+        "Steam Engine"
+    ],
+    [
+        "TOKUSEI_244",
+        0,
+        "Punk Rock"
+    ],
+    [
+        "TOKUSEI_245",
+        0,
+        "Sand Spit"
+    ],
+    [
+        "TOKUSEI_246",
+        4,
+        "Ice Scales"
+    ],
+    [
+        "TOKUSEI_247",
+        0,
+        "Ripen"
+    ],
+    [
+        "TOKUSEI_248",
+        4,
+        "Ice Face"
+    ],
+    [
+        "TOKUSEI_249",
+        0,
+        "Power Spot"
+    ],
+    [
+        "TOKUSEI_250",
+        0,
+        "Mimicry"
+    ],
+    [
+        "TOKUSEI_251",
+        0,
+        "Screen Cleaner"
+    ],
+    [
+        "TOKUSEI_252",
+        0,
+        "Steely Spirit"
+    ],
+    [
+        "TOKUSEI_253",
+        0,
+        "Perish Body"
+    ],
+    [
+        "TOKUSEI_254",
+        0,
+        "Wandering Spirit"
+    ],
+    [
+        "TOKUSEI_255",
+        0,
+        "Gorilla Tactics"
+    ],
+    [
+        "TOKUSEI_256",
+        0,
+        "Neutralizing Gas"
+    ],
+    [
+        "TOKUSEI_257",
+        0,
+        "Pastel Veil"
+    ],
+    [
+        "TOKUSEI_258",
+        0,
+        "Hunger Switch"
+    ],
+    [
+        "TOKUSEI_259",
+        0,
+        "Quick Draw"
+    ],
+    [
+        "TOKUSEI_260",
+        4,
+        "Unseen Fist"
+    ],
+    [
+        "TOKUSEI_261",
+        0,
+        "Curious Medicine"
+    ],
+    [
+        "TOKUSEI_262",
+        0,
+        "Transistor"
+    ],
+    [
+        "TOKUSEI_263",
+        0,
+        "Dragon\u2019s Maw"
+    ],
+    [
+        "TOKUSEI_264",
+        0,
+        "Chilling Neigh"
+    ],
+    [
+        "TOKUSEI_265",
+        0,
+        "Grim Neigh"
+    ],
+    [
+        "TOKUSEI_266",
+        4,
+        "As One"
+    ],
+    [
+        "TOKUSEI_267",
+        4,
+        "As One"
+    ],
+    [
+        "msg_tokusei_max",
+        null,
+        null
+    ]
+]

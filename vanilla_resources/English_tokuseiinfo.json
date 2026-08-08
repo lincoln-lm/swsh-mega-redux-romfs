@@ -1,0 +1,1347 @@
+[
+    [
+        "TOKUSEIINFO_000",
+        0,
+        "-"
+    ],
+    [
+        "TOKUSEIINFO_001",
+        0,
+        "By releasing stench when attacking, this Pok\u00e9mon\nmay cause the target to flinch."
+    ],
+    [
+        "TOKUSEIINFO_002",
+        0,
+        "The Pok\u00e9mon makes it rain when it enters a battle."
+    ],
+    [
+        "TOKUSEIINFO_003",
+        4,
+        "Its Speed stat is boosted every turn."
+    ],
+    [
+        "TOKUSEIINFO_004",
+        0,
+        "Hard armor protects the Pok\u00e9mon from critical hits."
+    ],
+    [
+        "TOKUSEIINFO_005",
+        4,
+        "It cannot be knocked out with one hit. One-hit KO\nmoves cannot knock it out, either."
+    ],
+    [
+        "TOKUSEIINFO_006",
+        0,
+        "Prevents the use of explosive moves, such as\nSelf-Destruct, by dampening its surroundings."
+    ],
+    [
+        "TOKUSEIINFO_007",
+        4,
+        "Its limber body protects the Pok\u00e9mon from paralysis."
+    ],
+    [
+        "TOKUSEIINFO_008",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s evasiveness in a sandstorm."
+    ],
+    [
+        "TOKUSEIINFO_009",
+        0,
+        "The Pok\u00e9mon is charged with static electricity, so\ncontact with it may cause paralysis."
+    ],
+    [
+        "TOKUSEIINFO_010",
+        0,
+        "Restores HP if hit by an Electric-type move instead\nof taking damage."
+    ],
+    [
+        "TOKUSEIINFO_011",
+        0,
+        "Restores HP if hit by a Water-type move instead of\ntaking damage."
+    ],
+    [
+        "TOKUSEIINFO_012",
+        0,
+        "The Pok\u00e9mon is oblivious, and that keeps it from\nbeing infatuated or falling for taunts."
+    ],
+    [
+        "TOKUSEIINFO_013",
+        4,
+        "Eliminates the effects of weather."
+    ],
+    [
+        "TOKUSEIINFO_014",
+        0,
+        "The Pok\u00e9mon\u2019s compound eyes boost its accuracy."
+    ],
+    [
+        "TOKUSEIINFO_015",
+        0,
+        "The Pok\u00e9mon is suffering from insomnia and cannot\nfall asleep."
+    ],
+    [
+        "TOKUSEIINFO_016",
+        0,
+        "The Pok\u00e9mon\u2019s type becomes the type of the move\nused on it."
+    ],
+    [
+        "TOKUSEIINFO_017",
+        0,
+        "The immune system of the Pok\u00e9mon prevents it from\ngetting poisoned."
+    ],
+    [
+        "TOKUSEIINFO_018",
+        0,
+        "Powers up the Pok\u00e9mon\u2019s Fire-type moves if it\u2019s hit\nby one."
+    ],
+    [
+        "TOKUSEIINFO_019",
+        0,
+        "This Pok\u00e9mon\u2019s dust blocks the additional effects of\nattacks taken."
+    ],
+    [
+        "TOKUSEIINFO_020",
+        0,
+        "This Pok\u00e9mon has its own tempo, and that prevents\nit from becoming confused."
+    ],
+    [
+        "TOKUSEIINFO_021",
+        0,
+        "This Pok\u00e9mon uses suction cups to stay in one spot\nto negate all moves and items that force\nswitching out."
+    ],
+    [
+        "TOKUSEIINFO_022",
+        0,
+        "The Pok\u00e9mon intimidates opposing Pok\u00e9mon upon\nentering battle, lowering their Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_023",
+        0,
+        "This Pok\u00e9mon steps on the opposing Pok\u00e9mon\u2019s\nshadow to prevent it from escaping."
+    ],
+    [
+        "TOKUSEIINFO_024",
+        0,
+        "This Pok\u00e9mon inflicts damage with its rough skin\nto the attacker on contact."
+    ],
+    [
+        "TOKUSEIINFO_025",
+        4,
+        "Its mysterious power only lets supereffective moves\nhit the Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_026",
+        0,
+        "By floating in the air, the Pok\u00e9mon receives full\nimmunity to all Ground-type moves."
+    ],
+    [
+        "TOKUSEIINFO_027",
+        0,
+        "Contact with the Pok\u00e9mon may inflict poison, sleep,\nor paralysis on its attacker."
+    ],
+    [
+        "TOKUSEIINFO_028",
+        0,
+        "The attacker will receive the same status condition if\nit inflicts a burn, poison, or paralysis to the Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_029",
+        0,
+        "Prevents other Pok\u00e9mon\u2019s moves or Abilities from\nlowering the Pok\u00e9mon\u2019s stats."
+    ],
+    [
+        "TOKUSEIINFO_030",
+        4,
+        "All status conditions heal when the Pok\u00e9mon\nswitches out."
+    ],
+    [
+        "TOKUSEIINFO_031",
+        0,
+        "The Pok\u00e9mon draws in all Electric-type moves.\nInstead of being hit by Electric-type moves,\nit boosts its Sp. Atk."
+    ],
+    [
+        "TOKUSEIINFO_032",
+        0,
+        "Boosts the likelihood of additional effects occurring\nwhen attacking."
+    ],
+    [
+        "TOKUSEIINFO_033",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Speed stat in rain."
+    ],
+    [
+        "TOKUSEIINFO_034",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Speed stat in harsh sunlight."
+    ],
+    [
+        "TOKUSEIINFO_035",
+        0,
+        "Raises the likelihood of meeting wild Pok\u00e9mon by\nilluminating the surroundings."
+    ],
+    [
+        "TOKUSEIINFO_036",
+        0,
+        "When it enters a battle, the Pok\u00e9mon copies an\nopposing Pok\u00e9mon\u2019s Ability."
+    ],
+    [
+        "TOKUSEIINFO_037",
+        0,
+        "Doubles the Pok\u00e9mon\u2019s Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_038",
+        0,
+        "Contact with the Pok\u00e9mon may poison the attacker."
+    ],
+    [
+        "TOKUSEIINFO_039",
+        0,
+        "The Pok\u00e9mon\u2019s intensely focused, and that protects\nthe Pok\u00e9mon from flinching."
+    ],
+    [
+        "TOKUSEIINFO_040",
+        0,
+        "The Pok\u00e9mon is covered with hot magma, which\nprevents the Pok\u00e9mon from becoming frozen."
+    ],
+    [
+        "TOKUSEIINFO_041",
+        0,
+        "The Pok\u00e9mon is covered with a water veil, which\nprevents the Pok\u00e9mon from getting a burn."
+    ],
+    [
+        "TOKUSEIINFO_042",
+        0,
+        "Prevents Steel-type Pok\u00e9mon from escaping using\nits magnetic force."
+    ],
+    [
+        "TOKUSEIINFO_043",
+        0,
+        "Soundproofing gives the Pok\u00e9mon full\nimmunity to all sound-based moves."
+    ],
+    [
+        "TOKUSEIINFO_044",
+        0,
+        "The Pok\u00e9mon gradually regains HP in rain."
+    ],
+    [
+        "TOKUSEIINFO_045",
+        0,
+        "The Pok\u00e9mon summons a sandstorm when it enters\na battle."
+    ],
+    [
+        "TOKUSEIINFO_046",
+        0,
+        "By putting pressure on the opposing Pok\u00e9mon, it\nraises their PP usage."
+    ],
+    [
+        "TOKUSEIINFO_047",
+        0,
+        "The Pok\u00e9mon is protected by a layer of thick fat,\nwhich halves the damage taken from Fire- and\nIce-type moves."
+    ],
+    [
+        "TOKUSEIINFO_048",
+        0,
+        "The Pok\u00e9mon awakens from sleep twice as fast\nas other Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_049",
+        0,
+        "Contact with the Pok\u00e9mon may burn the attacker."
+    ],
+    [
+        "TOKUSEIINFO_050",
+        4,
+        "Enables a sure getaway from wild Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_051",
+        0,
+        "Keen eyes prevent other Pok\u00e9mon from lowering this\nPok\u00e9mon\u2019s accuracy."
+    ],
+    [
+        "TOKUSEIINFO_052",
+        0,
+        "The Pok\u00e9mon\u2019s proud of its powerful pincers. They\nprevent other Pok\u00e9mon from lowering its Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_053",
+        0,
+        "The Pok\u00e9mon may pick up the item an opposing\nPok\u00e9mon used during a battle. It may pick up items\noutside of battle, too."
+    ],
+    [
+        "TOKUSEIINFO_054",
+        0,
+        "The Pok\u00e9mon can\u2019t use a move if it had used a move\non the previous turn."
+    ],
+    [
+        "TOKUSEIINFO_055",
+        0,
+        "Boosts the Attack stat, but lowers accuracy."
+    ],
+    [
+        "TOKUSEIINFO_056",
+        0,
+        "Contact with the Pok\u00e9mon may cause infatuation."
+    ],
+    [
+        "TOKUSEIINFO_057",
+        0,
+        "Boosts the Sp. Atk stat of the Pok\u00e9mon if an ally\nwith the Plus or Minus Ability is also in battle."
+    ],
+    [
+        "TOKUSEIINFO_058",
+        0,
+        "Boosts the Sp. Atk stat of the Pok\u00e9mon if an ally\nwith the Plus or Minus Ability is also in battle."
+    ],
+    [
+        "TOKUSEIINFO_059",
+        0,
+        "The Pok\u00e9mon transforms with the weather to change\nits type to Water, Fire, or Ice."
+    ],
+    [
+        "TOKUSEIINFO_060",
+        4,
+        "Items held by the Pok\u00e9mon are stuck fast and\ncannot be removed by other Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_061",
+        0,
+        "The Pok\u00e9mon may heal its own status conditions\nby shedding its skin."
+    ],
+    [
+        "TOKUSEIINFO_062",
+        4,
+        "It\u2019s so gutsy that having a status condition boosts\nthe Pok\u00e9mon\u2019s Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_063",
+        0,
+        "The Pok\u00e9mon\u2019s marvelous scales boost the Defense\nstat if it has a status condition."
+    ],
+    [
+        "TOKUSEIINFO_064",
+        0,
+        "The oozed liquid has a strong stench, which damages\nattackers using any draining move."
+    ],
+    [
+        "TOKUSEIINFO_065",
+        0,
+        "Powers up Grass-type moves when the Pok\u00e9mon\u2019s\nHP is low."
+    ],
+    [
+        "TOKUSEIINFO_066",
+        0,
+        "Powers up Fire-type moves when the Pok\u00e9mon\u2019s HP\nis low."
+    ],
+    [
+        "TOKUSEIINFO_067",
+        0,
+        "Powers up Water-type moves when the Pok\u00e9mon\u2019s\nHP is low."
+    ],
+    [
+        "TOKUSEIINFO_068",
+        0,
+        "Powers up Bug-type moves when the Pok\u00e9mon\u2019s HP\nis low."
+    ],
+    [
+        "TOKUSEIINFO_069",
+        0,
+        "Protects the Pok\u00e9mon from recoil damage."
+    ],
+    [
+        "TOKUSEIINFO_070",
+        0,
+        "Turns the sunlight harsh when the Pok\u00e9mon enters\na battle."
+    ],
+    [
+        "TOKUSEIINFO_071",
+        0,
+        "Prevents opposing Pok\u00e9mon from fleeing."
+    ],
+    [
+        "TOKUSEIINFO_072",
+        0,
+        "The Pok\u00e9mon is full of vitality, and that prevents\nit from falling asleep."
+    ],
+    [
+        "TOKUSEIINFO_073",
+        0,
+        "The Pok\u00e9mon is protected by its white smoke, which\nprevents other Pok\u00e9mon from lowering its stats."
+    ],
+    [
+        "TOKUSEIINFO_074",
+        4,
+        "Using its pure power, the Pok\u00e9mon doubles its\nAttack stat."
+    ],
+    [
+        "TOKUSEIINFO_075",
+        4,
+        "A hard shell protects the Pok\u00e9mon from critical hits."
+    ],
+    [
+        "TOKUSEIINFO_076",
+        4,
+        "Eliminates the effects of weather."
+    ],
+    [
+        "TOKUSEIINFO_077",
+        0,
+        "Raises evasiveness if the Pok\u00e9mon is confused."
+    ],
+    [
+        "TOKUSEIINFO_078",
+        0,
+        "Boosts its Speed stat if hit by an Electric-type move\ninstead of taking damage."
+    ],
+    [
+        "TOKUSEIINFO_079",
+        0,
+        "Becomes competitive and deals more damage to\nPok\u00e9mon of the same gender, but deals less to\nPok\u00e9mon of the opposite gender."
+    ],
+    [
+        "TOKUSEIINFO_080",
+        0,
+        "The Pok\u00e9mon\u2019s determination boosts the Speed\nstat each time the Pok\u00e9mon flinches."
+    ],
+    [
+        "TOKUSEIINFO_081",
+        0,
+        "Boosts evasiveness in a hailstorm."
+    ],
+    [
+        "TOKUSEIINFO_082",
+        0,
+        "Makes the Pok\u00e9mon eat a held Berry when its HP\ndrops to half or less, which is sooner than usual."
+    ],
+    [
+        "TOKUSEIINFO_083",
+        0,
+        "The Pok\u00e9mon is angered when it takes a critical hit,\nand that maxes its Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_084",
+        0,
+        "Boosts the Speed stat if the Pok\u00e9mon\u2019s held item is\nused or lost."
+    ],
+    [
+        "TOKUSEIINFO_085",
+        0,
+        "The heatproof body of the Pok\u00e9mon halves the\ndamage from Fire-type moves that hit it."
+    ],
+    [
+        "TOKUSEIINFO_086",
+        0,
+        "The stat changes the Pok\u00e9mon receives are doubled."
+    ],
+    [
+        "TOKUSEIINFO_087",
+        0,
+        "Restores HP in rain or when hit by Water-type\nmoves. Reduces HP in harsh sunlight, and increases\nthe damage received from Fire-type moves."
+    ],
+    [
+        "TOKUSEIINFO_088",
+        0,
+        "Compares an opposing Pok\u00e9mon\u2019s Defense and\nSp. Def stats before raising its own Attack or\nSp. Atk stat\u2014whichever will be more effective."
+    ],
+    [
+        "TOKUSEIINFO_089",
+        0,
+        "Powers up punching moves."
+    ],
+    [
+        "TOKUSEIINFO_090",
+        0,
+        "Restores HP if the Pok\u00e9mon is poisoned instead of\nlosing HP."
+    ],
+    [
+        "TOKUSEIINFO_091",
+        0,
+        "Powers up moves of the same type as the Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_092",
+        0,
+        "Maximizes the number of times multistrike\nmoves hit."
+    ],
+    [
+        "TOKUSEIINFO_093",
+        0,
+        "Heals status conditions if it\u2019s raining."
+    ],
+    [
+        "TOKUSEIINFO_094",
+        0,
+        "Boosts the Sp. Atk stat in harsh sunlight, but HP\ndecreases every turn."
+    ],
+    [
+        "TOKUSEIINFO_095",
+        0,
+        "Boosts the Speed stat if the Pok\u00e9mon has a\nstatus condition."
+    ],
+    [
+        "TOKUSEIINFO_096",
+        4,
+        "All the Pok\u00e9mon\u2019s moves become Normal type.\nThe power of those moves is boosted a little."
+    ],
+    [
+        "TOKUSEIINFO_097",
+        0,
+        "Powers up moves if they become critical hits\nwhen attacking."
+    ],
+    [
+        "TOKUSEIINFO_098",
+        0,
+        "The Pok\u00e9mon only takes damage from attacks."
+    ],
+    [
+        "TOKUSEIINFO_099",
+        0,
+        "The Pok\u00e9mon employs no-guard tactics to ensure\nincoming and outgoing attacks always land."
+    ],
+    [
+        "TOKUSEIINFO_100",
+        0,
+        "The Pok\u00e9mon moves after all other Pok\u00e9mon do."
+    ],
+    [
+        "TOKUSEIINFO_101",
+        0,
+        "Powers up the Pok\u00e9mon\u2019s weaker moves."
+    ],
+    [
+        "TOKUSEIINFO_102",
+        0,
+        "Prevents status conditions in harsh sunlight."
+    ],
+    [
+        "TOKUSEIINFO_103",
+        0,
+        "The Pok\u00e9mon can\u2019t use any held items."
+    ],
+    [
+        "TOKUSEIINFO_104",
+        0,
+        "Moves can be used on the target regardless of\nits Abilities."
+    ],
+    [
+        "TOKUSEIINFO_105",
+        0,
+        "The Pok\u00e9mon is so lucky that the critical-hit ratios\nof its moves are boosted."
+    ],
+    [
+        "TOKUSEIINFO_106",
+        0,
+        "Damages the attacker if it contacts the Pok\u00e9mon\nwith a finishing hit."
+    ],
+    [
+        "TOKUSEIINFO_107",
+        0,
+        "The Pok\u00e9mon can sense an opposing Pok\u00e9mon\u2019s\ndangerous moves."
+    ],
+    [
+        "TOKUSEIINFO_108",
+        0,
+        "When it enters a battle, the Pok\u00e9mon can tell one of\nthe moves an opposing Pok\u00e9mon has."
+    ],
+    [
+        "TOKUSEIINFO_109",
+        0,
+        "When attacking, the Pok\u00e9mon ignores the target\nPok\u00e9mon\u2019s stat changes."
+    ],
+    [
+        "TOKUSEIINFO_110",
+        0,
+        "The Pok\u00e9mon can use \u201cnot very effective\u201d moves\nto deal regular damage."
+    ],
+    [
+        "TOKUSEIINFO_111",
+        0,
+        "Reduces the power of supereffective attacks taken."
+    ],
+    [
+        "TOKUSEIINFO_112",
+        0,
+        "For five turns, the Pok\u00e9mon\u2019s Attack and Speed\nstats are halved."
+    ],
+    [
+        "TOKUSEIINFO_113",
+        0,
+        "The Pok\u00e9mon can hit Ghost-type Pok\u00e9mon with\nNormal- and Fighting-type moves."
+    ],
+    [
+        "TOKUSEIINFO_114",
+        0,
+        "Draws in all Water-type moves. Instead of being hit\nby Water-type moves, it boosts its Sp. Atk."
+    ],
+    [
+        "TOKUSEIINFO_115",
+        0,
+        "The Pok\u00e9mon gradually regains HP in a hailstorm."
+    ],
+    [
+        "TOKUSEIINFO_116",
+        0,
+        "Reduces the power of supereffective attacks taken."
+    ],
+    [
+        "TOKUSEIINFO_117",
+        0,
+        "The Pok\u00e9mon summons a hailstorm when it enters\na battle."
+    ],
+    [
+        "TOKUSEIINFO_118",
+        0,
+        "The Pok\u00e9mon may gather Honey after a battle."
+    ],
+    [
+        "TOKUSEIINFO_119",
+        0,
+        "When it enters a battle, the Pok\u00e9mon can check an\nopposing Pok\u00e9mon\u2019s held item."
+    ],
+    [
+        "TOKUSEIINFO_120",
+        0,
+        "Powers up moves that have recoil damage."
+    ],
+    [
+        "TOKUSEIINFO_121",
+        0,
+        "Changes the Pok\u00e9mon\u2019s type to match the Plate or\nZ-Crystal it holds."
+    ],
+    [
+        "TOKUSEIINFO_122",
+        0,
+        "Boosts the Attack and Sp. Def stats of itself\nand allies in harsh sunlight."
+    ],
+    [
+        "TOKUSEIINFO_123",
+        0,
+        "Reduces the HP of sleeping opposing Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_124",
+        0,
+        "Steals an item from an attacker that made\ndirect contact."
+    ],
+    [
+        "TOKUSEIINFO_125",
+        0,
+        "Removes additional effects to increase the power\nof moves when attacking."
+    ],
+    [
+        "TOKUSEIINFO_126",
+        0,
+        "Makes stat changes have an opposite effect."
+    ],
+    [
+        "TOKUSEIINFO_127",
+        4,
+        "Unnerves opposing Pok\u00e9mon and makes them unable\nto eat Berries."
+    ],
+    [
+        "TOKUSEIINFO_128",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Attack stat sharply when its\nstats are lowered."
+    ],
+    [
+        "TOKUSEIINFO_129",
+        0,
+        "Halves the Pok\u00e9mon\u2019s Attack and Sp. Atk stats\nwhen its HP becomes half or less."
+    ],
+    [
+        "TOKUSEIINFO_130",
+        0,
+        "May disable a move used on the Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_131",
+        0,
+        "Sometimes heals an ally\u2019s status condition."
+    ],
+    [
+        "TOKUSEIINFO_132",
+        0,
+        "Reduces damage done to allies."
+    ],
+    [
+        "TOKUSEIINFO_133",
+        0,
+        "Physical attacks to the Pok\u00e9mon lower its Defense\nstat but sharply raise its Speed stat."
+    ],
+    [
+        "TOKUSEIINFO_134",
+        0,
+        "Doubles the Pok\u00e9mon\u2019s weight."
+    ],
+    [
+        "TOKUSEIINFO_135",
+        0,
+        "Halves the Pok\u00e9mon\u2019s weight."
+    ],
+    [
+        "TOKUSEIINFO_136",
+        0,
+        "Reduces the amount of damage the Pok\u00e9mon takes\nwhile its HP is full."
+    ],
+    [
+        "TOKUSEIINFO_137",
+        0,
+        "Powers up physical attacks when the Pok\u00e9mon\nis poisoned."
+    ],
+    [
+        "TOKUSEIINFO_138",
+        0,
+        "Powers up special attacks when the Pok\u00e9mon\nis burned."
+    ],
+    [
+        "TOKUSEIINFO_139",
+        0,
+        "May create another Berry after one is used."
+    ],
+    [
+        "TOKUSEIINFO_140",
+        4,
+        "Anticipates an ally\u2019s attack and dodges it."
+    ],
+    [
+        "TOKUSEIINFO_141",
+        0,
+        "Raises one stat sharply and lowers another\nevery turn."
+    ],
+    [
+        "TOKUSEIINFO_142",
+        0,
+        "Protects the Pok\u00e9mon from things like sand, hail,\nand powder."
+    ],
+    [
+        "TOKUSEIINFO_143",
+        0,
+        "May poison a target when the Pok\u00e9mon\nmakes contact."
+    ],
+    [
+        "TOKUSEIINFO_144",
+        0,
+        "Restores a little HP when withdrawn from battle."
+    ],
+    [
+        "TOKUSEIINFO_145",
+        0,
+        "Protects the Pok\u00e9mon from\nDefense-lowering effects."
+    ],
+    [
+        "TOKUSEIINFO_146",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Speed stat in a sandstorm."
+    ],
+    [
+        "TOKUSEIINFO_147",
+        0,
+        "Makes status moves more likely to miss."
+    ],
+    [
+        "TOKUSEIINFO_148",
+        0,
+        "Boosts move power when the Pok\u00e9mon moves last."
+    ],
+    [
+        "TOKUSEIINFO_149",
+        0,
+        "Comes out disguised as the Pok\u00e9mon in the party\u2019s\nlast spot."
+    ],
+    [
+        "TOKUSEIINFO_150",
+        0,
+        "The Pok\u00e9mon transforms itself into the Pok\u00e9mon\nit\u2019s facing."
+    ],
+    [
+        "TOKUSEIINFO_151",
+        0,
+        "Passes through the opposing Pok\u00e9mon\u2019s barrier,\nsubstitute, and the like and strikes."
+    ],
+    [
+        "TOKUSEIINFO_152",
+        0,
+        "Contact with the Pok\u00e9mon changes the attacker\u2019s\nAbility to Mummy."
+    ],
+    [
+        "TOKUSEIINFO_153",
+        0,
+        "The Pok\u00e9mon shows moxie, and that boosts the\nAttack stat after knocking out any Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_154",
+        0,
+        "Being hit by a Dark-type move boosts the Attack\nstat of the Pok\u00e9mon, for justice."
+    ],
+    [
+        "TOKUSEIINFO_155",
+        0,
+        "Dark-, Ghost-, and Bug-type moves scare the\nPok\u00e9mon and boost its Speed stat."
+    ],
+    [
+        "TOKUSEIINFO_156",
+        0,
+        "Reflects status moves instead of getting hit\nby them."
+    ],
+    [
+        "TOKUSEIINFO_157",
+        0,
+        "Boosts the Attack stat if hit by a Grass-type move\ninstead of taking damage."
+    ],
+    [
+        "TOKUSEIINFO_158",
+        0,
+        "Gives priority to a status move."
+    ],
+    [
+        "TOKUSEIINFO_159",
+        0,
+        "Boosts the power of Rock-, Ground-, and Steel-type\nmoves in a sandstorm."
+    ],
+    [
+        "TOKUSEIINFO_160",
+        4,
+        "Inflicts damage on the attacker upon contact with\niron barbs."
+    ],
+    [
+        "TOKUSEIINFO_161",
+        0,
+        "Changes the Pok\u00e9mon\u2019s shape when HP is half\nor less."
+    ],
+    [
+        "TOKUSEIINFO_162",
+        0,
+        "Boosts the accuracy of its allies and itself."
+    ],
+    [
+        "TOKUSEIINFO_163",
+        0,
+        "Moves can be used on the target regardless of\nits Abilities."
+    ],
+    [
+        "TOKUSEIINFO_164",
+        0,
+        "Moves can be used on the target regardless of\nits Abilities."
+    ],
+    [
+        "TOKUSEIINFO_165",
+        0,
+        "Protects itself and its allies from attacks that limit\ntheir move choices."
+    ],
+    [
+        "TOKUSEIINFO_166",
+        4,
+        "Ally Grass-type Pok\u00e9mon are protected from\nstatus conditions and the lowering of their stats."
+    ],
+    [
+        "TOKUSEIINFO_167",
+        0,
+        "Restores HP as well when the Pok\u00e9mon eats a Berry."
+    ],
+    [
+        "TOKUSEIINFO_168",
+        0,
+        "Changes the Pok\u00e9mon\u2019s type to the type of the\nmove it\u2019s about to use."
+    ],
+    [
+        "TOKUSEIINFO_169",
+        0,
+        "Halves the damage from physical moves."
+    ],
+    [
+        "TOKUSEIINFO_170",
+        0,
+        "The Pok\u00e9mon steals the held item of a Pok\u00e9mon it\nhits with a move."
+    ],
+    [
+        "TOKUSEIINFO_171",
+        0,
+        "Protects the Pok\u00e9mon from some ball and\nbomb moves."
+    ],
+    [
+        "TOKUSEIINFO_172",
+        0,
+        "Boosts the Sp. Atk stat sharply when a stat\nis lowered."
+    ],
+    [
+        "TOKUSEIINFO_173",
+        0,
+        "The Pok\u00e9mon\u2019s strong jaw boosts the power of its\nbiting moves."
+    ],
+    [
+        "TOKUSEIINFO_174",
+        0,
+        "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted a little."
+    ],
+    [
+        "TOKUSEIINFO_175",
+        0,
+        "Prevents itself and ally Pok\u00e9mon from falling asleep."
+    ],
+    [
+        "TOKUSEIINFO_176",
+        0,
+        "The Pok\u00e9mon changes its form to Blade Forme when\nit uses an attack move and changes to Shield Forme\nwhen it uses King\u2019s Shield."
+    ],
+    [
+        "TOKUSEIINFO_177",
+        0,
+        "Gives priority to Flying-type moves when\nthe Pok\u00e9mon\u2019s HP is full."
+    ],
+    [
+        "TOKUSEIINFO_178",
+        0,
+        "Powers up aura and pulse moves."
+    ],
+    [
+        "TOKUSEIINFO_179",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Defense stat on\nGrassy Terrain."
+    ],
+    [
+        "TOKUSEIINFO_180",
+        0,
+        "The Pok\u00e9mon passes its item to an ally that has\nused up an item."
+    ],
+    [
+        "TOKUSEIINFO_181",
+        0,
+        "Powers up moves that make direct contact."
+    ],
+    [
+        "TOKUSEIINFO_182",
+        0,
+        "Normal-type moves become Fairy-type moves.\nThe power of those moves is boosted a little."
+    ],
+    [
+        "TOKUSEIINFO_183",
+        0,
+        "Contact with the Pok\u00e9mon lowers the attacker\u2019s\nSpeed stat."
+    ],
+    [
+        "TOKUSEIINFO_184",
+        0,
+        "Normal-type moves become Flying-type moves.\nThe power of those moves is boosted a little."
+    ],
+    [
+        "TOKUSEIINFO_185",
+        0,
+        "Parent and child each attacks."
+    ],
+    [
+        "TOKUSEIINFO_186",
+        0,
+        "Powers up each Pok\u00e9mon\u2019s Dark-type moves."
+    ],
+    [
+        "TOKUSEIINFO_187",
+        0,
+        "Powers up each Pok\u00e9mon\u2019s Fairy-type moves."
+    ],
+    [
+        "TOKUSEIINFO_188",
+        0,
+        "The effects of \u201cAura\u201d Abilities are reversed\nto lower the power of affected moves."
+    ],
+    [
+        "TOKUSEIINFO_189",
+        0,
+        "The Pok\u00e9mon changes the weather to nullify\nFire-type attacks."
+    ],
+    [
+        "TOKUSEIINFO_190",
+        0,
+        "The Pok\u00e9mon changes the weather to nullify\nWater-type attacks."
+    ],
+    [
+        "TOKUSEIINFO_191",
+        0,
+        "The Pok\u00e9mon changes the weather to eliminate all\nof the Flying type\u2019s weaknesses."
+    ],
+    [
+        "TOKUSEIINFO_192",
+        0,
+        "Boosts the Defense stat when hit by an attack."
+    ],
+    [
+        "TOKUSEIINFO_193",
+        0,
+        "The Pok\u00e9mon cowardly switches out when its HP\nbecomes half or less."
+    ],
+    [
+        "TOKUSEIINFO_194",
+        0,
+        "The Pok\u00e9mon, sensing danger, switches out when its\nHP becomes half or less."
+    ],
+    [
+        "TOKUSEIINFO_195",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Defense stat sharply when hit\nby a Water-type move."
+    ],
+    [
+        "TOKUSEIINFO_196",
+        0,
+        "The Pok\u00e9mon\u2019s attacks become critical hits if the\ntarget is poisoned."
+    ],
+    [
+        "TOKUSEIINFO_197",
+        0,
+        "When its HP becomes half or less, the Pok\u00e9mon\u2019s\nshell breaks and it becomes aggressive."
+    ],
+    [
+        "TOKUSEIINFO_198",
+        0,
+        "Doubles the damage dealt to the target\u2019s\nreplacement if the target switches out."
+    ],
+    [
+        "TOKUSEIINFO_199",
+        0,
+        "Lowers the power of Fire-type moves done to the\nPok\u00e9mon and prevents the Pok\u00e9mon from getting\na burn."
+    ],
+    [
+        "TOKUSEIINFO_200",
+        0,
+        "Powers up Steel-type moves."
+    ],
+    [
+        "TOKUSEIINFO_201",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Sp. Atk stat when it takes\na hit that causes its HP to become half or less."
+    ],
+    [
+        "TOKUSEIINFO_202",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Speed stat in a hailstorm."
+    ],
+    [
+        "TOKUSEIINFO_203",
+        0,
+        "The Pok\u00e9mon uses its moves without making contact\nwith the target."
+    ],
+    [
+        "TOKUSEIINFO_204",
+        4,
+        "All sound-based moves become Water-type moves."
+    ],
+    [
+        "TOKUSEIINFO_205",
+        0,
+        "Gives priority to a healing move."
+    ],
+    [
+        "TOKUSEIINFO_206",
+        0,
+        "Normal-type moves become Electric-type moves.\nThe power of those moves is boosted a little."
+    ],
+    [
+        "TOKUSEIINFO_207",
+        0,
+        "Doubles the Pok\u00e9mon\u2019s Speed stat on\nElectric Terrain."
+    ],
+    [
+        "TOKUSEIINFO_208",
+        0,
+        "When it has a lot of HP, the Pok\u00e9mon forms a\npowerful school. It stops schooling when its HP\nis low."
+    ],
+    [
+        "TOKUSEIINFO_209",
+        4,
+        "Once per battle, the shroud that covers the\nPok\u00e9mon can protect it from an attack."
+    ],
+    [
+        "TOKUSEIINFO_210",
+        0,
+        "Defeating an opposing Pok\u00e9mon strengthens the\nPok\u00e9mon\u2019s bond with its Trainer, and it becomes\nAsh-Greninja. Water Shuriken gets more powerful."
+    ],
+    [
+        "TOKUSEIINFO_211",
+        4,
+        "Other Cells gather to aid when its HP becomes\nhalf or less. Then the Pok\u00e9mon changes\nits form to Complete Forme."
+    ],
+    [
+        "TOKUSEIINFO_212",
+        0,
+        "The Pok\u00e9mon can poison the target even if it\u2019s\na Steel or Poison type."
+    ],
+    [
+        "TOKUSEIINFO_213",
+        4,
+        "It\u2019s always drowsing and will never wake up.\nIt can attack without waking up."
+    ],
+    [
+        "TOKUSEIINFO_214",
+        4,
+        "Its majesty pressures the opposing Pok\u00e9mon,\nmaking it unable to attack using priority moves."
+    ],
+    [
+        "TOKUSEIINFO_215",
+        0,
+        "Damages the attacker landing the finishing hit\nby the amount equal to its last HP."
+    ],
+    [
+        "TOKUSEIINFO_216",
+        0,
+        "When another Pok\u00e9mon uses a dance move,\nit can use a dance move following it regardless\nof its Speed."
+    ],
+    [
+        "TOKUSEIINFO_217",
+        0,
+        "Powers up ally Pok\u00e9mon\u2019s special moves."
+    ],
+    [
+        "TOKUSEIINFO_218",
+        0,
+        "Halves the damage taken from moves that make\ndirect contact, but doubles that of Fire-type moves."
+    ],
+    [
+        "TOKUSEIINFO_219",
+        0,
+        "Surprises the opposing Pok\u00e9mon, making it unable\nto attack using priority moves."
+    ],
+    [
+        "TOKUSEIINFO_220",
+        0,
+        "Boosts its Sp. Atk stat every time a Pok\u00e9mon faints."
+    ],
+    [
+        "TOKUSEIINFO_221",
+        0,
+        "Contact with the Pok\u00e9mon lowers the attacker\u2019s\nSpeed stat."
+    ],
+    [
+        "TOKUSEIINFO_222",
+        0,
+        "The Pok\u00e9mon copies the Ability of a defeated ally."
+    ],
+    [
+        "TOKUSEIINFO_223",
+        0,
+        "The Pok\u00e9mon copies the Ability of a defeated ally."
+    ],
+    [
+        "TOKUSEIINFO_224",
+        0,
+        "The Pok\u00e9mon boosts its most proficient stat each\ntime it knocks out a Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_225",
+        0,
+        "Changes the Pok\u00e9mon\u2019s type to match the\nmemory disc it holds."
+    ],
+    [
+        "TOKUSEIINFO_226",
+        0,
+        "Turns the ground into Electric Terrain when the\nPok\u00e9mon enters a battle."
+    ],
+    [
+        "TOKUSEIINFO_227",
+        0,
+        "Turns the ground into Psychic Terrain when\nthe Pok\u00e9mon enters a battle."
+    ],
+    [
+        "TOKUSEIINFO_228",
+        0,
+        "Turns the ground into Misty Terrain when\nthe Pok\u00e9mon enters a battle."
+    ],
+    [
+        "TOKUSEIINFO_229",
+        0,
+        "Turns the ground into Grassy Terrain when\nthe Pok\u00e9mon enters a battle."
+    ],
+    [
+        "TOKUSEIINFO_230",
+        0,
+        "Prevents other Pok\u00e9mon\u2019s moves or Abilities from\nlowering the Pok\u00e9mon\u2019s stats."
+    ],
+    [
+        "TOKUSEIINFO_231",
+        0,
+        "Reduces the amount of damage the Pok\u00e9mon takes\nwhile its HP is full."
+    ],
+    [
+        "TOKUSEIINFO_232",
+        0,
+        "Reduces the power of supereffective attacks taken."
+    ],
+    [
+        "TOKUSEIINFO_233",
+        0,
+        "Powers up moves that are super effective."
+    ],
+    [
+        "TOKUSEIINFO_234",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Attack stat when the Pok\u00e9mon\nenters a battle."
+    ],
+    [
+        "TOKUSEIINFO_235",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Defense stat when the Pok\u00e9mon\nenters a battle."
+    ],
+    [
+        "TOKUSEIINFO_236",
+        0,
+        "Changes the Pok\u00e9mon\u2019s type to the type of the\nmove it\u2019s about to use."
+    ],
+    [
+        "TOKUSEIINFO_237",
+        4,
+        "If the Pok\u00e9mon is not holding an item, it will fetch\nthe Pok\u00e9 Ball from the first failed throw\nof the battle."
+    ],
+    [
+        "TOKUSEIINFO_238",
+        0,
+        "When the Pok\u00e9mon is hit by an attack, it scatters\ncotton fluff around and lowers the Speed stat of\nall Pok\u00e9mon except itself."
+    ],
+    [
+        "TOKUSEIINFO_239",
+        4,
+        "Ignores the effects of opposing Pok\u00e9mon\u2019s Abilities and\nmoves that draw in moves."
+    ],
+    [
+        "TOKUSEIINFO_240",
+        0,
+        "Bounces back only the stat-lowering effects that\nthe Pok\u00e9mon receives."
+    ],
+    [
+        "TOKUSEIINFO_241",
+        0,
+        "When the Pok\u00e9mon uses Surf or Dive, it will come back\nwith prey. When it takes damage, it will spit out the prey\nto attack."
+    ],
+    [
+        "TOKUSEIINFO_242",
+        4,
+        "Ignores the effects of opposing Pok\u00e9mon\u2019s Abilities and\nmoves that draw in moves."
+    ],
+    [
+        "TOKUSEIINFO_243",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Speed stat drastically if hit by a\nFire- or Water-type move."
+    ],
+    [
+        "TOKUSEIINFO_244",
+        0,
+        "Boosts the power of sound-based moves.\nThe Pok\u00e9mon also takes half the damage from\nthese kinds of moves."
+    ],
+    [
+        "TOKUSEIINFO_245",
+        0,
+        "The Pok\u00e9mon creates a sandstorm when it\u2019s hit by\nan attack."
+    ],
+    [
+        "TOKUSEIINFO_246",
+        0,
+        "The Pok\u00e9mon is protected by ice scales, which halve\nthe damage taken from special moves."
+    ],
+    [
+        "TOKUSEIINFO_247",
+        0,
+        "Ripens Berries and doubles their effect."
+    ],
+    [
+        "TOKUSEIINFO_248",
+        0,
+        "The Pok\u00e9mon\u2019s ice head can take a physical attack as\na substitute, but the attack also changes the Pok\u00e9mon\u2019s\nappearance. The ice will be restored when it hails."
+    ],
+    [
+        "TOKUSEIINFO_249",
+        0,
+        "Just being next to the Pok\u00e9mon powers up moves."
+    ],
+    [
+        "TOKUSEIINFO_250",
+        0,
+        "Changes the Pok\u00e9mon\u2019s type depending on the terrain."
+    ],
+    [
+        "TOKUSEIINFO_251",
+        0,
+        "When the Pok\u00e9mon enters a battle, the effects of\nLight Screen, Reflect, and Aurora Veil are nullified for\nboth opposing and ally Pok\u00e9mon."
+    ],
+    [
+        "TOKUSEIINFO_252",
+        0,
+        "Powers up ally Pok\u00e9mon\u2019s Steel-type moves."
+    ],
+    [
+        "TOKUSEIINFO_253",
+        0,
+        "When hit by a move that makes direct contact,\nthe Pok\u00e9mon and the attacker will faint after three turns\nunless they switch out of battle."
+    ],
+    [
+        "TOKUSEIINFO_254",
+        0,
+        "The Pok\u00e9mon exchanges Abilities with a Pok\u00e9mon\nthat hits it with a move that makes direct contact."
+    ],
+    [
+        "TOKUSEIINFO_255",
+        0,
+        "Boosts the Pok\u00e9mon\u2019s Attack stat but only allows\nthe use of the first selected move."
+    ],
+    [
+        "TOKUSEIINFO_256",
+        4,
+        "If the Pok\u00e9mon with Neutralizing Gas is in the battle,\nthe effects of all Pok\u00e9mon\u2019s Abilities will be nullified\nor will not be triggered."
+    ],
+    [
+        "TOKUSEIINFO_257",
+        0,
+        "Protects the Pok\u00e9mon and its ally Pok\u00e9mon from\nbeing poisoned."
+    ],
+    [
+        "TOKUSEIINFO_258",
+        0,
+        "The Pok\u00e9mon changes its form, alternating between\nits Full Belly Mode and Hangry Mode after the end of\neach turn."
+    ],
+    [
+        "TOKUSEIINFO_259",
+        4,
+        "Enables the Pok\u00e9mon to move first occasionally."
+    ],
+    [
+        "TOKUSEIINFO_260",
+        4,
+        "If the Pok\u00e9mon uses moves that make direct contact,\nit can attack the target even if the target protects itself."
+    ],
+    [
+        "TOKUSEIINFO_261",
+        0,
+        "When the Pok\u00e9mon enters a battle, it scatters medicine\nfrom its shell, which removes all stat changes\nfrom allies."
+    ],
+    [
+        "TOKUSEIINFO_262",
+        0,
+        "Powers up Electric-type moves."
+    ],
+    [
+        "TOKUSEIINFO_263",
+        0,
+        "Powers up Dragon-type moves."
+    ],
+    [
+        "TOKUSEIINFO_264",
+        0,
+        "When the Pok\u00e9mon knocks out a target, it utters a\nchilling neigh, which boosts its Attack stat."
+    ],
+    [
+        "TOKUSEIINFO_265",
+        0,
+        "When the Pok\u00e9mon knocks out a target, it utters a\nterrifying neigh, which boosts its Sp. Atk stat."
+    ],
+    [
+        "TOKUSEIINFO_266",
+        0,
+        "This Ability combines the effects of both Calyrex\u2019s\nUnnerve Ability and Glastrier\u2019s Chilling Neigh Ability."
+    ],
+    [
+        "TOKUSEIINFO_267",
+        0,
+        "This Ability combines the effects of both Calyrex\u2019s\nUnnerve Ability and Spectrier\u2019s Grim Neigh Ability."
+    ],
+    [
+        "msg_tokuseiinfo_max",
+        null,
+        null
+    ]
+]

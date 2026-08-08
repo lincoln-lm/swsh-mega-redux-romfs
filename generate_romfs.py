@@ -11,10 +11,12 @@ sys.path.extend(("model_tools", "bseq_tool"))
 # pylint: disable=wrong-import-position
 from model_tools.file_formats.util import json_to_flatbuffer_binary
 from model_tools.file_formats.ptcl import replace_shaders_raw
+from model_tools.file_formats.message import convert_to_message_raw
 from model_tools.gfpacker import GFPak
 from bseq_tool.cmdReference import CmdReference
 from bseq_tool.sesd import SESD
 
+# TODO: this should probably be modularized
 directory = pathlib.Path(__file__).parent
 resources = directory / "vanilla_resources"
 schemas = directory / "schemas"
@@ -141,6 +143,15 @@ MEGAS = [
     (870, 1),
 ]
 
+# TODO: other languages
+NEW_ABILITIES = [
+    (
+        312,
+        "Dragonize",
+        "The Pokémon's Normal-type moves become Dragon-type\nmoves and their power is boosted by 20%.",
+    )
+]
+
 
 build.mkdir(parents=True, exist_ok=True)
 
@@ -170,6 +181,10 @@ with open(resources / "symbol_encount_mons_param.json", "r", encoding="utf-8") a
     SYMBOL_BEHAVIOR_TABLE = json.load(f)
 with open(resources / "effect_resource_table.json", "r", encoding="utf-8") as f:
     EFFECT_RESOURCE_TABLE = json.load(f)
+with open(resources / "English_tokusei.json", "r", encoding="utf-8") as f:
+    ABILITY_STRINGS = json.load(f)
+with open(resources / "English_tokuseiinfo.json", "r", encoding="utf-8") as f:
+    ABILITY_DESCRIPTION_STRINGS = json.load(f)
 
 for button in UIKIT["buttons"]:
     if button["hash"] == DMAX_BUTTON:
@@ -336,6 +351,13 @@ for mega in MEGAS:
         }
     )
 
+for ability in range(len(ABILITY_STRINGS), 319):
+    ABILITY_STRINGS.insert(-1, [f"TOKUSEI_{ability:03d}", 0, "\u2014"])
+    ABILITY_DESCRIPTION_STRINGS.insert(-1, [f"TOKUSEIINFO_{ability:03d}", 0, "\u2014"])
+
+for ability, name, description in NEW_ABILITIES:
+    ABILITY_STRINGS[ability][2] = name
+    ABILITY_DESCRIPTION_STRINGS[ability][2] = description
 
 parent = build / "bin/appli/battle/bin/"
 parent.mkdir(parents=True, exist_ok=True)
@@ -381,6 +403,17 @@ for sequence in sequences.glob("*.json"):
             json.loads(sequence.read_text("utf-8")), "SwSh", input_ref
         ).get_bseq()
     )
+
+parent = build / "bin/message/English/common"
+parent.mkdir(parents=True, exist_ok=True)
+
+dat, tbl = convert_to_message_raw(ABILITY_STRINGS)
+log_build_file(parent / "tokusei.dat").write_bytes(dat)
+log_build_file(parent / "tokusei.tbl").write_bytes(tbl)
+
+dat, tbl = convert_to_message_raw(ABILITY_DESCRIPTION_STRINGS)
+log_build_file(parent / "tokuseiinfo.dat").write_bytes(dat)
+log_build_file(parent / "tokuseiinfo.tbl").write_bytes(tbl)
 
 parent = build / "bin/archive/battle/effect"
 parent.mkdir(parents=True, exist_ok=True)
