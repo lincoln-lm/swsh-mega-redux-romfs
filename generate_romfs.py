@@ -155,6 +155,11 @@ NEW_ABILITIES = [
         "Mega Sol",
         "Even when the sunlight has not turned harsh, the\nPokémon can use its moves as if the weather\nwere harsh sunlight.",
     ),
+    (
+        316,
+        "Fire Mane",
+        "Boosts the power of the Pokémon’s Fire-type moves\nby 50%.",
+    ),
 ]
 
 
