@@ -146,6 +146,11 @@ MEGAS = [
 # TODO: other languages
 NEW_ABILITIES = [
     (
+        311,
+        "Piercing Drill",
+        "If the Pokémon uses moves that make direct contact,\nit can attack the target even if the target protects itself.",
+    ),
+    (
         312,
         "Dragonize",
         "The Pokémon's Normal-type moves become Dragon-type\nmoves and their power is boosted by 20%.",
