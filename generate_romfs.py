@@ -156,6 +156,11 @@ NEW_ABILITIES = [
         "The Pokémon's Normal-type moves become Dragon-type\nmoves and their power is boosted by 20%.",
     ),
     (
+        313,
+        "Eelevate",
+        "By floating in the air, the Pokémon receives full\nimmunity to all Ground-type moves. When the\nPokémon knocks out a target with an attack, its\nhighest stat is boosted by 1 stage.",
+    ),
+    (
         315,
         "Mega Sol",
         "Even when the sunlight has not turned harsh, the\nPokémon can use its moves as if the weather\nwere harsh sunlight.",
