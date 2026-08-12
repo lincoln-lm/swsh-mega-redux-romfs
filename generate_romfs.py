@@ -12,6 +12,7 @@ sys.path.extend(("model_tools", "bseq_tool"))
 from model_tools.file_formats.util import json_to_flatbuffer_binary
 from model_tools.file_formats.ptcl import replace_shaders_raw
 from model_tools.file_formats.message import convert_to_message_raw
+from model_tools.file_formats.item_array import convert_to_item_array_raw
 from model_tools.gfpacker import GFPak
 from bseq_tool.cmdReference import CmdReference
 from bseq_tool.sesd import SESD
@@ -172,6 +173,102 @@ NEW_ABILITIES = [
     ),
 ]
 
+MEGA_STONES = [
+    534,
+    535,
+    656,
+    657,
+    658,
+    659,
+    660,
+    661,
+    662,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672,
+    673,
+    674,
+    675,
+    676,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    752,
+    753,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    763,
+    764,
+    767,
+    768,
+    769,
+    770,
+    2559,
+    2560,
+    2561,
+    2562,
+    2563,
+    2564,
+    2565,
+    2566,
+    2567,
+    2568,
+    2569,
+    2570,
+    2571,
+    2572,
+    2573,
+    2574,
+    2575,
+    2576,
+    2577,
+    2578,
+    2579,
+    2580,
+    2581,
+    2582,
+    2583,
+    2584,
+    2585,
+    2586,
+    2587,
+    2635,
+    2636,
+    2637,
+    2638,
+    2639,
+    2640,
+    2641,
+    2642,
+    2643,
+    2644,
+    2645,
+    2646,
+    2647,
+    2648,
+    2648,
+    2650,
+]
 
 build.mkdir(parents=True, exist_ok=True)
 
@@ -205,6 +302,8 @@ with open(resources / "English_tokusei.json", "r", encoding="utf-8") as f:
     ABILITY_STRINGS = json.load(f)
 with open(resources / "English_tokuseiinfo.json", "r", encoding="utf-8") as f:
     ABILITY_DESCRIPTION_STRINGS = json.load(f)
+with open(resources / "item.json", "r", encoding="utf-8") as f:
+    ITEM_TABLE = json.load(f)
 
 for button in UIKIT["buttons"]:
     if button["hash"] == DMAX_BUTTON:
@@ -379,6 +478,11 @@ for ability, name, description in NEW_ABILITIES:
     ABILITY_STRINGS[ability][2] = name
     ABILITY_DESCRIPTION_STRINGS[ability][2] = description
 
+for mega_stone in MEGA_STONES:
+    while len(ITEM_TABLE["item_data"]) <= mega_stone:
+        ITEM_TABLE["item_data"].append(ITEM_TABLE["item_data"][0])
+    ITEM_TABLE["item_data"][mega_stone] = ITEM_TABLE["item_data"][229].copy()
+
 parent = build / "bin/appli/battle/bin/"
 parent.mkdir(parents=True, exist_ok=True)
 log_build_file(parent / "battle_skillSelect_00_lyt.bin").write_bytes(
@@ -392,6 +496,10 @@ log_build_file(parent / "uikit_battle_skillSelect.bin").write_bytes(
         json.dumps(UIKIT), (schemas / "uikit.fbs").read_text("utf-8")
     )
 )
+
+parent = build / "bin/pml/item/"
+parent.mkdir(parents=True, exist_ok=True)
+log_build_file(parent / "item.dat").write_bytes(convert_to_item_array_raw(ITEM_TABLE))
 
 parent = build / "bin/pokemon/table/"
 parent.mkdir(parents=True, exist_ok=True)
