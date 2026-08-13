@@ -13,6 +13,7 @@ from model_tools.file_formats.util import json_to_flatbuffer_binary
 from model_tools.file_formats.ptcl import replace_shaders_raw
 from model_tools.file_formats.message import convert_to_message_raw
 from model_tools.file_formats.item_array import convert_to_item_array_raw
+from model_tools.file_formats.bntx import convert_to_bntx
 from model_tools.gfpacker import GFPak
 from bseq_tool.cmdReference import CmdReference
 from bseq_tool.sesd import SESD
@@ -25,6 +26,7 @@ static = directory / "static"
 sequences = directory / "sequences"
 effects = directory / "effects"
 models = directory / "models"
+icons = directory / "icons"
 build = directory / "build"
 bseq_command_dict = (
     directory / "bseq_tool/commandDictionaries/SwShCommandReference.json"
@@ -174,100 +176,100 @@ NEW_ABILITIES = [
 ]
 
 MEGA_STONES = [
-    534,
-    535,
-    656,
-    657,
-    658,
-    659,
-    660,
-    661,
-    662,
-    663,
-    664,
-    665,
-    666,
-    667,
-    668,
-    669,
-    670,
-    671,
-    672,
-    673,
-    674,
-    675,
-    676,
-    677,
-    678,
-    679,
-    680,
-    681,
-    682,
-    683,
-    684,
-    685,
-    752,
-    753,
-    754,
-    755,
-    756,
-    757,
-    758,
-    759,
-    760,
-    761,
-    762,
-    763,
-    764,
-    767,
-    768,
-    769,
-    770,
-    2559,
-    2560,
-    2561,
-    2562,
-    2563,
-    2564,
-    2565,
-    2566,
-    2567,
-    2568,
-    2569,
-    2570,
-    2571,
-    2572,
-    2573,
-    2574,
-    2575,
-    2576,
-    2577,
-    2578,
-    2579,
-    2580,
-    2581,
-    2582,
-    2583,
-    2584,
-    2585,
-    2586,
-    2587,
-    2635,
-    2636,
-    2637,
-    2638,
-    2639,
-    2640,
-    2641,
-    2642,
-    2643,
-    2644,
-    2645,
-    2646,
-    2647,
-    2648,
-    2648,
-    2650,
+    (534,),
+    (535,),
+    (656,),
+    (657,),
+    (658,),
+    (659,),
+    (660,),
+    (661,),
+    (662,),
+    (663,),
+    (664,),
+    (665,),
+    (666,),
+    (667,),
+    (668,),
+    (669,),
+    (670,),
+    (671,),
+    (672,),
+    (673,),
+    (674,),
+    (675,),
+    (676,),
+    (677,),
+    (678,),
+    (679,),
+    (680,),
+    (681,),
+    (682,),
+    (683,),
+    (684,),
+    (685,),
+    (752,),
+    (753,),
+    (754,),
+    (755,),
+    (756,),
+    (757,),
+    (758,),
+    (759,),
+    (760,),
+    (761,),
+    (762,),
+    (763,),
+    (764,),
+    (767,),
+    (768,),
+    (769,),
+    (770,),
+    (2559, "Clefable", "Clefablite"),
+    (2560, "Victreebel", "Victreebelite"),
+    (2561, "Starmie", "Starminite"),
+    (2562, "Dragonite", "Dragoninite"),
+    (2563, "Meganium", "Meganiumite"),
+    (2564, "Feraligatr", "Feraligite"),
+    (2565, "Skarmory", "Skarmorite"),
+    (2566, "Frosslass", "Froslassite"),
+    (2567, "Heatran", "Heatranite"),
+    (2568, "Darkrai", "Darkranite"),
+    (2569, "Emboar", "Emboarite"),
+    (2570, "Excadrill", "Excadrite"),
+    (2571, "Scolipede", "Scolipite"),
+    (2572, "Scrafty", "Scraftinite"),
+    (2573, "Eelektross", "Eelektrossite"),
+    (2574, "Chandelure", "Chandelurite"),
+    (2575, "Chesnaught", "Chesnaughtite"),
+    (2576, "Delphox", "Delphoxite"),
+    (2577, "Greninja", "Greninjite"),
+    (2578, "Pyroar", "Pyroarite"),
+    (2579, "Floette", "Floettite"),
+    (2580, "Malamar", "Malamarite"),
+    (2581, "Barbaracle", "Barbaracite"),
+    (2582, "Dragalge", "Dragalgite"),
+    (2583, "Hawlucha", "Hawluchanite"),
+    (2584, "Zygarde", "Zygardite"),
+    (2585, "Drampa", "Drampanite"),
+    (2586, "Zeraora", "Zeraorite"),
+    (2587, "Falinks", "Falinksite"),
+    (2635, "Raichu", "Raichunite X"),
+    (2636, "Raichu", "Raichunite Y"),
+    (2637, "Chimecho", "Chimechite"),
+    (2638, "Absol", "Absolite Z"),
+    (2639, "Staraptor", "Staraptite"),
+    (2640, "Garchomp", "Garchompite Z"),
+    (2641, "Lucario", "Lucarionite Z"),
+    (2642, "Golurk", "Golurkite"),
+    (2643, "Meowstic", "Meowsticite"),
+    (2644, "Crabominable", "Crabominite"),
+    (2645, "Golisopod", "Golisopite"),
+    (2646, "Magearna", "Magearnite"),
+    (2647, "Scovillain", "Scovillainite"),
+    (2648, "Baxcalibur", "Baxcalibrite"),
+    (2648, "Tatsugiri", "Tatsugirinite"),
+    (2650, "Glimmora", "Glimmoranite"),
 ]
 
 build.mkdir(parents=True, exist_ok=True)
@@ -310,6 +312,7 @@ ACTIVE_MEGA_BUTTON = fnv1a("active_mega_button")
 CUSTOM_ARC = fnv1a("custom_arc")
 CUSTOM_BFLYT = fnv1a("custom_bflyt")
 
+# TODO: a few of these probably benefit from being csvs instead of json
 LAYOUT = read_json(resources / "battle_skillSelect_00_lyt.json")
 UIKIT = read_json(resources / "uikit_battle_skillSelect.json")
 POKE_RESOURCE_TABLE = read_json(resources / "poke_resource_table.json")
@@ -317,6 +320,14 @@ SYMBOL_BEHAVIOR_TABLE = read_json(resources / "symbol_encount_mons_param.json")
 EFFECT_RESOURCE_TABLE = read_json(resources / "effect_resource_table.json")
 ABILITY_STRINGS = read_message(resources / "tokusei")
 ABILITY_DESCRIPTION_STRINGS = read_message(resources / "tokuseiinfo")
+ITEM_NAME_STRINGS = read_message(resources / "itemname")
+ITEM_NAME_ACC_STRINGS = read_message(resources / "itemname_acc")
+ITEM_NAME_ACC_CLASSIFIED_STRINGS = read_message(resources / "itemname_acc_classified")
+ITEM_NAME_PLURAL_STRINGS = read_message(resources / "itemname_plural")
+ITEM_NAME_PLURAL_CLASSIFIED_STRINGS = read_message(
+    resources / "itemname_plural_classified"
+)
+ITEM_DESCRIPTION_STRINGS = read_message(resources / "iteminfo")
 ITEM_TABLE = read_json(resources / "item.json")
 
 for button in UIKIT["buttons"]:
@@ -497,9 +508,116 @@ for language in LANGUAGES:
         ability_desc_strings[ability][2] = description
 
 for mega_stone in MEGA_STONES:
-    while len(ITEM_TABLE["item_data"]) <= mega_stone:
+    item_id = mega_stone[0]
+    pokemon = None
+    item_name = None
+    if len(mega_stone) > 1:
+        pokemon = mega_stone[1]
+        item_name = mega_stone[2]
+    while len(ITEM_TABLE["item_data"]) <= item_id:
         ITEM_TABLE["item_data"].append(ITEM_TABLE["item_data"][0])
-    ITEM_TABLE["item_data"][mega_stone] = ITEM_TABLE["item_data"][229].copy()
+    ITEM_TABLE["item_data"][item_id] = {
+        "price": 0,
+        "price_watts": 0,
+        "price_other": 0,
+        # the rest of the sprites aren't made yet
+        "item_sprite": item_id if item_id <= 2569 else 65535,
+        "field_5": 0,
+        "field_6": 0,
+        "field_7": 0,
+        "field_8": 0,
+        "field_9": 30,
+        "field_10": 0,
+        "field_11": 31,
+        "field_12": 0,
+        "field_13": 0,
+        "pouch": 2,
+        "effect_field": 0,
+        "field_16": 3,
+        "can_use_on_pokemon": 1,
+        "field_18": 4,
+        "field_19": 0,
+        "field_20": 0,
+        "field_21": 8,
+        "group_type": 0,
+        "group_index": 0,
+        "field_24": 1,
+        "field_25": 1,
+        "field_26": 0,
+        "field_27": 0,
+        "field_28": 0,
+        "field_29": 0,
+        "field_30": 0,
+        "field_31": 0,
+        "field_32": 0,
+        "field_33": 0,
+        "field_34": 0,
+        "field_35": 0,
+        "field_36": 0,
+        "field_37": 0,
+        "field_38": 0,
+        "field_39": 0,
+        "field_40": 0,
+        "field_41": 0,
+        "field_42": 0,
+        "field_43": 0,
+        "field_44": 0,
+        "field_45": 0,
+        "field_46": 0,
+        "field_47": 0,
+        "field_48": 0,
+        "field_49": 0,
+        "field_50": 0,
+        "field_51": 0,
+        "field_52": 0,
+        "field_53": 0,
+        "field_54": 0,
+        "field_55": 0,
+        "field_56": 0,
+        "field_57": 0,
+        "field_58": 0,
+        "field_59": 0,
+        "field_60": 0,
+        "field_61": 0,
+        "field_62": 0,
+        "field_63": 0,
+        "field_64": 0,
+        "field_65": 0,
+        "field_66": 0,
+        "field_67": 0,
+        "field_68": 0,
+        "field_69": 0,
+        "field_70": 0,
+    }
+
+    # already have strings
+    if item_id <= 1607:
+        continue
+    for language in LANGUAGES:
+        for name_strings in (
+            ITEM_NAME_STRINGS,
+            ITEM_NAME_ACC_STRINGS,
+            ITEM_NAME_ACC_CLASSIFIED_STRINGS,
+        ):
+            name_strings = name_strings[language]
+            while len(name_strings) <= item_id + 1:
+                name_strings.insert(-1, [f"ITEMNAME_{item_id:03d}", 0, "\u2014"])
+            name_strings[item_id][2] = item_name
+        for name_strings_plural in (
+            ITEM_NAME_PLURAL_STRINGS,
+            ITEM_NAME_PLURAL_CLASSIFIED_STRINGS,
+        ):
+            name_strings_plural = name_strings_plural[language]
+            while len(name_strings_plural) <= item_id + 1:
+                name_strings_plural.insert(-1, [f"ITEMNAME_{item_id:03d}", 0, "\u2014"])
+            name_strings_plural[item_id][2] = f"{item_name}s"
+
+        desc_strings = ITEM_DESCRIPTION_STRINGS[language]
+        while len(desc_strings) <= item_id + 1:
+            desc_strings.insert(-1, [f"ITEMINFO_{item_id:03d}", 0, "\u2014"])
+        desc_strings[item_id][
+            2
+        ] = f"One of a variety of mysterious Mega Stones.\nHave {pokemon} hold it, and this stone will enable it\nto Mega Evolve during battle."
 
 parent = build / "bin/appli/battle/bin/"
 parent.mkdir(parents=True, exist_ok=True)
@@ -550,17 +668,32 @@ for sequence in sequences.glob("*.json"):
         ).get_bseq()
     )
 
+COMMON_MESSAGES = [
+    ("tokusei", ABILITY_STRINGS),
+    ("tokuseiinfo", ABILITY_DESCRIPTION_STRINGS),
+    ("itemname", ITEM_NAME_STRINGS),
+    ("itemname_acc", ITEM_NAME_ACC_STRINGS),
+    ("itemname_acc_classified", ITEM_NAME_ACC_CLASSIFIED_STRINGS),
+    ("itemname_plural", ITEM_NAME_PLURAL_STRINGS),
+    ("itemname_plural_classified", ITEM_NAME_PLURAL_CLASSIFIED_STRINGS),
+    ("iteminfo", ITEM_DESCRIPTION_STRINGS),
+]
 
 for language in LANGUAGES:
     parent = build / f"bin/message/{language}/common"
     parent.mkdir(parents=True, exist_ok=True)
-    dat, tbl = convert_to_message_raw(ABILITY_STRINGS[language])
-    log_build_file(parent / "tokusei.dat").write_bytes(dat)
-    log_build_file(parent / "tokusei.tbl").write_bytes(tbl)
+    for name, strings in COMMON_MESSAGES:
+        dat, tbl = convert_to_message_raw(strings[language])
+        log_build_file(parent / f"{name}.dat").write_bytes(dat)
+        log_build_file(parent / f"{name}.tbl").write_bytes(tbl)
 
-    dat, tbl = convert_to_message_raw(ABILITY_DESCRIPTION_STRINGS[language])
-    log_build_file(parent / "tokuseiinfo.dat").write_bytes(dat)
-    log_build_file(parent / "tokuseiinfo.tbl").write_bytes(tbl)
+parent = build / "bin/appli/icon_item"
+parent.mkdir(parents=True, exist_ok=True)
+for icon in (icons / "item").glob("*"):
+    texture_path = parent / f"item_{icon.stem}.bntx"
+    if not needs_to_build(texture_path, [icon]):
+        continue
+    convert_to_bntx(icon, log_build_file(texture_path), "BC7RgbaUnorm")
 
 parent = build / "bin/archive/battle/effect"
 parent.mkdir(parents=True, exist_ok=True)
