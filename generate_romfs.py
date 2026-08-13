@@ -281,6 +281,28 @@ def fnv1a(str):
     return hash_value
 
 
+LANGUAGES = [
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "JPN",
+    "JPN_KANJI",
+    "Korean",
+    "Simp_Chinese",
+    "Spanish",
+    "Trad_Chinese",
+]
+
+
+def read_json(path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def read_message(path):
+    return {language: read_json(path / f"{language}.json") for language in LANGUAGES}
+
+
 DMAX_BUTTON = 0x3329DD8FA6F67BCF
 DUMMY_BUTTON = 0x2EACC348C9671883
 MEGA_BUTTON = fnv1a("mega_button")
@@ -288,22 +310,14 @@ ACTIVE_MEGA_BUTTON = fnv1a("active_mega_button")
 CUSTOM_ARC = fnv1a("custom_arc")
 CUSTOM_BFLYT = fnv1a("custom_bflyt")
 
-with open(resources / "battle_skillSelect_00_lyt.json", "r", encoding="utf-8") as f:
-    LAYOUT = json.load(f)
-with open(resources / "uikit_battle_skillSelect.json", "r", encoding="utf-8") as f:
-    UIKIT = json.load(f)
-with open(resources / "poke_resource_table.json", "r", encoding="utf-8") as f:
-    POKE_RESOURCE_TABLE = json.load(f)
-with open(resources / "symbol_encount_mons_param.json", "r", encoding="utf-8") as f:
-    SYMBOL_BEHAVIOR_TABLE = json.load(f)
-with open(resources / "effect_resource_table.json", "r", encoding="utf-8") as f:
-    EFFECT_RESOURCE_TABLE = json.load(f)
-with open(resources / "English_tokusei.json", "r", encoding="utf-8") as f:
-    ABILITY_STRINGS = json.load(f)
-with open(resources / "English_tokuseiinfo.json", "r", encoding="utf-8") as f:
-    ABILITY_DESCRIPTION_STRINGS = json.load(f)
-with open(resources / "item.json", "r", encoding="utf-8") as f:
-    ITEM_TABLE = json.load(f)
+LAYOUT = read_json(resources / "battle_skillSelect_00_lyt.json")
+UIKIT = read_json(resources / "uikit_battle_skillSelect.json")
+POKE_RESOURCE_TABLE = read_json(resources / "poke_resource_table.json")
+SYMBOL_BEHAVIOR_TABLE = read_json(resources / "symbol_encount_mons_param.json")
+EFFECT_RESOURCE_TABLE = read_json(resources / "effect_resource_table.json")
+ABILITY_STRINGS = read_message(resources / "tokusei")
+ABILITY_DESCRIPTION_STRINGS = read_message(resources / "tokuseiinfo")
+ITEM_TABLE = read_json(resources / "item.json")
 
 for button in UIKIT["buttons"]:
     if button["hash"] == DMAX_BUTTON:
@@ -470,13 +484,17 @@ for mega in MEGAS:
         }
     )
 
-for ability in range(len(ABILITY_STRINGS), 319):
-    ABILITY_STRINGS.insert(-1, [f"TOKUSEI_{ability:03d}", 0, "\u2014"])
-    ABILITY_DESCRIPTION_STRINGS.insert(-1, [f"TOKUSEIINFO_{ability:03d}", 0, "\u2014"])
+for language in LANGUAGES:
+    ability_strings = ABILITY_STRINGS[language]
+    ability_desc_strings = ABILITY_DESCRIPTION_STRINGS[language]
+    for ability, name, description in NEW_ABILITIES:
+        while len(ability_strings) <= ability + 1:
+            ability_strings.insert(-1, [f"TOKUSEI_{ability:03d}", 0, "\u2014"])
+        ability_strings[ability][2] = name
 
-for ability, name, description in NEW_ABILITIES:
-    ABILITY_STRINGS[ability][2] = name
-    ABILITY_DESCRIPTION_STRINGS[ability][2] = description
+        while len(ability_desc_strings) <= ability + 1:
+            ability_desc_strings.insert(-1, [f"TOKUSEIINFO_{ability:03d}", 0, "\u2014"])
+        ability_desc_strings[ability][2] = description
 
 for mega_stone in MEGA_STONES:
     while len(ITEM_TABLE["item_data"]) <= mega_stone:
@@ -532,16 +550,17 @@ for sequence in sequences.glob("*.json"):
         ).get_bseq()
     )
 
-parent = build / "bin/message/English/common"
-parent.mkdir(parents=True, exist_ok=True)
 
-dat, tbl = convert_to_message_raw(ABILITY_STRINGS)
-log_build_file(parent / "tokusei.dat").write_bytes(dat)
-log_build_file(parent / "tokusei.tbl").write_bytes(tbl)
+for language in LANGUAGES:
+    parent = build / f"bin/message/{language}/common"
+    parent.mkdir(parents=True, exist_ok=True)
+    dat, tbl = convert_to_message_raw(ABILITY_STRINGS[language])
+    log_build_file(parent / "tokusei.dat").write_bytes(dat)
+    log_build_file(parent / "tokusei.tbl").write_bytes(tbl)
 
-dat, tbl = convert_to_message_raw(ABILITY_DESCRIPTION_STRINGS)
-log_build_file(parent / "tokuseiinfo.dat").write_bytes(dat)
-log_build_file(parent / "tokuseiinfo.tbl").write_bytes(tbl)
+    dat, tbl = convert_to_message_raw(ABILITY_DESCRIPTION_STRINGS[language])
+    log_build_file(parent / "tokuseiinfo.dat").write_bytes(dat)
+    log_build_file(parent / "tokuseiinfo.tbl").write_bytes(tbl)
 
 parent = build / "bin/archive/battle/effect"
 parent.mkdir(parents=True, exist_ok=True)
